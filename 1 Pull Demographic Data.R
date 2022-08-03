@@ -7,7 +7,7 @@ library(acs)
 library(tidyverse)
 
 #set acs api key
-acs_key = "2b79d333bb5d985abb33a41ae240be5f83f09f86"
+acs_key = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
 
 #pull acs data down to block group (lowest acs data level)
 theStates = c("AL","AK","AZ","AR","CA","CO","CT","DE","DC","FL","GA","HI","ID","IL","IN","IA",
