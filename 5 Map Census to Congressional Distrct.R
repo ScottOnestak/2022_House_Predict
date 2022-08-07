@@ -178,7 +178,7 @@ for(i in seq(from=1,to=length(theYears),by=1)){
                      left_join(.,area_2010 %>% select("id","LAND"),by="id"),
                    census %>% filter(year >= 2020) %>%
                      left_join(.,area_2020 %>% select("id","LAND"),by="id")) %>%
-              mutate(ppsm = total_population / LAND) %>%
+              mutate(ppsm = ifelse(LAND > 0,total_population / LAND,NA)) %>%
               mutate(class = ifelse(ppsm > 2500,"Highly Dense",
                                     ifelse(ppsm > 1000,"Dense",
                                            ifelse(ppsm > 500,"Spread",
@@ -304,7 +304,7 @@ for(i in seq(from=1,to=length(theYears),by=1)){
         census10 = census %>% filter(year < 2020)
         theMapping = curr_mapping %>% group_by(CD,state,id) %>% summarise(count = n()) %>% ungroup %>%
           left_join(.,curr_mapping %>% group_by(state,id) %>% summarise(total = n()) %>% ungroup(),by=c("state","id")) %>%
-          mutate(prct = count / total) %>%
+          mutate(prct = ifelse(total <= 0,0,count / total)) %>%
           select(-c("count","total"))
         
         if(!identical(setdiff(census10$id,theMapping$id),character(0)) & !identical(setdiff(census10$id,theMapping$id),numeric(0))) {
@@ -353,13 +353,13 @@ for(i in seq(from=1,to=length(theYears),by=1)){
           holder = curr_mapping %>% 
             left_join(.,mapping_holder,by=c("id"="GEOID_BLKGRP_10")) %>%
             mutate(name = GEOID_BLKGRP_20,
-                   part = AREALAND_PART / AREALAND_BLKGRP_10) %>%
+                   part = ifelse(AREALAND_BLKGRP_10 <= 0, 0,AREALAND_PART / AREALAND_BLKGRP_10)) %>%
             select(block,CD,state,name,part) %>%
             rename(id = name) 
           
           theMapping = holder %>% group_by(CD,state,id) %>% summarise(count = sum(part)) %>% ungroup %>%
             left_join(.,holder %>% group_by(state,id) %>% summarise(total = sum(part)) %>% ungroup(),by=c("state","id")) %>%
-            mutate(prct = count / total) %>%
+            mutate(prct = ifelse(total<=0,0,count / total)) %>%
             select(-c("count","total"))
           
           census20 = census %>% filter(year >= 2020)
@@ -410,13 +410,13 @@ for(i in seq(from=1,to=length(theYears),by=1)){
           holder = curr_mapping %>% 
             left_join(.,mapping_holder,by=c("id"="GEOID_BLKGRP_20")) %>%
             mutate(name = ifelse(is.na(GEOID_BLKGRP_10),id,GEOID_BLKGRP_10),
-                   part = AREALAND_PART / AREALAND_BLKGRP_20) %>%
+                   part = ifelse(AREALAND_BLKGRP_20 <= 0,0,AREALAND_PART / AREALAND_BLKGRP_20)) %>%
             select(block,CD,state,name,part) %>%
             rename(id = name) 
           
           theMapping = holder %>% group_by(CD,state,id) %>% summarise(count = sum(part)) %>% ungroup %>%
             left_join(.,holder %>% group_by(state,id) %>% summarise(total = sum(part)) %>% ungroup(),by=c("state","id")) %>%
-            mutate(prct = count / total) %>%
+            mutate(prct = ifelse(total<=0,0,count / total)) %>%
             select(-c("count","total"))
           
           census10 = census %>% filter(year < 2020)
@@ -452,7 +452,7 @@ for(i in seq(from=1,to=length(theYears),by=1)){
         census20 = census %>% filter(year >= 2020)
         theMapping = curr_mapping %>% group_by(CD,state,id) %>% summarise(count = n()) %>% ungroup %>%
           left_join(.,curr_mapping %>% group_by(state,id) %>% summarise(total = n()) %>% ungroup(),by=c("state","id")) %>%
-          mutate(prct = count / total) %>%
+          mutate(prct = ifelse(total<=0,0,count / total)) %>%
           select(-c("count","total"))
         
         if(!identical(setdiff(census20$id,theMapping$id),character(0)) & !identical(setdiff(census20$id,theMapping$id),numeric(0))) {
@@ -492,7 +492,7 @@ for(i in seq(from=1,to=length(theYears),by=1)){
                  white_population = prct * white_population,
                  black_population = prct * black_population,
                  asian_population = prct * asian_population,
-                 hispanic_population = prct * hispanic_population,
+                 hispanic_population = prct * hispancic_population, #because I apparently can't spell hispanic correctly
                  male_under35 = prct * male_under35,
                  male_35to50 = prct * male_35to50,
                  male_50to65 = prct * male_50to65,
@@ -684,6 +684,7 @@ for(i in seq(from=1,to=length(theYears),by=1)){
           summarise(pop = sum(total_population,na.rm = T)) %>%
           filter(!is.na(class)) %>%
           spread(.,class,pop) %>%
+          replace(is.na(.), 0) %>%
           mutate(highlydense_prct = round(`Highly Dense` / (`Highly Dense` + `Dense` + `Spread` + `Highly Spread` + `Sparse`),3),
                  dense_prct = round(`Dense` / (`Highly Dense` + `Dense` + `Spread` + `Highly Spread` + `Sparse`),3),
                  spread_prct = round(`Spread` / (`Highly Dense` + `Dense` + `Spread` + `Highly Spread` + `Sparse`),3),
