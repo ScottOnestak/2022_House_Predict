@@ -1,0 +1,5 @@
+FEC ELECTION DATA: https://www.fec.gov/introduction-campaign-finance/election-and-voting-information/
+FIVETHIRTYEIGHT ELECTION DATA: https://github.com/fivethirtyeight/election-results
+FEC ELECTION DATA 2020 IDs: https://www.fec.gov/data/candidates/house/?election_year=2020&election_full=True&party=DEM&party=DFL&party=GRE&party=IND&party=LIB&party=REP&is_active_candidate=true
+
+MIT Data: https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/IG0UN2
