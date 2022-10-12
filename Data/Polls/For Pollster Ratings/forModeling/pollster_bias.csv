@@ -1,0 +1,485 @@
+"year","pollster","count","POLLSTER_BIAS","adv_score"
+2004,"ABC News/The Washington Post",24,-0.58,-1.18
+2004,"American Research Group",28,-0.48,-1.52
+2004,"Blum & Weprin Associates",16,3.68,-1.71
+2004,"CBS News/The New York Times",22,1.27,-0.78
+2004,"Ciruli Associates",14,1.97,-1.19
+2004,"EPIC-MRA",12,-0.53,0.47
+2004,"Ethridge & Associates LLC",6,0.71,-1.73
+2004,"Gallup",24,1.29,-0.04
+2004,"Georgetown University (Battleground)",11,1.92,-0.06
+2004,"Harris Insights & Analytics",125,2.21,0.52
+2004,"Ipsos",8,-3.32,-2.08
+2004,"KRC Research",11,-0.73,-1.03
+2004,"Los Angeles Times",10,1.39,-0.13
+2004,"Market Shares Corp.",15,5.95,1.74
+2004,"Mason-Dixon Polling & Strategy",145,0.86,-0.89
+2004,"Mitchell Research & Communications",12,-1.43,-0.29
+2004,"Opinion Research Associates",7,0.16,-2.37
+2004,"Pew Research Center",12,-2.68,1.08
+2004,"Princeton Survey Research Associates International",12,1.28,1.69
+2004,"Public Opinion Strategies",13,3.19,-0.06
+2004,"Quinnipiac University",25,3.79,-0.25
+2004,"Rasmussen Reports/Pulse Opinion Research",100,3.26,0.37
+2004,"RKM Research and Communications Inc.",15,1.08,0.17
+2004,"SurveyUSA",159,-0.83,-0.44
+2004,"Tarrance Group",9,3.39,-2.72
+2004,"University of Cincinnati (Ohio Poll)",12,6.63,2.37
+2004,"University of New Hampshire",10,-3.41,1.57
+2004,"Ward Research/The Honolulu Star-Advertiser",5,2.95,-1.59
+2004,"Zogby Interactive/JZ Analytics",151,1.25,0.12
+2006,"ABC News/The Washington Post",29,-0.3,-0.94
+2006,"American Research Group",44,-0.41,-1.11
+2006,"Blum & Weprin Associates",11,0.83,-3.23
+2006,"CBS News/The New York Times",21,-0.18,-0.81
+2006,"Ciruli Associates",13,2.08,-0.34
+2006,"Dan Jones & Associates",8,-0.49,-1.9
+2006,"EPIC-MRA",13,-0.69,0.65
+2006,"Fox News/Opinion Dynamics Corp.",20,0.69,0.07
+2006,"Franklin Pierce University",12,-4.46,2.2
+2006,"Gallup",43,1.05,0.23
+2006,"Georgetown University (Battleground)",21,0.07,-0.35
+2006,"GQR Research (GQRR)",23,-4.51,0.91
+2006,"Harris Insights & Analytics",85,-0.08,-0.14
+2006,"IBD/TIPP",10,2,-0.45
+2006,"Ipsos",12,-4.14,-0.62
+2006,"Los Angeles Times",13,-1.28,0.61
+2006,"Louisville Courier-Journal",7,1.98,-1.8
+2006,"Marist College",15,2.76,1.11
+2006,"Market Research Insight",10,5.95,4.23
+2006,"Market Research Institute Inc.",10,0.4,-1.3
+2006,"Market Shares Corp.",13,3.37,1.2
+2006,"Mason-Dixon Polling & Strategy",157,-0.43,-0.74
+2006,"McLaughlin & Associates",7,2.62,-2.25
+2006,"Mitchell Research & Communications",14,-0.96,0.03
+2006,"Pew Research Center",11,-2.31,0.75
+2006,"Princeton Survey Research Associates International",18,1.14,0.66
+2006,"Public Opinion Strategies",16,3.69,0.4
+2006,"Quinnipiac University",34,2.4,-0.42
+2006,"Rasmussen Reports/Pulse Opinion Research",138,2.16,0.21
+2006,"RKM Research and Communications Inc.",15,-0.6,0.7
+2006,"Selzer & Co.",6,-1.7,-1.88
+2006,"SurveyUSA",278,-0.54,-0.32
+2006,"Tarrance Group",9,4.84,-1.9
+2006,"University of Cincinnati (Ohio Poll)",10,0.89,-1.06
+2006,"University of Connecticut",8,0.98,-2.05
+2006,"University of New Hampshire",20,-0.69,0.93
+2006,"Zogby Interactive/JZ Analytics",212,-0.68,0.31
+2008,"ABC News/The Washington Post",19,-1.77,-1.24
+2008,"American Research Group",33,-0.2,-1.41
+2008,"Blum & Weprin Associates",5,-2.71,-2.83
+2008,"Ciruli Associates",11,2,0.15
+2008,"CNN/Opinion Research Corp.",10,0.66,0.9
+2008,"Dan Jones & Associates",9,-0.04,-1.95
+2008,"EPIC-MRA",12,-1.25,0.83
+2008,"Fairleigh Dickinson University (PublicMind)",10,4.67,0.5
+2008,"Field Research Corp. (Field Poll)",6,-0.66,-1.5
+2008,"Fox News/Opinion Dynamics Corp.",16,-0.89,-0.13
+2008,"Franklin Pierce University",10,-3.33,1.45
+2008,"Gallup",40,0.19,-0.49
+2008,"Garin-Hart-Yang Research Group",10,-6.73,-1.48
+2008,"Georgetown University (Battleground)",10,-1.97,-0.8
+2008,"Global Strategy Group",11,-6.52,-0.14
+2008,"GQR Research (GQRR)",18,-5.34,1.16
+2008,"Harris Insights & Analytics",10,-3.57,0.75
+2008,"Ipsos",13,-4.7,-0.19
+2008,"Los Angeles Times",13,-0.44,0.9
+2008,"Marist College",15,-0.13,0.22
+2008,"Market Research Insight",10,5.95,4.06
+2008,"Market Research Institute Inc.",10,0.4,-1.33
+2008,"Mason-Dixon Polling & Strategy",161,0.08,-0.97
+2008,"McLaughlin & Associates",5,1.17,-2.78
+2008,"OnPoint",6,-0.24,-2
+2008,"Opinion Savvy/InsiderAdvantage",11,-3.33,0.02
+2008,"Princeton Survey Research Associates International",11,-2.48,-0.65
+2008,"Public Opinion Strategies",25,4.2,0.72
+2008,"Quinnipiac University",30,1.49,0.11
+2008,"Rasmussen Reports/Pulse Opinion Research",103,0.6,-0.96
+2008,"Research & Polling Inc.",12,-1.34,-1.42
+2008,"Richard Day Research",7,-1.08,-1.54
+2008,"Riley Research Associates",5,-0.1,-1.61
+2008,"RT Strategies",45,-2.11,0.46
+2008,"SEA Polling & Strategic Design",5,-3.17,-1.59
+2008,"Selzer & Co.",10,-0.88,-0.82
+2008,"Star Tribune (Minnesota Poll)",10,-4.19,-0.38
+2008,"SurveyUSA",316,-0.74,-0.61
+2008,"Tarrance Group",7,3.46,-2.97
+2008,"University of Cincinnati (Ohio Poll)",8,-0.7,-2.68
+2008,"University of Connecticut",10,1.34,-1.87
+2008,"University of New Hampshire",26,-0.27,1.06
+2008,"YouGov",43,0.17,-0.24
+2008,"Zogby Interactive/JZ Analytics",185,-0.48,1.53
+2010,"ABC News/The Washington Post",22,-1.19,-1.18
+2010,"American Research Group",36,-0.36,-0.18
+2010,"Big Ten",10,-4.25,1.29
+2010,"CBS News/The New York Times",17,-2.79,1.42
+2010,"CNN/Opinion Research Corp.",32,0.32,-0.39
+2010,"Dan Jones & Associates",12,-0.4,-1.77
+2010,"EPIC-MRA",11,3.83,0.11
+2010,"Fairleigh Dickinson University (PublicMind)",11,2.9,1.17
+2010,"Field Research Corp. (Field Poll)",5,1.47,-1.79
+2010,"Financial Dynamics",15,1.35,-0.21
+2010,"Fox News/Opinion Dynamics Corp.",18,-0.45,0.01
+2010,"Gallup",38,-0.09,-0.35
+2010,"Garin-Hart-Yang Research Group",8,-4.19,-3.14
+2010,"Georgetown University (Battleground)",16,0.16,-0.11
+2010,"GfK Group",16,-0.28,-0.24
+2010,"Global Strategy Group",12,-5.5,-0.23
+2010,"GQR Research (GQRR)",30,-4.92,0.89
+2010,"Grove Insight",6,-5.97,-1.51
+2010,"Harris Insights & Analytics",12,-2.13,0.07
+2010,"IBD/TIPP",15,1.69,-0.19
+2010,"Los Angeles Times",13,0,0.78
+2010,"Marist College",25,-0.46,-0.07
+2010,"Market Research Insight",10,5.95,4.1
+2010,"Mason-Dixon Polling & Strategy",165,0.89,-0.63
+2010,"Monmouth University",10,-0.4,-0.27
+2010,"National Journal",12,0.63,-0.99
+2010,"Normington, Petts & Associates",7,0.15,-2.16
+2010,"OnPoint",6,-0.24,-1.86
+2010,"Opinion Savvy/InsiderAdvantage",26,-1.29,0.21
+2010,"Princeton Survey Research Associates International",15,-2.13,-0.68
+2010,"Public Opinion Strategies",26,2.97,0.53
+2010,"Public Policy Polling",51,0.37,-0.66
+2010,"Quinnipiac University",38,0.09,0.55
+2010,"Rasmussen Reports/Pulse Opinion Research",201,0.86,-0.48
+2010,"Research & Polling Inc.",13,1.47,-1.07
+2010,"RT Strategies",45,-2.11,0.58
+2010,"Selzer & Co.",14,-0.42,-0.68
+2010,"Star Tribune (Minnesota Poll)",6,-2.62,-1.56
+2010,"Suffolk University",15,-2.33,0.52
+2010,"SurveyUSA",354,0.35,-0.73
+2010,"The Winston Group",5,-4.78,-1.79
+2010,"University of Cincinnati (Ohio Poll)",8,-0.15,-2.3
+2010,"University of Connecticut",7,0.19,-2.05
+2010,"University of New Hampshire",38,-1.59,0.28
+2010,"YouGov",134,0.75,0.25
+2010,"Zogby Interactive/JZ Analytics",197,0.64,1.53
+2012,"ABC News/The Washington Post",15,-2.3,-1.21
+2012,"ALG Research",11,-1.8,1.1
+2012,"American Research Group",22,-0.54,-0.3
+2012,"Big Ten",10,-4.25,1.24
+2012,"CBS News/The New York Times",17,-2.75,1.04
+2012,"ccAdvertising",31,5.6,1.91
+2012,"CNN/Opinion Research Corp.",48,0.78,-0.28
+2012,"Critical Insights",12,-2.45,2.88
+2012,"Dan Jones & Associates",16,-3.42,-0.82
+2012,"Elway Research",6,-2.47,-2.39
+2012,"EPIC-MRA",19,0.87,-0.09
+2012,"Field Research Corp. (Field Poll)",5,1.68,-2.66
+2012,"Financial Dynamics",15,1.35,-0.26
+2012,"Gallup",19,0.83,-0.79
+2012,"Garin-Hart-Yang Research Group",6,-2.94,-2.19
+2012,"GfK Group",17,-0.24,-0.45
+2012,"Global Strategy Group",11,-1.26,-1.07
+2012,"GQR Research (GQRR)",21,-4.03,-0.5
+2012,"Grove Insight",9,-4.82,-1.5
+2012,"Ipsos",12,0.33,-0.1
+2012,"Marist College",31,2.21,0.46
+2012,"Mason-Dixon Polling & Strategy",130,0.98,-0.69
+2012,"Monmouth University",18,0.09,-0.74
+2012,"MRG Research",15,7.45,3.22
+2012,"Muhlenberg College",15,1.13,-0.12
+2012,"National Journal",12,0.63,-1.02
+2012,"Normington, Petts & Associates",8,0.3,-1.93
+2012,"OnPoint",6,-0.24,-1.88
+2012,"Opinion Savvy/InsiderAdvantage",26,-0.54,0.3
+2012,"Pan Atlantic Research",6,-1.47,-3.59
+2012,"Princeton Survey Research Associates International",11,-4.85,0.68
+2012,"PSB Research",18,-6.76,1
+2012,"Public Opinion Strategies",35,-1.89,-0.2
+2012,"Public Policy Polling",105,0.02,-0.71
+2012,"Quinnipiac University",42,-0.79,0.43
+2012,"Rasmussen Reports/Pulse Opinion Research",272,2.19,0.18
+2012,"Research & Polling Inc.",13,2.17,-0.79
+2012,"RT Strategies",45,-2.11,0.32
+2012,"Selzer & Co.",14,-0.08,-0.96
+2012,"Siena College",19,-0.15,-0.89
+2012,"Suffolk University",20,-2.99,0.44
+2012,"SurveyUSA",269,0.73,-0.84
+2012,"Susquehanna Polling & Research Inc.",19,-2.18,-0.08
+2012,"University of Cincinnati (Ohio Poll)",8,1.19,-2.15
+2012,"University of New Hampshire",36,-3.22,0.26
+2012,"YouGov",170,0.88,0.02
+2012,"Zogby Interactive/JZ Analytics",121,2.29,1.74
+2014,"ABC News/The Washington Post",18,-1.25,-0.49
+2014,"ALG Research",15,-2.57,1.71
+2014,"American Research Group",30,0.97,0.18
+2014,"Angus Reid Global",29,2.67,-0.93
+2014,"Big Ten",10,-4.25,1.25
+2014,"CBS News/The New York Times",18,-2.64,0.22
+2014,"ccAdvertising",32,5.08,1.81
+2014,"Clout Research/Wenzel Strategies",12,1.3,2.09
+2014,"CNN/Opinion Research Corp.",45,0.94,-0.61
+2014,"Columbus Dispatch",5,-0.38,-2.08
+2014,"Critical Insights",16,0.79,2.82
+2014,"Dan Jones & Associates",22,-2.63,-0.32
+2014,"EPIC-MRA",16,-0.17,-0.7
+2014,"Financial Dynamics",14,2.2,-0.57
+2014,"Gallup",14,2.46,0.95
+2014,"Georgetown University (Battleground)",14,2.93,0.21
+2014,"GfK Group",18,0.1,-0.27
+2014,"Global Strategy Group",10,-1.89,0.32
+2014,"Google Surveys",12,2.18,-1.15
+2014,"GQR Research (GQRR)",25,-3.4,-0.03
+2014,"Gravis Marketing",22,4,1.03
+2014,"Grove Insight",26,-0.92,-1.25
+2014,"IBD/TIPP",12,2.25,-0.15
+2014,"Ipsos",29,0.98,-0.89
+2014,"Marist College",46,2.59,0
+2014,"Mason-Dixon Polling & Strategy",96,1.25,0.15
+2014,"McLaughlin & Associates",16,-2.27,4.41
+2014,"Mellman Group",20,-3.6,0.46
+2014,"Monmouth University",21,-0.52,-0.88
+2014,"MRG Research",19,7.32,3.23
+2014,"Muhlenberg College",16,0.83,-0.81
+2014,"National Journal",12,0.63,-1
+2014,"Opinion Savvy/InsiderAdvantage",20,0.71,0.65
+2014,"Pan Atlantic Research",6,-1.47,-3.57
+2014,"Princeton Survey Research Associates International",11,-2.12,-0.24
+2014,"PSB Research",17,-6.19,0.53
+2014,"Public Opinion Strategies",34,-4.76,-1.28
+2014,"Public Policy Polling",217,0.88,-0.58
+2014,"Quinnipiac University",51,-0.61,-0.18
+2014,"Rasmussen Reports/Pulse Opinion Research",297,2.85,0.81
+2014,"Research & Polling Inc.",13,3.2,-0.71
+2014,"Selzer & Co.",10,0,-1.68
+2014,"Siena College",24,0.81,-1.21
+2014,"Suffolk University",24,-2.53,0
+2014,"SurveyUSA",211,1.02,-0.82
+2014,"Susquehanna Polling & Research Inc.",24,-0.46,0.51
+2014,"Tarrance Group",10,-5.09,-1.48
+2014,"University of Cincinnati (Ohio Poll)",12,1.49,-1.13
+2014,"University of New Hampshire",41,-2.06,-0.17
+2014,"We Ask America",30,3.18,0.36
+2014,"Western New England University",5,2.15,-1.84
+2014,"YouGov",185,1.6,0.1
+2014,"Zogby Interactive/JZ Analytics",73,1.13,0.42
+2016,"ABC News/The Washington Post",11,-0.88,-0.55
+2016,"ALG Research",12,-2.88,2
+2016,"American Research Group",15,3.29,0.37
+2016,"Angus Reid Global",29,2.67,-0.99
+2016,"CBS News/The New York Times",8,-0.41,-1.71
+2016,"ccAdvertising",33,5.41,1.91
+2016,"Clout Research/Wenzel Strategies",12,3.45,2.02
+2016,"CNN/Opinion Research Corp.",30,0.04,0.03
+2016,"Columbus Dispatch",5,-0.62,-2.78
+2016,"Critical Insights",12,3.7,2.73
+2016,"Dan Jones & Associates",21,-2.04,-1.75
+2016,"Elway Research",7,0.49,-2.18
+2016,"EPIC-MRA",16,-1.18,-1.07
+2016,"Fairleigh Dickinson University (PublicMind)",5,-3.28,-1.89
+2016,"Field Research Corp. (Field Poll)",5,3.2,-1.58
+2016,"Fox News/Beacon Research/Shaw & Co. Research",11,-4.05,2.02
+2016,"Garin-Hart-Yang Research Group",10,-0.33,-0.75
+2016,"Global Strategy Group",13,-4.53,2.39
+2016,"Google Surveys",12,2.18,-1.15
+2016,"GQR Research (GQRR)",12,-2.2,-0.95
+2016,"Gravis Marketing",33,1.36,1.21
+2016,"Grove Insight",23,0.28,-1.29
+2016,"Hendrix College",11,-4.9,0.82
+2016,"Ipsos",32,0.44,-0.93
+2016,"Landmark Communications",19,-1.73,-0.13
+2016,"Maine People's Resource Center",10,1.31,1.08
+2016,"Marist College",50,0.44,-0.06
+2016,"Market Research Insight",5,-1.45,-4.3
+2016,"Mason-Dixon Polling & Strategy",57,0.8,0.12
+2016,"MassINC Polling Group",7,0.94,-3.01
+2016,"McLaughlin & Associates",13,3.42,4.25
+2016,"Mellman Group",19,-2.3,0.19
+2016,"Monmouth University",28,-1.65,-1.55
+2016,"MRG Research",23,7.63,2.99
+2016,"Muhlenberg College",13,0.83,-0.97
+2016,"New England College",19,3.13,-0.67
+2016,"PSB Research",17,-6.19,0.28
+2016,"Public Opinion Strategies",29,-2.71,-1.51
+2016,"Public Policy Polling",217,0.21,-0.51
+2016,"Quinnipiac University",56,0.01,-0.33
+2016,"Rasmussen Reports/Pulse Opinion Research",232,2.7,1.06
+2016,"Research & Polling Inc.",10,1.7,-2.01
+2016,"Selzer & Co.",6,0.08,-2.73
+2016,"Siena College",29,-0.27,-1.36
+2016,"Suffolk University",21,-0.88,-0.18
+2016,"SurveyUSA",118,0,-0.44
+2016,"Susquehanna Polling & Research Inc.",25,-0.37,0.41
+2016,"Tarrance Group",12,-2.08,-0.33
+2016,"University of Cincinnati (Ohio Poll)",10,1.77,-0.99
+2016,"University of New Hampshire",33,-1.06,-0.41
+2016,"Vox Populi Polling",12,0.66,-1.21
+2016,"We Ask America",36,1.86,0.05
+2016,"Western New England University",7,2.54,-1.66
+2016,"YouGov",180,-0.82,0.13
+2016,"Zogby Interactive/JZ Analytics",33,-0.87,-0.03
+2018,"ABC News/The Washington Post",16,-0.09,-1.53
+2018,"American Research Group",17,3.19,0.64
+2018,"Angus Reid Global",23,1.6,-1.65
+2018,"CBS News/The New York Times",7,0.15,-1.5
+2018,"Christopher Newport University",7,-2.13,-1.58
+2018,"Clarity Campaign Labs",11,-2.7,-0.96
+2018,"Clout Research/Wenzel Strategies",14,2.52,0.82
+2018,"CNN/Opinion Research Corp.",24,-1.59,0.2
+2018,"Columbus Dispatch",5,-2.13,-2.51
+2018,"Dan Jones & Associates",12,-0.8,-2.24
+2018,"Data Orbital",8,-0.83,-1.84
+2018,"Emerson College",64,-0.7,-0.28
+2018,"Fox News/Beacon Research/Shaw & Co. Research",18,-2.88,0.73
+2018,"Garin-Hart-Yang Research Group",11,-1.53,0.18
+2018,"Google Surveys",24,0.28,1.28
+2018,"Gravis Marketing",85,-1.25,0.58
+2018,"Grove Insight",20,0.96,-1.55
+2018,"Harper Polling",8,-1.4,-1.96
+2018,"IBD/TIPP",7,1.35,-1.52
+2018,"Insights West",8,0.45,-1.62
+2018,"Ipsos",32,-1.06,-0.64
+2018,"JMC Analytics",7,2.6,-1.55
+2018,"Lake Research Partners",6,0.84,-1.85
+2018,"Landmark Communications",25,-4.64,-0.4
+2018,"Loras College",14,-4.38,0.47
+2018,"Lucid",24,-4.08,0.57
+2018,"Maine People's Resource Center",13,0.28,0.18
+2018,"Marist College",53,-1.37,-0.7
+2018,"Market Research Insight",7,-3.48,-2.21
+2018,"Marquette University Law School",6,-1.53,-2.18
+2018,"Mason-Dixon Polling & Strategy",37,0.02,0.63
+2018,"MassINC Polling Group",9,1.76,-2.52
+2018,"McLaughlin & Associates",14,3.3,4.3
+2018,"Mellman Group",15,-0.62,-0.88
+2018,"Mitchell Research & Communications",18,-3.23,0.72
+2018,"Monmouth University",42,-3.42,-1.17
+2018,"Muhlenberg College",9,-1,-1.68
+2018,"New England College",19,3.13,-0.69
+2018,"Opinion Savvy/InsiderAdvantage",16,-3.31,0.82
+2018,"Public Opinion Strategies",19,-2.96,-1.36
+2018,"Public Policy Polling",191,-0.43,-0.26
+2018,"Quinnipiac University",62,-1.96,-0.37
+2018,"Rasmussen Reports/Pulse Opinion Research",182,0.09,0.82
+2018,"Remington Research Group",33,-1.94,0.15
+2018,"Research & Polling Inc.",8,2.26,-2.98
+2018,"RRH Elections",7,-0.22,-1.87
+2018,"Selzer & Co.",9,0.37,-2.81
+2018,"Siena College",24,0.75,-1.52
+2018,"Siena College/The New York Times Upshot",11,-3.22,0.24
+2018,"St. Pete Polls",11,4.08,0.91
+2018,"Suffolk University",22,-0.23,-0.66
+2018,"SurveyMonkey",196,-5.59,1.87
+2018,"SurveyUSA",84,-1.07,-0.27
+2018,"Susquehanna Polling & Research Inc.",11,3.9,1.35
+2018,"Trafalgar Group",15,-3.01,-0.94
+2018,"University of New Hampshire",45,-4,1.14
+2018,"Vox Populi Polling",12,0.66,-1.35
+2018,"Ward Research/The Honolulu Star-Advertiser",6,-1.2,-3.08
+2018,"We Ask America",28,2.09,0.61
+2018,"YouGov",179,-1.62,0.11
+2018,"Zogby Interactive/JZ Analytics",25,0.06,-0.11
+2020,"ABC News/The Washington Post",12,-0.08,-2.8
+2020,"CBS News/The New York Times",5,-0.36,-1.91
+2020,"Change Research",57,-1.49,0.51
+2020,"Christopher Newport University",7,-1.5,-2.15
+2020,"Clarity Campaign Labs",10,-3.18,-0.98
+2020,"CNN/Opinion Research Corp.",17,-2.92,0.63
+2020,"Cygnal",13,-2.59,-2.39
+2020,"Dan Jones & Associates",5,-1.99,-5.19
+2020,"Data Orbital",9,-1.23,-1.65
+2020,"Elway Research",5,-2.37,-2.39
+2020,"Emerson College",122,-0.31,-0.74
+2020,"Fox News/Beacon Research/Shaw & Co. Research",22,-4.01,0.35
+2020,"Google Surveys",12,-1.63,3.7
+2020,"Gravis Marketing",82,-2.63,0.18
+2020,"Harris Insights & Analytics",32,0.5,0.04
+2020,"IBD/TIPP",5,1.14,-1.73
+2020,"Insights West",8,0.45,-1.74
+2020,"Ipsos",24,-0.52,0.83
+2020,"JMC Analytics",10,1.82,-1.33
+2020,"Landmark Communications",25,-4.64,-0.19
+2020,"Loras College",14,-4.38,0.62
+2020,"Lucid",25,-3.76,0.48
+2020,"Marist College",46,-3.21,-0.66
+2020,"Marquette University Law School",5,-1.77,-1.79
+2020,"Mason-Dixon Polling & Strategy",24,-3.71,-1.02
+2020,"MassINC Polling Group",8,2.45,-1.79
+2020,"Mitchell Research & Communications",22,-2.91,0.06
+2020,"Monmouth University",43,-3.39,-1.36
+2020,"Morning Consult",12,0.26,-0.25
+2020,"Muhlenberg College",8,-2.22,-1.99
+2020,"New England College",12,1.92,-1.13
+2020,"Opinion Savvy/InsiderAdvantage",17,-3.63,0.29
+2020,"Optimus",13,3.78,1.2
+2020,"Public Opinion Strategies",10,-3.71,-0.88
+2020,"Public Policy Polling",83,-3.44,-0.11
+2020,"Quinnipiac University",54,-2.79,0.03
+2020,"Rasmussen Reports/Pulse Opinion Research",96,-3.19,0.56
+2020,"Remington Research Group",37,-2.45,-0.15
+2020,"Research & Polling Inc.",7,4.22,-1.51
+2020,"Research Co.",20,1.07,-1.18
+2020,"Selzer & Co.",9,-0.24,-2.41
+2020,"Siena College",19,0.44,-0.96
+2020,"Siena College/The New York Times Upshot",57,0.35,-1.28
+2020,"SSRS",11,-4.15,0.77
+2020,"St. Pete Polls",15,-1.39,-1.73
+2020,"Suffolk University",21,0.22,-0.76
+2020,"SurveyMonkey",197,-5.55,1.68
+2020,"SurveyUSA",57,-3.13,0.58
+2020,"Susquehanna Polling & Research Inc.",11,-3.94,1.68
+2020,"Trafalgar Group",34,0.35,-0.07
+2020,"University of Massachusetts Lowell",6,0.85,-3.33
+2020,"University of New Hampshire",35,-6.89,2.07
+2020,"Vox Populi Polling",19,-0.89,-0.82
+2020,"YouGov",134,-3.18,0.19
+2022,"ABC News/The Washington Post",20,-2.34,-1.47
+2022,"AtlasIntel",14,-1,-2.09
+2022,"Change Research",101,-3.18,0.45
+2022,"Christopher Newport University",9,-1.71,-1.94
+2022,"Citizen Data",12,-7.04,2.22
+2022,"Civiqs",22,-5.32,0.72
+2022,"Clarity Campaign Labs",7,-2.39,-1.81
+2022,"CNN/Opinion Research Corp.",10,-1.24,0.3
+2022,"co/efficient",5,-1.51,-2.24
+2022,"Cygnal",19,-3.99,-1.46
+2022,"Data for Progress",42,-4.4,0.14
+2022,"Data Orbital",13,-1.45,-1.61
+2022,"Emerson College",153,-1.28,-0.98
+2022,"Fox News/Beacon Research/Shaw & Co. Research",21,-2.97,-0.62
+2022,"Google Surveys",12,-1.63,3.69
+2022,"Gravis Marketing",92,-3.03,-0.07
+2022,"Harper Polling",5,-2.95,-1.94
+2022,"Harris Insights & Analytics",45,-0.56,-0.42
+2022,"IBD/TIPP",9,0.26,-2.52
+2022,"Insights West",8,0.45,-1.63
+2022,"Ipsos",50,-2.95,0.37
+2022,"Landmark Communications",23,-2.58,-0.91
+2022,"Lucid",25,-3.76,0.47
+2022,"Marist College",38,-2.73,-0.32
+2022,"Marquette University Law School",5,-2.91,-1.73
+2022,"Mason-Dixon Polling & Strategy",21,-4.61,-0.66
+2022,"MassINC Polling Group",7,3.43,-1.57
+2022,"Mitchell Research & Communications",21,-4.33,0.74
+2022,"Monmouth University",40,-4.91,0.36
+2022,"Morning Consult",66,-3.74,-0.01
+2022,"Muhlenberg College",9,-2.81,-1.5
+2022,"Opinion Savvy/InsiderAdvantage",28,-1.62,-0.9
+2022,"Public Policy Polling",63,-4.71,0.65
+2022,"Quinnipiac University",48,-4.62,0.41
+2022,"Rasmussen Reports/Pulse Opinion Research",79,-2.6,0.08
+2022,"Remington Research Group",41,-3.27,0.24
+2022,"Research & Polling Inc.",10,0.6,-1.39
+2022,"Research Co.",34,-1.49,-0.73
+2022,"RMG Research",25,-6.01,0.25
+2022,"Saint Anselm College",5,-2.29,-3.12
+2022,"Selzer & Co.",9,-0.77,-2.85
+2022,"Siena College",12,2.4,-0.76
+2022,"Siena College/The New York Times Upshot",82,-1.42,-0.93
+2022,"SSRS",23,-5.7,1.48
+2022,"St. Pete Polls",17,-2.28,-1.45
+2022,"Suffolk University",17,-1.51,-0.85
+2022,"SurveyMonkey",255,-5.15,1.23
+2022,"SurveyUSA",44,-0.96,-0.48
+2022,"Susquehanna Polling & Research Inc.",15,-3.54,-0.38
+2022,"Swayable",68,-5.15,0.66
+2022,"Targoz Market Research",15,-5.81,1.89
+2022,"Trafalgar Group",62,-1.01,-0.77
+2022,"University of Massachusetts Lowell",11,-3.35,-1.39
+2022,"University of New Hampshire",28,-6.99,2.46
+2022,"USC Dornsife/Los Angeles Times",10,-2.77,1.48
+2022,"Wick",7,0.6,-2.41
+2022,"Y2 Analytics",7,-5.09,-1.58
+2022,"YouGov",85,-3.17,0.05
