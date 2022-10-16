@@ -2901,3 +2901,499 @@ CA,25,Tulchin Research,10/14/2016,10/18/2016,400,lv,D,2016,11/8/2016,general,FAL
 CA,25,Tulchin Research,10/14/2016,10/18/2016,400,lv,D,2016,11/8/2016,general,FALSE,REP,Steve Knight,46
 CA,49,Public Opinion Strategies,9/6/2016,9/8/2016,400,lv,R,2016,11/8/2016,general,FALSE,DEM,Doug Applegate,38
 CA,49,Public Opinion Strategies,9/6/2016,9/8/2016,400,lv,R,2016,11/8/2016,general,FALSE,REP,Darrell Issa,52
+ME,1,Maine People's Resource Center,10/31/2014,11/2/2014,419,lv,,2014,11/4/2016,general,FALSE,DEM,Chellie Pingree,56
+ME,1,Maine People's Resource Center,10/31/2014,11/2/2014,419,lv,,2014,11/4/2016,general,FALSE,REP,Isaac Misiuk,30
+ME,1,Pan Atlantic Research,10/15/2014,10/21/2014,206,lv,,2014,11/4/2016,general,FALSE,DEM,Chellie Pingree,62
+ME,1,Pan Atlantic Research,10/15/2014,10/21/2014,206,lv,,2014,11/4/2016,general,FALSE,REP,Isaac Misiuk,18
+ME,1,University of New Hampshire,10/15/2014,10/21/2014,297,lv,,2014,11/4/2016,general,FALSE,DEM,Chellie Pingree,57
+ME,1,University of New Hampshire,10/15/2014,10/21/2014,297,lv,,2014,11/4/2016,general,FALSE,REP,Isaac Misiuk,19
+ME,1,Critical Insights,9/24/2014,9/30/2014,311,lv,,2014,11/4/2016,general,FALSE,DEM,Chellie Pingree,53
+ME,1,Critical Insights,9/24/2014,9/30/2014,311,lv,,2014,11/4/2016,general,FALSE,REP,Isaac Misiuk,19
+ME,1,Pan Atlantic Research,9/23/2014,9/29/2014,400,lv,,2014,11/4/2016,general,FALSE,DEM,Chellie Pingree,51
+ME,1,Pan Atlantic Research,9/23/2014,9/29/2014,400,lv,,2014,11/4/2016,general,FALSE,REP,Isaac Misiuk,9
+ME,1,University of New Hampshire,9/18/2014,9/25/2014,220,lv,,2014,11/4/2016,general,FALSE,DEM,Chellie Pingree,66
+ME,1,University of New Hampshire,9/18/2014,9/25/2014,220,lv,,2014,11/4/2016,general,FALSE,REP,Isaac Misiuk,13
+ME,1,University of New Hampshire,6/12/2014,6/18/2014,305,lv,,2014,11/4/2016,general,FALSE,DEM,Chellie Pingree,56
+ME,1,University of New Hampshire,6/12/2014,6/18/2014,305,lv,,2014,11/4/2016,general,FALSE,REP,Isaac Misiuk,22
+ME,2,Maine People's Resource Center,10/31/2014,11/2/2014,397,lv,,2014,11/4/2016,general,FALSE,DEM,Emily Cain,42
+ME,2,Maine People's Resource Center,10/31/2014,11/2/2014,397,lv,,2014,11/4/2016,general,FALSE,REP,Bruce Poliquin,43
+ME,2,Pan Atlantic Research,10/15/2014,10/21/2014,186,lv,,2014,11/4/2016,general,FALSE,DEM,Emily Cain,39
+ME,2,Pan Atlantic Research,10/15/2014,10/21/2014,186,lv,,2014,11/4/2016,general,FALSE,REP,Bruce Poliquin,38
+ME,2,University of New Hampshire,10/15/2014,10/21/2014,291,lv,,2014,11/4/2016,general,FALSE,DEM,Emily Cain,40
+ME,2,University of New Hampshire,10/15/2014,10/21/2014,291,lv,,2014,11/4/2016,general,FALSE,REP,Bruce Poliquin,41
+ME,2,"Normington, Petts & Associates",10/15/2014,10/16/2014,295,lv,D,2014,11/4/2016,general,FALSE,DEM,Emily Cain,42
+ME,2,"Normington, Petts & Associates",10/15/2014,10/16/2014,295,lv,D,2014,11/4/2016,general,FALSE,REP,Bruce Poliquin,34
+ME,2,Critical Insights,9/24/2014,9/30/2014,295,lv,,2014,11/4/2016,general,FALSE,DEM,Emily Cain,36
+ME,2,Critical Insights,9/24/2014,9/30/2014,295,lv,,2014,11/4/2016,general,FALSE,REP,Bruce Poliquin,41
+ME,2,Pan Atlantic Research,9/23/2014,9/29/2014,400,lv,,2014,11/4/2016,general,FALSE,DEM,Emily Cain,36
+ME,2,Pan Atlantic Research,9/23/2014,9/29/2014,400,lv,,2014,11/4/2016,general,FALSE,REP,Bruce Poliquin,33
+ME,2,University of New Hampshire,9/18/2014,9/25/2014,220,lv,,2014,11/4/2016,general,FALSE,DEM,Emily Cain,30
+ME,2,University of New Hampshire,9/18/2014,9/25/2014,220,lv,,2014,11/4/2016,general,FALSE,REP,Bruce Poliquin,40
+ME,2,Public Opinion Strategies,8/17/2014,8/19/2014,400,lv,R,2014,11/4/2016,general,FALSE,DEM,Emily Cain,37
+ME,2,Public Opinion Strategies,8/17/2014,8/19/2014,400,lv,R,2014,11/4/2016,general,FALSE,REP,Bruce Poliquin,33
+ME,2,University of New Hampshire,6/12/2014,6/18/2014,222,lv,,2014,11/4/2016,general,FALSE,DEM,Emily Cain,44
+ME,2,University of New Hampshire,6/12/2014,6/18/2014,222,lv,,2014,11/4/2016,general,FALSE,REP,Bruce Poliquin,39
+NH,1,University of New Hampshire,10/31/2014,11/2/2014,405,lv,,2014,11/4/2016,general,FALSE,DEM,Carol Shea-Porter,47
+NH,1,University of New Hampshire,10/31/2014,11/2/2014,405,lv,,2014,11/4/2016,general,FALSE,REP,Frank Guinta,47
+NH,1,New England College,10/31/2014,11/1/2014,778,lv,,2014,11/4/2016,general,FALSE,DEM,Carol Shea-Porter,43
+NH,1,New England College,10/31/2014,11/1/2014,778,lv,,2014,11/4/2016,general,FALSE,REP,Frank Guinta,52
+NH,1,University of New Hampshire,10/22/2014,10/26/2014,261,lv,,2014,11/4/2016,general,FALSE,DEM,Carol Shea-Porter,44
+NH,1,University of New Hampshire,10/22/2014,10/26/2014,261,lv,,2014,11/4/2016,general,FALSE,REP,Frank Guinta,40
+NH,1,New England College,10/24/2014,10/24/2014,556,lv,,2014,11/4/2016,general,FALSE,DEM,Carol Shea-Porter,43
+NH,1,New England College,10/24/2014,10/24/2014,556,lv,,2014,11/4/2016,general,FALSE,REP,Frank Guinta,49
+NH,1,New England College,10/16/2014,10/16/2014,461,lv,,2014,11/4/2016,general,FALSE,DEM,Carol Shea-Porter,46
+NH,1,New England College,10/16/2014,10/16/2014,461,lv,,2014,11/4/2016,general,FALSE,REP,Frank Guinta,47
+NH,1,University of Massachusetts Amherst,10/10/2014,10/15/2014,160,lv,,2014,11/4/2016,general,FALSE,DEM,Carol Shea-Porter,54
+NH,1,University of Massachusetts Amherst,10/10/2014,10/15/2014,160,lv,,2014,11/4/2016,general,FALSE,REP,Frank Guinta,37
+NH,1,University of Massachusetts Amherst,10/10/2014,10/15/2014,197,rv,,2014,11/4/2016,general,FALSE,DEM,Carol Shea-Porter,50
+NH,1,University of Massachusetts Amherst,10/10/2014,10/15/2014,197,rv,,2014,11/4/2016,general,FALSE,REP,Frank Guinta,38
+NH,1,New England College,10/9/2014,10/9/2014,536,lv,,2014,11/4/2016,general,FALSE,DEM,Carol Shea-Porter,44
+NH,1,New England College,10/9/2014,10/9/2014,536,lv,,2014,11/4/2016,general,FALSE,REP,Frank Guinta,46
+NH,1,University of New Hampshire,9/29/2014,10/5/2014,258,lv,,2014,11/4/2016,general,FALSE,DEM,Carol Shea-Porter,42
+NH,1,University of New Hampshire,9/29/2014,10/5/2014,258,lv,,2014,11/4/2016,general,FALSE,REP,Frank Guinta,39
+NH,1,New England College,10/3/2014,10/3/2014,626,lv,,2014,11/4/2016,general,FALSE,DEM,Carol Shea-Porter,47
+NH,1,New England College,10/3/2014,10/3/2014,626,lv,,2014,11/4/2016,general,FALSE,REP,Frank Guinta,44
+NH,1,New England College,9/26/2014,9/26/2014,629,lv,,2014,11/4/2016,general,FALSE,DEM,Carol Shea-Porter,41
+NH,1,New England College,9/26/2014,9/26/2014,629,lv,,2014,11/4/2016,general,FALSE,REP,Frank Guinta,51
+NH,1,New England College,9/19/2014,9/20/2014,715,lv,,2014,11/4/2016,general,FALSE,DEM,Carol Shea-Porter,45
+NH,1,New England College,9/19/2014,9/20/2014,715,lv,,2014,11/4/2016,general,FALSE,REP,Frank Guinta,45
+NH,1,New England College,9/10/2014,9/11/2014,607,lv,,2014,11/4/2016,general,FALSE,DEM,Carol Shea-Porter,46
+NH,1,New England College,9/10/2014,9/11/2014,607,lv,,2014,11/4/2016,general,FALSE,REP,Frank Guinta,42
+NH,1,"Normington, Petts & Associates",9/3/2014,9/7/2014,400,lv,,2014,11/4/2016,general,FALSE,DEM,Carol Shea-Porter,45
+NH,1,"Normington, Petts & Associates",9/3/2014,9/7/2014,400,lv,,2014,11/4/2016,general,FALSE,REP,Frank Guinta,43
+NH,1,University of New Hampshire,8/7/2014,8/17/2014,297,lv,,2014,11/4/2016,general,FALSE,DEM,Carol Shea-Porter,41
+NH,1,University of New Hampshire,8/7/2014,8/17/2014,297,lv,,2014,11/4/2016,general,FALSE,REP,Frank Guinta,45
+NH,1,University of New Hampshire,6/19/2014,7/1/2014,263,lv,,2014,11/4/2016,general,FALSE,DEM,Carol Shea-Porter,43
+NH,1,University of New Hampshire,6/19/2014,7/1/2014,263,lv,,2014,11/4/2016,general,FALSE,REP,Frank Guinta,46
+NH,1,University of New Hampshire,4/1/2014,4/9/2014,259,lv,,2014,11/4/2016,general,FALSE,DEM,Carol Shea-Porter,44
+NH,1,University of New Hampshire,4/1/2014,4/9/2014,259,lv,,2014,11/4/2016,general,FALSE,REP,Frank Guinta,35
+NH,1,University of New Hampshire,1/21/2014,1/26/2014,304,lv,,2014,11/4/2016,general,FALSE,DEM,Carol Shea-Porter,39
+NH,1,University of New Hampshire,1/21/2014,1/26/2014,304,lv,,2014,11/4/2016,general,FALSE,REP,Frank Guinta,45
+NH,2,University of New Hampshire,10/31/2014,11/2/2014,352,lv,,2014,11/4/2016,general,FALSE,DEM,Ann McLane Kuster,49
+NH,2,University of New Hampshire,10/31/2014,11/2/2014,352,lv,,2014,11/4/2016,general,FALSE,REP,Marilinda Garcia,38
+NH,2,New England College,10/31/2014,11/1/2014,748,lv,,2014,11/4/2016,general,FALSE,DEM,Ann McLane Kuster,53
+NH,2,New England College,10/31/2014,11/1/2014,748,lv,,2014,11/4/2016,general,FALSE,REP,Marilinda Garcia,42
+NH,2,University of New Hampshire,10/22/2014,10/26/2014,295,lv,,2014,11/4/2016,general,FALSE,DEM,Ann McLane Kuster,53
+NH,2,University of New Hampshire,10/22/2014,10/26/2014,295,lv,,2014,11/4/2016,general,FALSE,REP,Marilinda Garcia,30
+NH,2,New England College,10/24/2014,10/24/2014,576,lv,,2014,11/4/2016,general,FALSE,DEM,Ann McLane Kuster,49
+NH,2,New England College,10/24/2014,10/24/2014,576,lv,,2014,11/4/2016,general,FALSE,REP,Marilinda Garcia,42
+NH,2,New England College,10/16/2014,10/16/2014,460,lv,,2014,11/4/2016,general,FALSE,DEM,Ann McLane Kuster,49
+NH,2,New England College,10/16/2014,10/16/2014,460,lv,,2014,11/4/2016,general,FALSE,REP,Marilinda Garcia,43
+NH,2,University of Massachusetts Amherst,10/10/2014,10/15/2014,162,lv,,2014,11/4/2016,general,FALSE,DEM,Ann McLane Kuster,43
+NH,2,University of Massachusetts Amherst,10/10/2014,10/15/2014,162,lv,,2014,11/4/2016,general,FALSE,REP,Marilinda Garcia,48
+NH,2,University of Massachusetts Amherst,10/10/2014,10/15/2014,198,rv,,2014,11/4/2016,general,FALSE,DEM,Ann McLane Kuster,45
+NH,2,University of Massachusetts Amherst,10/10/2014,10/15/2014,198,rv,,2014,11/4/2016,general,FALSE,REP,Marilinda Garcia,43
+NH,2,New England College,10/9/2014,10/9/2014,545,lv,,2014,11/4/2016,general,FALSE,DEM,Ann McLane Kuster,46
+NH,2,New England College,10/9/2014,10/9/2014,545,lv,,2014,11/4/2016,general,FALSE,REP,Marilinda Garcia,43
+NH,2,University of New Hampshire,9/29/2014,10/5/2014,275,lv,,2014,11/4/2016,general,FALSE,DEM,Ann McLane Kuster,37
+NH,2,University of New Hampshire,9/29/2014,10/5/2014,275,lv,,2014,11/4/2016,general,FALSE,REP,Marilinda Garcia,41
+NH,2,New England College,10/3/2014,10/3/2014,660,lv,,2014,11/4/2016,general,FALSE,DEM,Ann McLane Kuster,50
+NH,2,New England College,10/3/2014,10/3/2014,660,lv,,2014,11/4/2016,general,FALSE,REP,Marilinda Garcia,38
+NH,2,New England College,9/26/2014,9/26/2014,702,lv,,2014,11/4/2016,general,FALSE,DEM,Ann McLane Kuster,50
+NH,2,New England College,9/26/2014,9/26/2014,702,lv,,2014,11/4/2016,general,FALSE,REP,Marilinda Garcia,39
+NH,2,New England College,9/19/2014,9/20/2014,779,lv,,2014,11/4/2016,general,FALSE,DEM,Ann McLane Kuster,49
+NH,2,New England College,9/19/2014,9/20/2014,779,lv,,2014,11/4/2016,general,FALSE,REP,Marilinda Garcia,38
+NH,2,New England College,9/10/2014,9/11/2014,627,lv,,2014,11/4/2016,general,FALSE,DEM,Ann McLane Kuster,50
+NH,2,New England College,9/10/2014,9/11/2014,627,lv,,2014,11/4/2016,general,FALSE,REP,Marilinda Garcia,37
+NH,2,"Normington, Petts & Associates",9/3/2014,9/7/2014,400,lv,,2014,11/4/2016,general,FALSE,DEM,Ann McLane Kuster,44
+NH,2,"Normington, Petts & Associates",9/3/2014,9/7/2014,400,lv,,2014,11/4/2016,general,FALSE,REP,Marilinda Garcia,38
+NH,2,University of New Hampshire,8/7/2014,8/17/2014,312,lv,,2014,11/4/2016,general,FALSE,DEM,Ann McLane Kuster,39
+NH,2,University of New Hampshire,8/7/2014,8/17/2014,312,lv,,2014,11/4/2016,general,FALSE,REP,Marilinda Garcia,36
+NH,2,University of New Hampshire,6/19/2014,7/1/2014,246,lv,,2014,11/4/2016,general,FALSE,DEM,Ann McLane Kuster,49
+NH,2,University of New Hampshire,6/19/2014,7/1/2014,246,lv,,2014,11/4/2016,general,FALSE,REP,Marilinda Garcia,35
+NH,2,University of New Hampshire,4/1/2014,4/9/2014,248,lv,,2014,11/4/2016,general,FALSE,DEM,Ann McLane Kuster,34
+NH,2,University of New Hampshire,4/1/2014,4/9/2014,248,lv,,2014,11/4/2016,general,FALSE,REP,Marilinda Garcia,33
+NH,2,University of New Hampshire,1/21/2014,1/26/2014,280,lv,,2014,11/4/2016,general,FALSE,DEM,Ann McLane Kuster,36
+NH,2,University of New Hampshire,1/21/2014,1/26/2014,280,lv,,2014,11/4/2016,general,FALSE,REP,Marilinda Garcia,30
+DE,1,University of Delaware,9/10/2014,9/22/2014,902,rv,,2014,11/4/2016,general,FALSE,DEM,John Carney,52
+DE,1,University of Delaware,9/10/2014,9/22/2014,902,rv,,2014,11/4/2016,general,FALSE,REP,Rose Izzo,17
+ND,1,DFM Research,10/13/2014,10/16/2014,430,lv,D,2014,11/4/2016,general,FALSE,DEM,George B. Sinner,39
+ND,1,DFM Research,10/13/2014,10/16/2014,430,lv,D,2014,11/4/2016,general,FALSE,REP,Kevin Cramer,46
+ND,1,Forum Communications,9/26/2014,10/3/2014,505,lv,,2014,11/4/2016,general,FALSE,DEM,George B. Sinner,27
+ND,1,Forum Communications,9/26/2014,10/3/2014,505,lv,,2014,11/4/2016,general,FALSE,REP,Kevin Cramer,46
+ND,1,WPA Intelligence (WPAi),9/29/2014,9/30/2014,400,lv,R,2014,11/4/2016,general,FALSE,DEM,George B. Sinner,38
+ND,1,WPA Intelligence (WPAi),9/29/2014,9/30/2014,400,lv,R,2014,11/4/2016,general,FALSE,REP,Kevin Cramer,48
+ND,1,Mellman Group,9/20/2014,9/22/2014,400,lv,D,2014,11/4/2016,general,FALSE,DEM,George B. Sinner,40
+ND,1,Mellman Group,9/20/2014,9/22/2014,400,lv,D,2014,11/4/2016,general,FALSE,REP,Kevin Cramer,38
+SD,1,Monmouth University,10/24/2014,10/27/2014,429,lv,,2014,11/4/2016,general,FALSE,DEM,Corinna Robinson,34
+SD,1,Monmouth University,10/24/2014,10/27/2014,429,lv,,2014,11/4/2016,general,FALSE,REP,Kristi Noem,61
+SD,1,SurveyUSA,10/21/2014,10/26/2014,611,lv,,2014,11/4/2016,general,FALSE,DEM,Corinna Robinson,39
+SD,1,SurveyUSA,10/21/2014,10/26/2014,611,lv,,2014,11/4/2016,general,FALSE,REP,Kristi Noem,55
+SD,1,Mason-Dixon Polling & Strategy,10/20/2014,10/23/2014,800,lv,,2014,11/4/2016,general,FALSE,DEM,Corinna Robinson,35
+SD,1,Mason-Dixon Polling & Strategy,10/20/2014,10/23/2014,800,lv,,2014,11/4/2016,general,FALSE,REP,Kristi Noem,56
+SD,1,YouGov,10/16/2014,10/23/2014,527,lv,,2014,11/4/2016,general,FALSE,DEM,Corinna Robinson,35
+SD,1,YouGov,10/16/2014,10/23/2014,527,lv,,2014,11/4/2016,general,FALSE,REP,Kristi Noem,51
+SD,1,SurveyUSA,10/1/2014,10/5/2014,616,lv,,2014,11/4/2016,general,FALSE,DEM,Corinna Robinson,37
+SD,1,SurveyUSA,10/1/2014,10/5/2014,616,lv,,2014,11/4/2016,general,FALSE,REP,Kristi Noem,55
+SD,1,Nielson Brothers Polling,9/21/2014,9/25/2014,607,lv,,2014,11/4/2016,general,FALSE,DEM,Corinna Robinson,37
+SD,1,Nielson Brothers Polling,9/21/2014,9/25/2014,607,lv,,2014,11/4/2016,general,FALSE,REP,Kristi Noem,55
+SD,1,SurveyUSA,9/3/2014,9/7/2014,510,lv,,2014,11/4/2016,general,FALSE,DEM,Corinna Robinson,40
+SD,1,SurveyUSA,9/3/2014,9/7/2014,510,lv,,2014,11/4/2016,general,FALSE,REP,Kristi Noem,53
+SD,1,Nielson Brothers Polling,7/23/2014,7/28/2014,574,lv,,2014,11/4/2016,general,FALSE,DEM,Corinna Robinson,36
+SD,1,Nielson Brothers Polling,7/23/2014,7/28/2014,574,lv,,2014,11/4/2016,general,FALSE,REP,Kristi Noem,54
+MA,6,Emerson College,10/26/2014,10/29/2014,400,lv,,2014,11/4/2016,general,FALSE,DEM,Seth Moulton,40
+MA,6,Emerson College,10/26/2014,10/29/2014,400,lv,,2014,11/4/2016,general,FALSE,REP,Richard Tisei,42
+MA,6,Optimus,10/22/2014,10/25/2014,1807,lv,,2014,11/4/2016,general,FALSE,DEM,Seth Moulton,41
+MA,6,Optimus,10/22/2014,10/25/2014,1807,lv,,2014,11/4/2016,general,FALSE,REP,Richard Tisei,43
+MA,6,Optimus,10/16/2014,10/19/2014,2994,lv,,2014,11/4/2016,general,FALSE,DEM,Seth Moulton,48
+MA,6,Optimus,10/16/2014,10/19/2014,2994,lv,,2014,11/4/2016,general,FALSE,REP,Richard Tisei,46
+MA,6,Garin-Hart-Yang Research Group,10/16/2014,10/17/2014,406,lv,D,2014,11/4/2016,general,FALSE,DEM,Seth Moulton,47
+MA,6,Garin-Hart-Yang Research Group,10/16/2014,10/17/2014,406,lv,D,2014,11/4/2016,general,FALSE,REP,Richard Tisei,36
+MA,6,Emerson College,10/13/2014,10/14/2014,400,lv,,2014,11/4/2016,general,FALSE,DEM,Seth Moulton,40
+MA,6,Emerson College,10/13/2014,10/14/2014,400,lv,,2014,11/4/2016,general,FALSE,REP,Richard Tisei,43
+MA,6,Optimus,10/6/2014,10/9/2014,6929,lv,,2014,11/4/2016,general,FALSE,DEM,Seth Moulton,45
+MA,6,Optimus,10/6/2014,10/9/2014,6929,lv,,2014,11/4/2016,general,FALSE,REP,Richard Tisei,47
+MA,6,Voter Consumer Research,10/6/2014,10/9/2014,400,lv,R,2014,11/4/2016,general,FALSE,DEM,Seth Moulton,42
+MA,6,Voter Consumer Research,10/6/2014,10/9/2014,400,lv,R,2014,11/4/2016,general,FALSE,REP,Richard Tisei,44
+MA,6,Emerson College,9/26/2014,9/29/2014,429,lv,,2014,11/4/2016,general,FALSE,DEM,Seth Moulton,39
+MA,6,Emerson College,9/26/2014,9/29/2014,429,lv,,2014,11/4/2016,general,FALSE,REP,Richard Tisei,41
+MA,6,Garin-Hart-Yang Research Group,9/24/2014,9/27/2014,400,lv,D,2014,11/4/2016,general,FALSE,DEM,Seth Moulton,43
+MA,6,Garin-Hart-Yang Research Group,9/24/2014,9/27/2014,400,lv,D,2014,11/4/2016,general,FALSE,REP,Richard Tisei,33
+MA,6,Tarrance Group,9/23/2014,9/25/2014,400,lv,R,2014,11/4/2016,general,FALSE,DEM,Seth Moulton,40
+MA,6,Tarrance Group,9/23/2014,9/25/2014,400,lv,R,2014,11/4/2016,general,FALSE,REP,Richard Tisei,41
+MA,6,MassINC Polling Group,9/22/2014,9/24/2014,400,lv,,2014,11/4/2016,general,FALSE,DEM,Seth Moulton,47
+MA,6,MassINC Polling Group,9/22/2014,9/24/2014,400,lv,,2014,11/4/2016,general,FALSE,REP,Richard Tisei,39
+MA,6,Municipoll,9/12/2014,9/14/2014,490,lv,D,2014,11/4/2016,general,FALSE,DEM,Seth Moulton,49
+MA,6,Municipoll,9/12/2014,9/14/2014,490,lv,D,2014,11/4/2016,general,FALSE,REP,Richard Tisei,31
+MA,6,DCCC Targeting and Analytics Department,9/13/2014,9/13/2014,432,lv,D,2014,11/4/2016,general,FALSE,DEM,Seth Moulton,49
+MA,6,DCCC Targeting and Analytics Department,9/13/2014,9/13/2014,432,lv,D,2014,11/4/2016,general,FALSE,REP,Richard Tisei,41
+MA,6,Emerson College,9/2/2014,9/4/2014,500,lv,,2014,11/4/2016,general,FALSE,DEM,Seth Moulton,44
+MA,6,Emerson College,9/2/2014,9/4/2014,500,lv,,2014,11/4/2016,general,FALSE,REP,Richard Tisei,36
+MA,9,Emerson College,10/26/2014,10/29/2014,400,lv,,2014,11/4/2016,general,FALSE,DEM,William R. Keating,46
+MA,9,Emerson College,10/26/2014,10/29/2014,400,lv,,2014,11/4/2016,general,FALSE,REP,John Chapman,41
+MA,9,Emerson College,10/6/2014,10/7/2014,343,lv,,2014,11/4/2016,general,FALSE,DEM,William R. Keating,40
+MA,9,Emerson College,10/6/2014,10/7/2014,343,lv,,2014,11/4/2016,general,FALSE,REP,John Chapman,45
+CT,5,Internal Etsy Poll,10/8/2014,10/10/2014,400,lv,D,2014,11/4/2016,general,FALSE,DEM,Elizabeth Etsy,52
+CT,5,Internal Etsy Poll,10/8/2014,10/10/2014,400,lv,D,2014,11/4/2016,general,FALSE,REP,Mark Greenberg,36
+NY,1,Siena College,10/26/2014,10/29/2014,670,lv,,2014,11/4/2016,general,FALSE,DEM,Tim Bishop,45
+NY,1,Siena College,10/26/2014,10/29/2014,670,lv,,2014,11/4/2016,general,FALSE,REP,Lee Zeldin,50
+NY,1,Public Opinion Strategies,10/23/2014,10/25/2014,400,lv,R,2014,11/4/2016,general,FALSE,DEM,Tim Bishop,46
+NY,1,Public Opinion Strategies,10/23/2014,10/25/2014,400,lv,R,2014,11/4/2016,general,FALSE,REP,Lee Zeldin,46
+NY,1,Harper Polling,9/21/2014,9/22/2014,568,lv,R,2014,11/4/2016,general,FALSE,DEM,Tim Bishop,44
+NY,1,Harper Polling,9/21/2014,9/22/2014,568,lv,R,2014,11/4/2016,general,FALSE,REP,Lee Zeldin,44
+NY,1,Siena College,9/7/2014,9/11/2014,592,lv,,2014,11/4/2016,general,FALSE,DEM,Tim Bishop,51
+NY,1,Siena College,9/7/2014,9/11/2014,592,lv,,2014,11/4/2016,general,FALSE,REP,Lee Zeldin,41
+NY,4,Siena College,10/16/2014,10/20/2014,628,lv,,2014,11/4/2016,general,FALSE,DEM,Kathleen Rice,52
+NY,4,Siena College,10/16/2014,10/20/2014,628,lv,,2014,11/4/2016,general,FALSE,REP,Bruce Blakeman,42
+NY,4,Siena College,9/10/2014,9/15/2014,596,lv,,2014,11/4/2016,general,FALSE,DEM,Kathleen Rice,55
+NY,4,Siena College,9/10/2014,9/15/2014,596,lv,,2014,11/4/2016,general,FALSE,REP,Bruce Blakeman,37
+NY,11,Siena College,10/26/2014,10/28/2014,713,lv,,2014,11/4/2016,general,FALSE,DEM,Domenic Recchia,34
+NY,11,Siena College,10/26/2014,10/28/2014,713,lv,,2014,11/4/2016,general,FALSE,REP,Michael Grimm,53
+NY,11,GBA Strategies,9/15/2014,9/15/2014,400,lv,,2014,11/4/2016,general,FALSE,DEM,Domenic Recchia,46
+NY,11,GBA Strategies,9/15/2014,9/15/2014,400,lv,,2014,11/4/2016,general,FALSE,REP,Michael Grimm,46
+NY,11,Siena College,9/9/2014,9/14/2014,585,lv,,2014,11/4/2016,general,FALSE,DEM,Domenic Recchia,40
+NY,11,Siena College,9/9/2014,9/14/2014,585,lv,,2014,11/4/2016,general,FALSE,REP,Michael Grimm,44
+NY,18,Siena College,10/24/2014,10/27/2014,682,lv,,2014,11/4/2016,general,FALSE,DEM,Sean Patrick Maloney,49
+NY,18,Siena College,10/24/2014,10/27/2014,682,lv,,2014,11/4/2016,general,FALSE,REP,Nan Hayworth,44
+NY,18,Public Opinion Strategies,10/23/2014,10/25/2014,400,lv,R,2014,11/4/2016,general,FALSE,DEM,Sean Patrick Maloney,42
+NY,18,Public Opinion Strategies,10/23/2014,10/25/2014,400,lv,R,2014,11/4/2016,general,FALSE,REP,Nan Hayworth,42
+NY,18,Siena College,10/15/2014,10/16/2014,253,lv,,2014,11/4/2016,general,FALSE,DEM,Sean Patrick Maloney,41
+NY,18,Siena College,10/15/2014,10/16/2014,253,lv,,2014,11/4/2016,general,FALSE,REP,Nan Hayworth,52
+NY,18,Public Opinion Strategies,10/12/2014,10/13/2014,400,lv,R,2014,11/4/2016,general,FALSE,DEM,Sean Patrick Maloney,43
+NY,18,Public Opinion Strategies,10/12/2014,10/13/2014,400,lv,R,2014,11/4/2016,general,FALSE,REP,Nan Hayworth,39
+NY,18,Gravis Marketing/Kaplan Strategies,9/15/2014,9/15/2014,601,lv,,2014,11/4/2016,general,FALSE,DEM,Sean Patrick Maloney,46
+NY,18,Gravis Marketing/Kaplan Strategies,9/15/2014,9/15/2014,601,lv,,2014,11/4/2016,general,FALSE,REP,Nan Hayworth,40
+NY,18,Siena College,9/12/2014,9/17/2014,590,lv,,2014,11/4/2016,general,FALSE,DEM,Sean Patrick Maloney,50
+NY,18,Siena College,9/12/2014,9/17/2014,590,lv,,2014,11/4/2016,general,FALSE,REP,Nan Hayworth,42
+NY,18,Gravis Marketing/Kaplan Strategies,7/17/2014,7/19/2014,523,lv,,2014,11/4/2016,general,FALSE,DEM,Sean Patrick Maloney,40
+NY,18,Gravis Marketing/Kaplan Strategies,7/17/2014,7/19/2014,523,lv,,2014,11/4/2016,general,FALSE,REP,Nan Hayworth,44
+NY,19,Siena College,10/22/2014,10/24/2014,727,lv,,2014,11/4/2016,general,FALSE,DEM,Sean Eldridge,35
+NY,19,Siena College,10/22/2014,10/24/2014,727,lv,,2014,11/4/2016,general,FALSE,REP,Chris Gibson,58
+NY,19,Public Opinion Strategies,10/14/2014,10/15/2014,400,lv,R,2014,11/4/2016,general,FALSE,DEM,Sean Eldridge,30
+NY,19,Public Opinion Strategies,10/14/2014,10/15/2014,400,lv,R,2014,11/4/2016,general,FALSE,REP,Chris Gibson,56
+NY,19,Siena College,9/4/2014,9/9/2014,609,lv,,2014,11/4/2016,general,FALSE,DEM,Sean Eldridge,33
+NY,19,Siena College,9/4/2014,9/9/2014,609,lv,,2014,11/4/2016,general,FALSE,REP,Chris Gibson,57
+NY,19,DFM Research,7/7/2014,7/12/2014,405,lv,D,2014,11/4/2016,general,FALSE,DEM,Sean Eldridge,29
+NY,19,DFM Research,7/7/2014,7/12/2014,405,lv,D,2014,11/4/2016,general,FALSE,REP,Chris Gibson,56
+NY,21,Harper Polling,10/27/2014,10/28/2014,560,lv,R,2014,11/4/2016,general,FALSE,DEM,Aaron Woolf,33
+NY,21,Harper Polling,10/27/2014,10/28/2014,560,lv,R,2014,11/4/2016,general,FALSE,REP,Elise Stefanik,47
+NY,21,Siena College,10/20/2014,10/22/2014,674,lv,,2014,11/4/2016,general,FALSE,DEM,Aaron Woolf,32
+NY,21,Siena College,10/20/2014,10/22/2014,674,lv,,2014,11/4/2016,general,FALSE,REP,Elise Stefanik,50
+NY,21,Harper Polling,9/25/2014,9/29/2014,674,lv,R,2014,11/4/2016,general,FALSE,DEM,Aaron Woolf,37
+NY,21,Harper Polling,9/25/2014,9/29/2014,674,lv,R,2014,11/4/2016,general,FALSE,REP,Elise Stefanik,45
+NY,21,Siena College,9/4/2014,9/9/2014,591,lv,,2014,11/4/2016,general,FALSE,DEM,Aaron Woolf,33
+NY,21,Siena College,9/4/2014,9/9/2014,591,lv,,2014,11/4/2016,general,FALSE,REP,Elise Stefanik,46
+NY,24,Siena College,10/22/2014,10/24/2014,704,lv,,2014,11/4/2016,general,FALSE,DEM,Dan Maffei,42
+NY,24,Siena College,10/22/2014,10/24/2014,704,lv,,2014,11/4/2016,general,FALSE,REP,John Katko,52
+NY,24,Global Strategy Group,10/20/2014,10/22/2014,400,lv,D,2014,11/4/2016,general,FALSE,DEM,Dan Maffei,45
+NY,24,Global Strategy Group,10/20/2014,10/22/2014,400,lv,D,2014,11/4/2016,general,FALSE,REP,John Katko,40
+NY,24,Public Opinion Strategies,9/22/2014,9/23/2014,400,lv,R,2014,11/4/2016,general,FALSE,DEM,Dan Maffei,46
+NY,24,Public Opinion Strategies,9/22/2014,9/23/2014,400,lv,R,2014,11/4/2016,general,FALSE,REP,John Katko,43
+NY,24,Siena College,9/17/2014,9/18/2014,598,lv,,2014,11/4/2016,general,FALSE,DEM,Dan Maffei,50
+NY,24,Siena College,9/17/2014,9/18/2014,598,lv,,2014,11/4/2016,general,FALSE,REP,John Katko,42
+NY,24,Public Opinion Strategies,7/27/2014,7/29/2014,400,lv,,2014,11/4/2016,general,FALSE,DEM,Dan Maffei,45
+NY,24,Public Opinion Strategies,7/27/2014,7/29/2014,400,lv,,2014,11/4/2016,general,FALSE,REP,John Katko,40
+NJ,2,Stockton University,10/25/2014,10/27/2014,600,lv,,2014,11/4/2016,general,FALSE,DEM,Bill Hughes,38
+NJ,2,Stockton University,10/25/2014,10/27/2014,600,lv,,2014,11/4/2016,general,FALSE,REP,Frank LoBiondo,56
+NJ,2,Monmouth University,10/12/2014,10/14/2014,638,lv,,2014,11/4/2016,general,FALSE,DEM,Bill Hughes,35
+NJ,2,Monmouth University,10/12/2014,10/14/2014,638,lv,,2014,11/4/2016,general,FALSE,REP,Frank LoBiondo,56
+NJ,2,Stockton University,9/27/2014,10/1/2014,604,lv,,2014,11/4/2016,general,FALSE,DEM,Bill Hughes,42
+NJ,2,Stockton University,9/27/2014,10/1/2014,604,lv,,2014,11/4/2016,general,FALSE,REP,Frank LoBiondo,47
+NJ,3,Stockton University,10/25/2014,10/28/2014,617,lv,,2014,11/4/2016,general,FALSE,DEM,Aimee Belgard,41
+NJ,3,Stockton University,10/25/2014,10/28/2014,617,lv,,2014,11/4/2016,general,FALSE,REP,Tom MacArthur,46
+NJ,3,Monmouth University,10/9/2014,10/13/2014,423,lv,,2014,11/4/2016,general,FALSE,DEM,Aimee Belgard,41
+NJ,3,Monmouth University,10/9/2014,10/13/2014,423,lv,,2014,11/4/2016,general,FALSE,REP,Tom MacArthur,51
+NJ,3,DCCC Targeting and Analytics Department,10/27/2014,10/28/2014,603,lv,D,2014,11/4/2016,general,FALSE,DEM,Aimee Belgard,43
+NJ,3,DCCC Targeting and Analytics Department,10/27/2014,10/28/2014,603,lv,D,2014,11/4/2016,general,FALSE,REP,Tom MacArthur,42
+NJ,3,GBA Strategies,9/15/2014,9/15/2014,400,lv,D,2014,11/4/2016,general,FALSE,DEM,Aimee Belgard,43
+NJ,3,GBA Strategies,9/15/2014,9/15/2014,400,lv,D,2014,11/4/2016,general,FALSE,REP,Tom MacArthur,46
+NJ,3,Stockton University,9/12/2014,9/13/2014,606,lv,,2014,11/4/2016,general,FALSE,DEM,Aimee Belgard,42
+NJ,3,Stockton University,9/12/2014,9/13/2014,606,lv,,2014,11/4/2016,general,FALSE,REP,Tom MacArthur,42
+NJ,5,Monmouth University,10/27/2014,10/29/2014,427,lv,,2014,11/4/2016,general,FALSE,DEM,Roy Cho,42
+NJ,5,Monmouth University,10/27/2014,10/29/2014,427,lv,,2014,11/4/2016,general,FALSE,REP,Scott Garrett,53
+NJ,5,Garin-Hart-Yang Research Group,10/13/2014,10/15/2014,400,lv,D,2014,11/4/2016,general,FALSE,DEM,Roy Cho,40
+NJ,5,Garin-Hart-Yang Research Group,10/13/2014,10/15/2014,400,lv,D,2014,11/4/2016,general,FALSE,REP,Scott Garrett,47
+NJ,5,Monmouth University,10/10/2014,10/14/2014,432,lv,,2014,11/4/2016,general,FALSE,DEM,Roy Cho,43
+NJ,5,Monmouth University,10/10/2014,10/14/2014,432,lv,,2014,11/4/2016,general,FALSE,REP,Scott Garrett,48
+NJ,5,Garin-Hart-Yang Research Group,6/19/2014,6/22/2014,404,lv,D,2014,11/4/2016,general,FALSE,DEM,Roy Cho,34
+NJ,5,Garin-Hart-Yang Research Group,6/19/2014,6/22/2014,404,lv,D,2014,11/4/2016,general,FALSE,REP,Scott Garrett,47
+PA,6,Lake Research Partners,7/15/2014,7/17/2014,400,lv,D,2014,11/4/2016,general,FALSE,DEM,Manan Trivedi,30
+PA,6,Lake Research Partners,7/15/2014,7/17/2014,400,lv,D,2014,11/4/2016,general,FALSE,REP,Ryan Costello,35
+PA,6,Tarrance Group,5/5/2014,5/7/2014,300,lv,R,2014,11/4/2016,general,FALSE,DEM,Manan Trivedi,36
+PA,6,Tarrance Group,5/5/2014,5/7/2014,300,lv,R,2014,11/4/2016,general,FALSE,REP,Ryan Costello,49
+PA,6,Lake Research Partners,1/27/2014,1/30/2014,350,lv,D,2014,11/4/2016,general,FALSE,DEM,Manan Trivedi,34
+PA,6,Lake Research Partners,1/27/2014,1/30/2014,350,lv,D,2014,11/4/2016,general,FALSE,REP,Ryan Costello,36
+PA,8,American Viewpoint,8/24/2014,8/26/2014,400,lv,R,2014,11/4/2016,general,FALSE,DEM,Kevin Strouse,30
+PA,8,American Viewpoint,8/24/2014,8/26/2014,400,lv,R,2014,11/4/2016,general,FALSE,REP,Mike Fitzpatrick,60
+PA,10,JMC Enterprises,9/18/2014,9/21/2014,492,lv,D,2014,11/4/2016,general,FALSE,DEM,Scott Brion,26
+PA,10,JMC Enterprises,9/18/2014,9/21/2014,492,lv,D,2014,11/4/2016,general,FALSE,REP,Tom Marino,38
+WV,1,YouGov,10/16/2014,10/23/2016,276,lv,,2014,11/4/2016,general,FALSE,DEM,Glen Gainer,25
+WV,1,YouGov,10/16/2014,10/23/2016,276,lv,,2014,11/4/2016,general,FALSE,REP,David McKinley,53
+WV,2,YouGov,10/16/2014,10/23/2016,348,lv,,2014,11/4/2016,general,FALSE,DEM,Nick Casey,44
+WV,2,YouGov,10/16/2014,10/23/2016,348,lv,,2014,11/4/2016,general,FALSE,REP,Alex Mooney,45
+WV,2,Public Opinion Strategies,8/10/2014,8/12/2014,400,lv,R,2014,11/4/2016,general,FALSE,DEM,Nick Casey,28
+WV,2,Public Opinion Strategies,8/10/2014,8/12/2014,400,lv,R,2014,11/4/2016,general,FALSE,REP,Alex Mooney,40
+WV,2,Tarrance Group,5/20/2014,5/22/2014,400,lv,R,2014,11/4/2016,general,FALSE,DEM,Nick Casey,31
+WV,2,Tarrance Group,5/20/2014,5/22/2014,400,lv,R,2014,11/4/2016,general,FALSE,REP,Alex Mooney,43
+WV,3,YouGov,10/16/2014,10/23/2016,253,lv,,2014,11/4/2016,general,FALSE,DEM,Nick Rahall,45
+WV,3,YouGov,10/16/2014,10/23/2016,253,lv,,2014,11/4/2016,general,FALSE,REP,Evan Jenkins,50
+WV,3,Harper Polling,10/7/2014,10/8/2014,657,lv,R,2014,11/4/2016,general,FALSE,DEM,Nick Rahall,44
+WV,3,Harper Polling,10/7/2014,10/8/2014,657,lv,R,2014,11/4/2016,general,FALSE,REP,Evan Jenkins,50
+WV,3,Garin-Hart-Yang Research Group,5/26/2014,5/28/2014,403,lv,D,2014,11/4/2016,general,FALSE,DEM,Nick Rahall,52
+WV,3,Garin-Hart-Yang Research Group,5/26/2014,5/28/2014,403,lv,D,2014,11/4/2016,general,FALSE,REP,Evan Jenkins,39
+WV,3,Anzalone Liszt Grove Research,5/12/2014,5/14/2014,502,lv,D,2014,11/4/2016,general,FALSE,DEM,Nick Rahall,52
+WV,3,Anzalone Liszt Grove Research,5/12/2014,5/14/2014,502,lv,D,2014,11/4/2016,general,FALSE,REP,Evan Jenkins,39
+WV,3,DFM Research,4/22/2014,4/27/2014,400,lv,D,2014,11/4/2016,general,FALSE,DEM,Nick Rahall,48
+WV,3,DFM Research,4/22/2014,4/27/2014,400,lv,D,2014,11/4/2016,general,FALSE,REP,Evan Jenkins,39
+WV,3,Garin-Hart-Yang Research Group,4/15/2014,4/16/2014,400,lv,D,2014,11/4/2016,general,FALSE,DEM,Nick Rahall,52
+WV,3,Garin-Hart-Yang Research Group,4/15/2014,4/16/2014,400,lv,D,2014,11/4/2016,general,FALSE,REP,Evan Jenkins,40
+WV,3,Tarrance Group,3/3/2014,3/5/2014,405,lv,R,2014,11/4/2016,general,FALSE,DEM,Nick Rahall,40
+WV,3,Tarrance Group,3/3/2014,3/5/2014,405,lv,R,2014,11/4/2016,general,FALSE,REP,Evan Jenkins,54
+VA,10,YouGov,10/16/2014,10/23/2014,176,lv,,2014,11/4/2016,general,FALSE,DEM,John Foust,40
+VA,10,YouGov,10/16/2014,10/23/2014,176,lv,,2014,11/4/2016,general,FALSE,REP,Barbara J. Comstock,42
+VA,10,The Polling Company Inc.,10/17/2014,10/18/2014,404,lv,R,2014,11/4/2016,general,FALSE,DEM,John Foust,35
+VA,10,The Polling Company Inc.,10/17/2014,10/18/2014,404,lv,R,2014,11/4/2016,general,FALSE,REP,Barbara J. Comstock,51
+VA,10,Tarrance Group,9/23/2014,9/25/2014,403,lv,R,2014,11/4/2016,general,FALSE,DEM,John Foust,34
+VA,10,Tarrance Group,9/23/2014,9/25/2014,403,lv,R,2014,11/4/2016,general,FALSE,REP,Barbara J. Comstock,46
+NC,2,Civitas,9/26/2014,9/28/2014,400,rv,,2014,11/4/2016,general,FALSE,DEM,Clay Aiken,39
+NC,2,Civitas,9/26/2014,9/28/2014,400,rv,,2014,11/4/2016,general,FALSE,REP,Renee Ellmers,47
+NC,6,WPA Intelligence (WPAi),9/3/2014,9/4/2014,306,lv,R,2014,11/4/2016,general,FALSE,DEM,Laura Fjeld,31
+NC,6,WPA Intelligence (WPAi),9/3/2014,9/4/2014,306,lv,R,2014,11/4/2016,general,FALSE,REP,Mark Walker,54
+GA,12,Landmark Communications,11/2/2014,11/2/2014,500,lv,,2014,11/4/2016,general,FALSE,DEM,John Barrow,46
+GA,12,Landmark Communications,11/2/2014,11/2/2014,500,lv,,2014,11/4/2016,general,FALSE,REP,Rick Allen,47
+GA,12,Landmark Communications,10/30/2014,10/30/2014,500,lv,,2014,11/4/2016,general,FALSE,DEM,John Barrow,44
+GA,12,Landmark Communications,10/30/2014,10/30/2014,500,lv,,2014,11/4/2016,general,FALSE,REP,Rick Allen,48
+GA,12,Public Opinion Strategies,9/15/2014,9/17/2014,400,lv,R,2014,11/4/2016,general,FALSE,DEM,John Barrow,44
+GA,12,Public Opinion Strategies,9/15/2014,9/17/2014,400,lv,R,2014,11/4/2016,general,FALSE,REP,Rick Allen,42
+FL,2,National Research Inc.,10/1/2014,10/2/2014,400,lv,R,2014,11/4/2016,general,FALSE,DEM,Gwen Graham,39
+FL,2,National Research Inc.,10/1/2014,10/2/2014,400,lv,R,2014,11/4/2016,general,FALSE,REP,Steve Southerland,45
+FL,2,Anzalone Liszt Grove Research,9/21/2014,9/24/2014,500,lv,D,2014,11/4/2016,general,FALSE,DEM,Gwen Graham,48
+FL,2,Anzalone Liszt Grove Research,9/21/2014,9/24/2014,500,lv,D,2014,11/4/2016,general,FALSE,REP,Steve Southerland,45
+FL,2,Pathfinder Opinion Research,8/11/2014,8/12/2014,400,lv,,2014,11/4/2016,general,FALSE,DEM,Gwen Graham,45
+FL,2,Pathfinder Opinion Research,8/11/2014,8/12/2014,400,lv,,2014,11/4/2016,general,FALSE,REP,Steve Southerland,43
+FL,2,Pathfinder Opinion Research,4/22/2014,4/24/2014,500,lv,,2014,11/4/2016,general,FALSE,DEM,Gwen Graham,39
+FL,2,Pathfinder Opinion Research,4/22/2014,4/24/2014,500,lv,,2014,11/4/2016,general,FALSE,REP,Steve Southerland,49
+FL,2,Anzalone Liszt Grove Research,3/2/2014,3/6/2014,500,lv,D,2014,11/4/2016,general,FALSE,DEM,Gwen Graham,40
+FL,2,Anzalone Liszt Grove Research,3/2/2014,3/6/2014,500,lv,D,2014,11/4/2016,general,FALSE,REP,Steve Southerland,42
+FL,9,Data Targeting,10/9/2014,10/12/2014,305,lv,R,2014,11/4/2016,general,FALSE,DEM,Alan Grayson,40
+FL,9,Data Targeting,10/9/2014,10/12/2014,305,lv,R,2014,11/4/2016,general,FALSE,REP,Carol Platt,35
+FL,15,Anzalone Liszt Grove Research,6/5/2014,6/8/2014,400,lv,D,2014,11/4/2016,general,FALSE,DEM,Alan Cohn,35
+FL,15,Anzalone Liszt Grove Research,6/5/2014,6/8/2014,400,lv,D,2014,11/4/2016,general,FALSE,REP,Dennis Ross,42
+FL,18,FrederickPolls,8/27/2014,8/28/2014,400,lv,D,2014,11/4/2016,general,FALSE,DEM,Patrick Murphy,54
+FL,18,FrederickPolls,8/27/2014,8/28/2014,400,lv,D,2014,11/4/2016,general,FALSE,REP,Carl J. Domino,33
+FL,26,Saint Leo University,10/15/2014,10/15/2014,400,lv,,2014,11/4/2016,general,FALSE,DEM,Joe Garcia,42
+FL,26,Saint Leo University,10/15/2014,10/15/2014,400,lv,,2014,11/4/2016,general,FALSE,REP,Carlos Curbelo,46
+FL,26,DCCC Targeting and Analytics Department,9/28/2014,10/1/2014,400,lv,D,2014,11/4/2016,general,FALSE,DEM,Joe Garcia,45
+FL,26,DCCC Targeting and Analytics Department,9/28/2014,10/1/2014,400,lv,D,2014,11/4/2016,general,FALSE,REP,Carlos Curbelo,40
+FL,26,McLaughlin & Associates,9/9/2014,9/11/2014,400,lv,R,2014,11/4/2016,general,FALSE,DEM,Joe Garcia,40
+FL,26,McLaughlin & Associates,9/9/2014,9/11/2014,400,lv,R,2014,11/4/2016,general,FALSE,REP,Carlos Curbelo,44
+KY,6,Public Opinion Strategies,9/17/2014,9/18/2014,400,lv,R,2014,11/4/2016,general,FALSE,DEM,Elisabeth Jensen,36
+KY,6,Public Opinion Strategies,9/17/2014,9/18/2014,400,lv,R,2014,11/4/2016,general,FALSE,REP,Andy Barr,55
+KY,6,Lake Research Partners,9/15/2014,9/17/2014,400,lv,D,2014,11/4/2016,general,FALSE,DEM,Elisabeth Jensen,36
+KY,6,Lake Research Partners,9/15/2014,9/17/2014,400,lv,D,2014,11/4/2016,general,FALSE,REP,Andy Barr,45
+AR,1,Hendrix College,10/15/2014,10/16/2014,437,lv,,2014,11/4/2016,general,FALSE,DEM,Jackie McPherson,30
+AR,1,Hendrix College,10/15/2014,10/16/2014,437,lv,,2014,11/4/2016,general,FALSE,REP,Rick Crawford,52
+AR,1,Hendrix College,7/22/2014,7/25/2014,450,lv,,2014,11/4/2016,general,FALSE,DEM,Jackie McPherson,33
+AR,1,Hendrix College,7/22/2014,7/25/2014,450,lv,,2014,11/4/2016,general,FALSE,REP,Rick Crawford,47
+AR,2,Hendrix College,10/15/2014,10/16/2014,605,lv,,2014,11/4/2016,general,FALSE,DEM,Pat Hays,46
+AR,2,Hendrix College,10/15/2014,10/16/2014,605,lv,,2014,11/4/2016,general,FALSE,REP,French Hill,41
+AR,2,Global Strategy Group,9/7/2014,9/9/2014,410,lv,D,2014,11/4/2016,general,FALSE,DEM,Pat Hays,44
+AR,2,Global Strategy Group,9/7/2014,9/9/2014,410,lv,D,2014,11/4/2016,general,FALSE,REP,French Hill,41
+AR,2,Hendrix College,7/22/2014,7/25/2014,483,lv,,2014,11/4/2016,general,FALSE,DEM,Pat Hays,43
+AR,2,Hendrix College,7/22/2014,7/25/2014,483,lv,,2014,11/4/2016,general,FALSE,REP,French Hill,44
+AR,4,Diamond State Consulting,10/23/2014,10/23/2014,792,lv,R,2014,11/4/2016,general,FALSE,DEM,James Lee Witt,39
+AR,4,Diamond State Consulting,10/23/2014,10/23/2014,792,lv,R,2014,11/4/2016,general,FALSE,REP,Bruce Westerman,46
+AR,4,Hendrix College,10/15/2014,10/16/2014,607,lv,,2014,11/4/2016,general,FALSE,DEM,James Lee Witt,42
+AR,4,Hendrix College,10/15/2014,10/16/2014,607,lv,,2014,11/4/2016,general,FALSE,REP,Bruce Westerman,44
+AR,4,OnMessage,7/29/2014,7/31/2014,400,lv,R,2014,11/4/2016,general,FALSE,DEM,James Lee Witt,29
+AR,4,OnMessage,7/29/2014,7/31/2014,400,lv,R,2014,11/4/2016,general,FALSE,REP,Bruce Westerman,47
+AR,4,Hendrix College,7/22/2014,7/25/2014,439,lv,,2014,11/4/2016,general,FALSE,DEM,James Lee Witt,34
+AR,4,Hendrix College,7/22/2014,7/25/2014,439,lv,,2014,11/4/2016,general,FALSE,REP,Bruce Westerman,48
+IA,1,Loras College,10/21/2014,10/24/2014,282,lv,,2014,11/4/2016,general,FALSE,DEM,Pat Murphy,42
+IA,1,Loras College,10/21/2014,10/24/2014,282,lv,,2014,11/4/2016,general,FALSE,REP,Rod Blum,44
+IA,1,The Polling Company Inc.,10/1/2014,10/2/2014,300,lv,R,2014,11/4/2016,general,FALSE,DEM,Pat Murphy,39
+IA,1,The Polling Company Inc.,10/1/2014,10/2/2014,300,lv,R,2014,11/4/2016,general,FALSE,REP,Rod Blum,40
+IA,1,Loras College,9/2/2014,9/5/2014,300,lv,,2014,11/4/2016,general,FALSE,DEM,Pat Murphy,35
+IA,1,Loras College,9/2/2014,9/5/2014,300,lv,,2014,11/4/2016,general,FALSE,REP,Rod Blum,33
+IA,1,The Polling Company Inc.,8/11/2014,8/12/2014,401,lv,R,2014,11/4/2016,general,FALSE,DEM,Pat Murphy,40
+IA,1,The Polling Company Inc.,8/11/2014,8/12/2014,401,lv,R,2014,11/4/2016,general,FALSE,REP,Rod Blum,35
+IA,1,Myers Research,7/31/2014,8/4/2014,400,lv,D,2014,11/4/2016,general,FALSE,DEM,Pat Murphy,51
+IA,1,Myers Research,7/31/2014,8/4/2014,400,lv,D,2014,11/4/2016,general,FALSE,REP,Rod Blum,40
+IA,2,Loras College,10/21/2014,10/24/2014,279,lv,,2014,11/4/2016,general,FALSE,DEM,Dave Loebsack,51
+IA,2,Loras College,10/21/2014,10/24/2014,279,lv,,2014,11/4/2016,general,FALSE,REP,Mariannette Miller-Meeks,38
+IA,2,Loras College,9/2/2014,9/5/2014,300,lv,,2014,11/4/2016,general,FALSE,DEM,Dave Loebsack,49
+IA,2,Loras College,9/2/2014,9/5/2014,300,lv,,2014,11/4/2016,general,FALSE,REP,Mariannette Miller-Meeks,32
+IA,2,Tarrance Group,8/3/2014,8/5/2014,400,lv,R,2014,11/4/2016,general,FALSE,DEM,Dave Loebsack,45
+IA,2,Tarrance Group,8/3/2014,8/5/2014,400,lv,R,2014,11/4/2016,general,FALSE,REP,Mariannette Miller-Meeks,42
+IA,3,Loras College,10/21/2014,10/24/2014,280,lv,,2014,11/4/2016,general,FALSE,DEM,Dave Loebsack,44
+IA,3,Loras College,10/21/2014,10/24/2014,280,lv,,2014,11/4/2016,general,FALSE,REP,Mariannette Miller-Meeks,46
+IA,3,Remington Research Group,10/11/2014,10/13/2014,663,lv,,2014,11/4/2016,general,FALSE,DEM,Dave Loebsack,42
+IA,3,Remington Research Group,10/11/2014,10/13/2014,663,lv,,2014,11/4/2016,general,FALSE,REP,Mariannette Miller-Meeks,46
+IA,3,GQR Research (GQRR),10/1/2014,10/2/2014,400,lv,D,2014,11/4/2016,general,FALSE,DEM,Dave Loebsack,49
+IA,3,GQR Research (GQRR),10/1/2014,10/2/2014,400,lv,D,2014,11/4/2016,general,FALSE,REP,Mariannette Miller-Meeks,42
+IA,3,GQR Research (GQRR),9/15/2014,9/17/2014,400,lv,D,2014,11/4/2016,general,FALSE,DEM,Dave Loebsack,47
+IA,3,GQR Research (GQRR),9/15/2014,9/17/2014,400,lv,D,2014,11/4/2016,general,FALSE,REP,Mariannette Miller-Meeks,44
+IA,3,Loras College,9/2/2014,9/5/2014,300,lv,,2014,11/4/2016,general,FALSE,DEM,Dave Loebsack,40
+IA,3,Loras College,9/2/2014,9/5/2014,300,lv,,2014,11/4/2016,general,FALSE,REP,Mariannette Miller-Meeks,34
+IA,4,Loras College,10/21/2014,10/24/2014,280,lv,,2014,11/4/2016,general,FALSE,DEM,Jim Mowrer,39
+IA,4,Loras College,10/21/2014,10/24/2014,280,lv,,2014,11/4/2016,general,FALSE,REP,Steve King,51
+IA,4,The Polling Company Inc.,10/1/2014,10/2/2014,407,lv,R,2014,11/4/2016,general,FALSE,DEM,Jim Mowrer,38
+IA,4,The Polling Company Inc.,10/1/2014,10/2/2014,407,lv,R,2014,11/4/2016,general,FALSE,REP,Steve King,51
+IA,4,DFM Research,9/20/2014,9/23/2014,450,lv,D,2014,11/4/2016,general,FALSE,DEM,Jim Mowrer,43
+IA,4,DFM Research,9/20/2014,9/23/2014,450,lv,D,2014,11/4/2016,general,FALSE,REP,Steve King,46
+IA,4,Loras College,9/2/2014,9/5/2014,300,lv,,2014,11/4/2016,general,FALSE,DEM,Jim Mowrer,36
+IA,4,Loras College,9/2/2014,9/5/2014,300,lv,,2014,11/4/2016,general,FALSE,REP,Steve King,47
+MI,6,Hamilton Campaigns,10/24/2014,10/26/2014,400,lv,D,2014,11/4/2016,general,FALSE,DEM,Paul Clements,43
+MI,6,Hamilton Campaigns,10/24/2014,10/26/2014,400,lv,D,2014,11/4/2016,general,FALSE,REP,Fred Upton,47
+MI,7,DCCC Targeting and Analytics Department,10/5/2014,10/5/2014,448,lv,D,2014,11/4/2016,general,FALSE,DEM,Pam Byrnes,42
+MI,7,DCCC Targeting and Analytics Department,10/5/2014,10/5/2014,448,lv,D,2014,11/4/2016,general,FALSE,REP,Tim Walberg,43
+MI,8,GBA Strategies,8/18/2014,8/21/2014,400,lv,D,2014,11/4/2016,general,FALSE,DEM,Eric Schertzing,37
+MI,8,GBA Strategies,8/18/2014,8/21/2014,400,lv,D,2014,11/4/2016,general,FALSE,REP,Mike Bishop,42
+MI,11,Mitchell Research,10/15/2014,10/15/2014,472,lv,,2014,11/4/2016,general,FALSE,DEM,Bobby McKenzie,35
+MI,11,Mitchell Research,10/15/2014,10/15/2014,472,lv,,2014,11/4/2016,general,FALSE,REP,David Trott,47
+MI,11,Tulchin Research,8/20/2014,8/24/2014,500,lv,D,2014,11/4/2016,general,FALSE,DEM,Bobby McKenzie,40
+MI,11,Tulchin Research,8/20/2014,8/24/2014,500,lv,D,2014,11/4/2016,general,FALSE,REP,David Trott,44
+MN,1,Harper Polling,9/9/2014,9/10/2014,437,lv,R,2014,11/4/2016,general,FALSE,DEM,Tim Walz,38
+MN,1,Harper Polling,9/9/2014,9/10/2014,437,lv,R,2014,11/4/2016,general,FALSE,REP,Jim Hagedorn,32
+MN,2,Remington Research Group,9/18/2014,9/21/2014,568,lv,,2014,11/4/2016,general,FALSE,DEM,Mike Obermueller,32
+MN,2,Remington Research Group,9/18/2014,9/21/2014,568,lv,,2014,11/4/2016,general,FALSE,REP,John Kline,54
+MN,7,Tarrance Group,10/12/2014,10/14/2014,300,lv,R,2014,11/4/2016,general,FALSE,DEM,Collin Peterson,43
+MN,7,Tarrance Group,10/12/2014,10/14/2014,300,lv,R,2014,11/4/2016,general,FALSE,REP,Torrey Westrom,44
+MN,7,SurveyUSA,10/3/2014,10/6/2014,545,lv,,2014,11/4/2016,general,FALSE,DEM,Collin Peterson,50
+MN,7,SurveyUSA,10/3/2014,10/6/2014,545,lv,,2014,11/4/2016,general,FALSE,REP,Torrey Westrom,41
+MN,7,Tarrance Group,9/21/2014,9/23/2014,402,lv,R,2014,11/4/2016,general,FALSE,DEM,Collin Peterson,45
+MN,7,Tarrance Group,9/21/2014,9/23/2014,402,lv,R,2014,11/4/2016,general,FALSE,REP,Torrey Westrom,40
+MN,7,Global Strategy Group,9/4/2014,9/7/2014,405,lv,D,2014,11/4/2016,general,FALSE,DEM,Collin Peterson,53
+MN,7,Global Strategy Group,9/4/2014,9/7/2014,405,lv,D,2014,11/4/2016,general,FALSE,REP,Torrey Westrom,29
+MN,7,Tarrance Group,2/3/2014,2/5/2014,400,lv,R,2014,11/4/2016,general,FALSE,DEM,Collin Peterson,46
+MN,7,Tarrance Group,2/3/2014,2/5/2014,400,lv,R,2014,11/4/2016,general,FALSE,REP,Torrey Westrom,39
+MN,8,SurveyUSA,10/9/2014,10/10/2014,555,lv,,2014,11/4/2016,general,FALSE,DEM,Rick Nolan,39
+MN,8,SurveyUSA,10/9/2014,10/10/2014,555,lv,,2014,11/4/2016,general,FALSE,REP,Stewart Mills,47
+MN,8,GQR Research (GQRR),9/25/2014,9/28/2014,405,lv,D,2014,11/4/2016,general,FALSE,DEM,Rick Nolan,48
+MN,8,GQR Research (GQRR),9/25/2014,9/28/2014,405,lv,D,2014,11/4/2016,general,FALSE,REP,Stewart Mills,37
+NE,2,DFM Research,10/21/2014,10/25/2014,365,lv,D,2014,11/4/2016,general,FALSE,DEM,Brad Ashford,46
+NE,2,DFM Research,10/21/2014,10/25/2014,365,lv,D,2014,11/4/2016,general,FALSE,REP,Steven Laird,41
+NE,2,DCCC Targeting and Analytics Department,8/14/2014,8/14/2014,432,lv,D,2014,11/4/2016,general,FALSE,DEM,Brad Ashford,46
+NE,2,DCCC Targeting and Analytics Department,8/14/2014,8/14/2014,432,lv,D,2014,11/4/2016,general,FALSE,REP,Steven Laird,45
+NE,2,Global Strategy Group,5/29/2014,6/1/2014,400,lv,D,2014,11/4/2016,general,FALSE,DEM,Brad Ashford,41
+NE,2,Global Strategy Group,5/29/2014,6/1/2014,400,lv,D,2014,11/4/2016,general,FALSE,REP,Steven Laird,41
+KS,1,Jayhawk Consulting Services,10/25/2014,10/26/2014,400,lv,D,2014,11/4/2016,general,FALSE,DEM,Jim Sherow,45
+KS,1,Jayhawk Consulting Services,10/25/2014,10/26/2014,400,lv,D,2014,11/4/2016,general,FALSE,REP,Tim Huelskamp,38
+KS,2,Tarrance Group,10/18/2014,10/20/2014,400,lv,R,2014,11/4/2016,general,FALSE,DEM,Margie Wakefield,37
+KS,2,Tarrance Group,10/18/2014,10/20/2014,400,lv,R,2014,11/4/2016,general,FALSE,REP,Lynn Jenkins,49
+KS,2,Anzalone Liszt Grove Research,10/3/2014,10/6/2014,400,lv,D,2014,11/4/2016,general,FALSE,DEM,Margie Wakefield,43
+KS,2,Anzalone Liszt Grove Research,10/3/2014,10/6/2014,400,lv,D,2014,11/4/2016,general,FALSE,REP,Lynn Jenkins,48
+KS,2,Anzalone Liszt Grove Research,7/20/2014,7/22/2014,400,lv,D,2014,11/4/2016,general,FALSE,DEM,Margie Wakefield,42
+KS,2,Anzalone Liszt Grove Research,7/20/2014,7/22/2014,400,lv,D,2014,11/4/2016,general,FALSE,REP,Lynn Jenkins,49
+KS,3,Lake Research Partners,5/12/2014,5/15/2014,400,lv,D,2014,11/4/2016,general,FALSE,DEM,Kelly Kultala,34
+KS,3,Lake Research Partners,5/12/2014,5/15/2014,400,lv,D,2014,11/4/2016,general,FALSE,REP,Kevin Yoder,42
+OK,5,SoonerPoll,10/28/2014,10/28/2014,762,lv,,2014,11/4/2016,general,FALSE,DEM,Al McAffrey,31
+OK,5,SoonerPoll,10/28/2014,10/28/2014,762,lv,,2014,11/4/2016,general,FALSE,REP,Steve Russell,55
+OK,5,SoonerPoll,8/28/2014,8/30/2014,334,lv,,2014,11/4/2016,general,FALSE,DEM,Al McAffrey,30
+OK,5,SoonerPoll,8/28/2014,8/30/2014,334,lv,,2014,11/4/2016,general,FALSE,REP,Steve Russell,52
+MT,1,Gravis Marketing/Kaplan Strategies,10/23/2014,10/24/2014,604,lv,,2014,11/4/2016,general,FALSE,DEM,John Lewis,41
+MT,1,Gravis Marketing/Kaplan Strategies,10/23/2014,10/24/2014,604,lv,,2014,11/4/2016,general,FALSE,REP,Ryan Zinke,53
+MT,1,Montana State University Billings,10/6/2014,10/11/2014,410,lv,,2014,11/4/2016,general,FALSE,DEM,John Lewis,33
+MT,1,Montana State University Billings,10/6/2014,10/11/2014,410,lv,,2014,11/4/2016,general,FALSE,REP,Ryan Zinke,40
+MT,1,Gravis Marketing/Kaplan Strategies,9/29/2014,9/30/2014,535,lv,,2014,11/4/2016,general,FALSE,DEM,John Lewis,41
+MT,1,Gravis Marketing/Kaplan Strategies,9/29/2014,9/30/2014,535,lv,,2014,11/4/2016,general,FALSE,REP,Ryan Zinke,51
+MT,1,Vox Populi Polling,8/3/2014,8/4/2014,798,rv,,2014,11/4/2016,general,FALSE,DEM,John Lewis,37
+MT,1,Vox Populi Polling,8/3/2014,8/4/2014,798,rv,,2014,11/4/2016,general,FALSE,REP,Ryan Zinke,44
+MT,1,Gravis Marketing/Kaplan Strategies,7/20/2014,7/22/2014,741,lv,,2014,11/4/2016,general,FALSE,DEM,John Lewis,35
+MT,1,Gravis Marketing/Kaplan Strategies,7/20/2014,7/22/2014,741,lv,,2014,11/4/2016,general,FALSE,REP,Ryan Zinke,47
+AK,1,Public Policy Polling,11/1/2014,11/2/2014,1052,lv,D,2014,11/4/2016,general,FALSE,DEM,Forrest Dunbar,41
+AK,1,Public Policy Polling,11/1/2014,11/2/2014,1052,lv,D,2014,11/4/2016,general,FALSE,REP,Don Young,47
+AK,1,Moore Information,10/24/2014,10/26/2014,544,lv,R,2014,11/4/2016,general,FALSE,DEM,Forrest Dunbar,43
+AK,1,Moore Information,10/24/2014,10/26/2014,544,lv,R,2014,11/4/2016,general,FALSE,REP,Don Young,44
+AK,1,Hellenthal & Associates,10/15/2014,10/21/2014,403,lv,,2014,11/4/2016,general,FALSE,DEM,Forrest Dunbar,35
+AK,1,Hellenthal & Associates,10/15/2014,10/21/2014,403,lv,,2014,11/4/2016,general,FALSE,REP,Don Young,52
+AK,1,Public Policy Polling,9/18/2014,9/21/2014,880,lv,D,2014,11/4/2016,general,FALSE,DEM,Forrest Dunbar,33
+AK,1,Public Policy Polling,9/18/2014,9/21/2014,880,lv,D,2014,11/4/2016,general,FALSE,REP,Don Young,48
+AZ,1,"North Star Opinion Research/Ayres, McHenry & Associates",9/15/2014,9/15/2014,400,lv,R,2014,11/4/2016,general,FALSE,DEM,Ann Kirkpatrick,42
+AZ,1,"North Star Opinion Research/Ayres, McHenry & Associates",9/15/2014,9/15/2014,400,lv,R,2014,11/4/2016,general,FALSE,REP,Andy Tobin,48
+AZ,1,Tarrance Group,9/2/2014,9/4/2014,405,lv,R,2014,11/4/2016,general,FALSE,DEM,Ann Kirkpatrick,43
+AZ,1,Tarrance Group,9/2/2014,9/4/2014,405,lv,R,2014,11/4/2016,general,FALSE,REP,Andy Tobin,51
+AZ,2,RRH Elections,10/21/2014,10/23/2014,554,lv,,2014,11/4/2016,general,FALSE,DEM,Ron Barber,48
+AZ,2,RRH Elections,10/21/2014,10/23/2014,554,lv,,2014,11/4/2016,general,FALSE,REP,Martha McSally,46
+AZ,2,"Normington, Petts & Associates",6/8/2014,6/10/2014,400,lv,D,2014,11/4/2016,general,FALSE,DEM,Ron Barber,45
+AZ,2,"Normington, Petts & Associates",6/8/2014,6/10/2014,400,lv,D,2014,11/4/2016,general,FALSE,REP,Martha McSally,37
+AZ,2,OnMessage,4/14/2014,4/16/2014,400,lv,R,2014,11/4/2016,general,FALSE,DEM,Ron Barber,42
+AZ,2,OnMessage,4/14/2014,4/16/2014,400,lv,R,2014,11/4/2016,general,FALSE,REP,Martha McSally,45
+CO,6,Keating Research,10/10/2014,10/12/2014,504,lv,D,2014,11/4/2016,general,FALSE,DEM,Andrew Romanoff,43
+CO,6,Keating Research,10/10/2014,10/12/2014,504,lv,D,2014,11/4/2016,general,FALSE,REP,Mike Coffman,44
+CO,6,DCCC Targeting and Analytics Department,10/15/2014,10/15/2014,475,lv,D,2014,11/4/2016,general,FALSE,DEM,Andrew Romanoff,43
+CO,6,DCCC Targeting and Analytics Department,10/15/2014,10/15/2014,475,lv,D,2014,11/4/2016,general,FALSE,REP,Mike Coffman,42
+UT,1,Brigham Young University,10/15/2014,10/22/2014,159,lv,,2014,11/4/2016,general,FALSE,DEM,Donna McAleer,31
+UT,1,Brigham Young University,10/15/2014,10/22/2014,159,lv,,2014,11/4/2016,general,FALSE,REP,Rob Bishop,49
+UT,2,Brigham Young University,10/15/2014,10/22/2014,192,lv,,2014,11/4/2016,general,FALSE,DEM,Luz Robles,37
+UT,2,Brigham Young University,10/15/2014,10/22/2014,192,lv,,2014,11/4/2016,general,FALSE,REP,Chris Stewart,43
+UT,3,Brigham Young University,10/15/2014,10/22/2014,169,lv,,2014,11/4/2016,general,FALSE,DEM,Brian Wonnacott,25
+UT,3,Brigham Young University,10/15/2014,10/22/2014,169,lv,,2014,11/4/2016,general,FALSE,REP,Jason Chaffetz,59
+UT,4,Dan Jones & Associates,10/20/2014,10/29/2014,402,lv,,2014,11/4/2016,general,FALSE,DEM,Doug Owens,43
+UT,4,Dan Jones & Associates,10/20/2014,10/29/2014,402,lv,,2014,11/4/2016,general,FALSE,REP,Mia Love,48
+UT,4,Brigham Young University,10/15/2014,10/22/2014,236,lv,,2014,11/4/2016,general,FALSE,DEM,Doug Owens,46
+UT,4,Brigham Young University,10/15/2014,10/22/2014,236,lv,,2014,11/4/2016,general,FALSE,REP,Mia Love,42
+UT,4,Dan Jones & Associates,10/7/2014,10/9/2014,400,lv,,2014,11/4/2016,general,FALSE,DEM,Doug Owens,40
+UT,4,Dan Jones & Associates,10/7/2014,10/9/2014,400,lv,,2014,11/4/2016,general,FALSE,REP,Mia Love,49
+UT,4,FM3,10/6/2014,10/7/2014,403,lv,D,2014,11/4/2016,general,FALSE,DEM,Doug Owens,44
+UT,4,FM3,10/6/2014,10/7/2014,403,lv,D,2014,11/4/2016,general,FALSE,REP,Mia Love,47
+UT,4,Y2 Analytics,10/2/2014,10/4/2014,500,lv,R,2014,11/4/2016,general,FALSE,DEM,Doug Owens,28
+UT,4,Y2 Analytics,10/2/2014,10/4/2014,500,lv,R,2014,11/4/2016,general,FALSE,REP,Mia Love,47
+UT,4,Dan Jones & Associates,8/7/2014,8/9/2014,443,lv,,2014,11/4/2016,general,FALSE,DEM,Doug Owens,32
+UT,4,Dan Jones & Associates,8/7/2014,8/9/2014,443,lv,,2014,11/4/2016,general,FALSE,REP,Mia Love,44
+UT,4,FM3,7/15/2014,7/17/2014,400,lv,D,2014,11/4/2016,general,FALSE,DEM,Doug Owens,41
+UT,4,FM3,7/15/2014,7/17/2014,400,lv,D,2014,11/4/2016,general,FALSE,REP,Mia Love,50
+CA,7,Garin-Hart-Yang Research Group,9/17/2014,9/18/2014,406,lv,D,2014,11/4/2016,general,FALSE,DEM,Ami Bera,47
+CA,7,Garin-Hart-Yang Research Group,9/17/2014,9/18/2014,406,lv,D,2014,11/4/2016,general,FALSE,REP,Doug Ose,43
+CA,10,GBA Strategies,9/18/2014,9/21/2014,400,lv,D,2014,11/4/2016,general,FALSE,DEM,Michael Eggman,41
+CA,10,GBA Strategies,9/18/2014,9/21/2014,400,lv,D,2014,11/4/2016,general,FALSE,REP,Jeff Denham,49
+CA,21,SurveyUSA,9/15/2014,9/15/2014,517,lv,,2014,11/4/2016,general,FALSE,DEM,Amanda Renteria,37
+CA,21,SurveyUSA,9/15/2014,9/15/2014,517,lv,,2014,11/4/2016,general,FALSE,REP,David Valadao,56
+CA,41,Wenzel Strategies,2/28/2014,3/3/2014,618,lv,R,2014,11/4/2016,general,FALSE,DEM,Mark Takano,42
+CA,41,Wenzel Strategies,2/28/2014,3/3/2014,618,lv,R,2014,11/4/2016,general,FALSE,REP,Steve Adams,42
+CA,52,SurveyUSA,9/11/2014,9/15/2014,559,lv,,2014,11/4/2016,general,FALSE,DEM,Scott Peters,47
+CA,52,SurveyUSA,9/11/2014,9/15/2014,559,lv,,2014,11/4/2016,general,FALSE,REP,Carl DeMaio,46
+CA,52,GBA Strategies,7/20/2014,7/22/2014,400,lv,D,2014,11/4/2016,general,FALSE,DEM,Scott Peters,48
+CA,52,GBA Strategies,7/20/2014,7/22/2014,400,lv,D,2014,11/4/2016,general,FALSE,REP,Carl DeMaio,43
+CA,52,SurveyUSA,6/11/2014,6/12/2014,554,lv,,2014,11/4/2016,general,FALSE,DEM,Scott Peters,44
+CA,52,SurveyUSA,6/11/2014,6/12/2014,554,lv,,2014,11/4/2016,general,FALSE,REP,Carl DeMaio,51
+WA,1,Moore Information,10/15/2014,10/15/2014,301,lv,R,2014,11/4/2016,general,FALSE,DEM,Suzan DelBene,43
+WA,1,Moore Information,10/15/2014,10/15/2014,301,lv,R,2014,11/4/2016,general,FALSE,REP,Pedro Celis,34
+HI,1,Civil Beat,10/16/2014,10/19/2014,604,lv,,2014,11/4/2016,general,FALSE,DEM,Mark Takai,45
+HI,1,Civil Beat,10/16/2014,10/19/2014,604,lv,,2014,11/4/2016,general,FALSE,REP,Charles Djou,45
+HI,1,Ward Research/The Honolulu Star-Advertiser,10/11/2014,10/18/2014,354,lv,,2014,11/4/2016,general,FALSE,DEM,Mark Takai,47
+HI,1,Ward Research/The Honolulu Star-Advertiser,10/11/2014,10/18/2014,354,lv,,2014,11/4/2016,general,FALSE,REP,Charles Djou,47
+HI,1,Global Strategy Group,10/20/2014,10/21/2014,400,lv,,2014,11/4/2016,general,FALSE,DEM,Mark Takai,49
+HI,1,Global Strategy Group,10/20/2014,10/21/2014,400,lv,,2014,11/4/2016,general,FALSE,REP,Charles Djou,42
+HI,1,Civil Beat,9/11/2014,9/14/2014,551,lv,,2014,11/4/2016,general,FALSE,DEM,Mark Takai,42
+HI,1,Civil Beat,9/11/2014,9/14/2014,551,lv,,2014,11/4/2016,general,FALSE,REP,Charles Djou,46
