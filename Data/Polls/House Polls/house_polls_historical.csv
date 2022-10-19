@@ -4187,22 +4187,104 @@ GA,8,American Viewpoint,7/27/2010,7/29/2010,300,lv,R,2010,11/2/2010,general,FALS
 GA,8,American Viewpoint,7/27/2010,7/29/2010,300,lv,R,2010,11/2/2010,general,FALSE,REP,Austin Scott,39
 FL,2,Penn Schoen & Berland,10/16/2010,10/19/2010,399,lv,D,2010,11/2/2010,general,FALSE,DEM,Allen Boyd,38
 FL,2,Penn Schoen & Berland,10/16/2010,10/19/2010,399,lv,D,2010,11/2/2010,general,FALSE,REP,Steve Southerland,50
-FL,2,Voter Survey Service,10/14/2010,10/17/2010,830,lv,,2010,11/2/2010,general,FALSE,DEM,Allen Boyd,38
-FL,2,Voter Survey Service,10/14/2010,10/17/2010,830,lv,,2010,11/2/2010,general,FALSE,REP,Steve Southerland,50
-FL,8,Voter Survey Service,10/22/2010,10/25/2010,801,lv,,2010,11/2/2010,general,FALSE,DEM,Alan Grayson,41
-FL,8,Voter Survey Service,10/22/2010,10/25/2010,801,lv,,2010,11/2/2010,general,FALSE,REP,Daniel Webster,48
-FL,8,Voter Survey Service,9/25/2010,9/27/2010,559,lv,,2010,11/2/2010,general,FALSE,DEM,Alan Grayson,36
-FL,8,Voter Survey Service,9/25/2010,9/27/2010,559,lv,,2010,11/2/2010,general,FALSE,REP,Daniel Webster,43
-FL,22,Voter Survey Service,10/17/2010,10/19/2010,800,lv,,2010,11/2/2010,general,FALSE,DEM,Ron Klein,44
-FL,22,Voter Survey Service,10/17/2010,10/19/2010,800,lv,,2010,11/2/2010,general,FALSE,REP,Allen West,47
+FL,2,Susquehanna Polling & Research Inc.,10/14/2010,10/17/2010,830,lv,,2010,11/2/2010,general,FALSE,DEM,Allen Boyd,38
+FL,2,Susquehanna Polling & Research Inc.,10/14/2010,10/17/2010,830,lv,,2010,11/2/2010,general,FALSE,REP,Steve Southerland,50
+FL,2,National Research Inc.,9/29/2010,9/30/2010,300,lv,R,2010,11/2/2010,general,FALSE,DEM,Allen Boyd,30
+FL,2,National Research Inc.,9/29/2010,9/30/2010,300,lv,R,2010,11/2/2010,general,FALSE,REP,Steve Southerland,46
+FL,2,Tarrance Group,4/12/2010,4/13/2010,300,lv,R,2010,11/2/2010,general,FALSE,DEM,Allen Boyd,37
+FL,2,Tarrance Group,4/12/2010,4/13/2010,300,lv,R,2010,11/2/2010,general,FALSE,REP,Steve Southerland,52
+FL,3,Rasmussen Reports/Pulse Opinion Research,9/24/2010,9/24/2010,500,lv,,2010,11/2/2010,general,FALSE,DEM,Corrine Brown,49
+FL,3,Rasmussen Reports/Pulse Opinion Research,9/24/2010,9/24/2010,500,lv,,2010,11/2/2010,general,FALSE,REP,Mike Yost,42
+FL,3,IfByPhone Polling Inc.,8/31/2010,8/31/2010,579,rv,R,2010,11/2/2010,general,FALSE,DEM,Corrine Brown,53
+FL,3,IfByPhone Polling Inc.,8/31/2010,8/31/2010,579,rv,R,2010,11/2/2010,general,FALSE,REP,Mike Yost,45
+FL,8,Susquehanna Polling & Research Inc.,10/22/2010,10/25/2010,801,lv,,2010,11/2/2010,general,FALSE,DEM,Alan Grayson,41
+FL,8,Susquehanna Polling & Research Inc.,10/22/2010,10/25/2010,801,lv,,2010,11/2/2010,general,FALSE,REP,Daniel Webster,48
+FL,8,Susquehanna Polling & Research Inc.,9/25/2010,9/27/2010,559,lv,,2010,11/2/2010,general,FALSE,DEM,Alan Grayson,36
+FL,8,Susquehanna Polling & Research Inc.,9/25/2010,9/27/2010,559,lv,,2010,11/2/2010,general,FALSE,REP,Daniel Webster,43
+FL,8,Public Policy Polling,8/23/2010,8/25/2010,1589,rv,D,2010,11/2/2010,general,FALSE,DEM,Alan Grayson,40
+FL,8,Public Policy Polling,8/23/2010,8/25/2010,1589,rv,D,2010,11/2/2010,general,FALSE,REP,Daniel Webster,27
+FL,10,Anzalone Liszt Grove Research,4/5/2010,4/8/2010,406,lv,D,2010,11/2/2010,general,FALSE,DEM,Charlie Justice,34
+FL,10,Anzalone Liszt Grove Research,4/5/2010,4/8/2010,406,lv,D,2010,11/2/2010,general,FALSE,REP,Bill Young,39
+FL,12,GQR Research (GQRR),7/26/2010,7/28/2010,400,lv,D,2010,11/2/2010,general,FALSE,DEM,Lori Edwards,35
+FL,12,GQR Research (GQRR),7/26/2010,7/28/2010,400,lv,D,2010,11/2/2010,general,FALSE,REP,Dennis Ross,32
+FL,22,Susquehanna Polling & Research Inc.,10/17/2010,10/19/2010,800,lv,,2010,11/2/2010,general,FALSE,DEM,Ron Klein,44
+FL,22,Susquehanna Polling & Research Inc.,10/17/2010,10/19/2010,800,lv,,2010,11/2/2010,general,FALSE,REP,Allen West,47
 FL,22,Harstad Strategic Resource,9/20/2010,9/22/2010,504,lv,D,2010,11/2/2010,general,FALSE,DEM,Ron Klein,48
 FL,22,Harstad Strategic Resource,9/20/2010,9/22/2010,504,lv,D,2010,11/2/2010,general,FALSE,REP,Allen West,43
-FL,25,Voter Survey Service,10/25/2010,10/26/2010,700,lv,,2010,11/2/2010,general,FALSE,DEM,Joe Garcia,43
-FL,25,Voter Survey Service,10/25/2010,10/26/2010,700,lv,,2010,11/2/2010,general,FALSE,REP,David Rivera,44
+FL,22,Wilson,9/20/2010,9/22/2010,300,lv,R,2010,11/2/2010,general,FALSE,DEM,Ron Klein,42
+FL,22,Wilson,9/20/2010,9/22/2010,300,lv,R,2010,11/2/2010,general,FALSE,REP,Allen West,48
+FL,22,Anzalone Liszt Grove Research,9/14/2010,9/16/2010,500,lv,D,2010,11/2/2010,general,FALSE,DEM,Ron Klein,48
+FL,22,Anzalone Liszt Grove Research,9/14/2010,9/16/2010,500,lv,D,2010,11/2/2010,general,FALSE,REP,Allen West,40
+FL,22,Wilson,4/18/2010,4/19/2010,400,lv,R,2010,11/2/2010,general,FALSE,DEM,Ron Klein,42
+FL,22,Wilson,4/18/2010,4/19/2010,400,lv,R,2010,11/2/2010,general,FALSE,REP,Allen West,44
+FL,24,Hamilton Beattie,9/22/2010,9/23/2010,400,lv,D,2010,11/2/2010,general,FALSE,DEM,Suzanne Kosmas,45
+FL,24,Hamilton Beattie,9/22/2010,9/23/2010,400,lv,D,2010,11/2/2010,general,FALSE,REP,Sandy Adams,43
+FL,24,McLaughlin & Associates,9/22/2010,9/23/2010,400,lv,R,2010,11/2/2010,general,FALSE,DEM,Suzanne Kosmas,39
+FL,24,McLaughlin & Associates,9/22/2010,9/23/2010,400,lv,R,2010,11/2/2010,general,FALSE,REP,Sandy Adams,49
+FL,24,Public Opinion Strategies,8/31/2010,9/1/2010,400,lv,R,2010,11/2/2010,general,FALSE,DEM,Suzanne Kosmas,37
+FL,24,Public Opinion Strategies,8/31/2010,9/1/2010,400,lv,R,2010,11/2/2010,general,FALSE,REP,Sandy Adams,49
+FL,25,Susquehanna Polling & Research Inc.,10/25/2010,10/26/2010,700,lv,,2010,11/2/2010,general,FALSE,DEM,Joe Garcia,43
+FL,25,Susquehanna Polling & Research Inc.,10/25/2010,10/26/2010,700,lv,,2010,11/2/2010,general,FALSE,REP,David Rivera,44
+FL,25,GQR Research (GQRR),9/12/2010,9/19/2010,404,lv,D,2010,11/2/2010,general,FALSE,DEM,Joe Garcia,40
+FL,25,GQR Research (GQRR),9/12/2010,9/19/2010,404,lv,D,2010,11/2/2010,general,FALSE,REP,David Rivera,33
+FL,25,Benenson Strategy Group,8/26/2010,8/29/2010,400,lv,D,2010,11/2/2010,general,FALSE,DEM,Joe Garcia,40
+FL,25,Benenson Strategy Group,8/26/2010,8/29/2010,400,lv,D,2010,11/2/2010,general,FALSE,REP,David Rivera,36
 MS,1,Penn Schoen & Berland,10/9/2010,10/17/2010,603,lv,D,2010,11/2/2010,general,FALSE,DEM,Travis Childers,39
 MS,1,Penn Schoen & Berland,10/9/2010,10/17/2010,603,lv,D,2010,11/2/2010,general,FALSE,REP,Alan Nunnelee,44
+MS,1,Tarrance Group,10/4/2010,10/5/2010,300,lv,R,2010,11/2/2010,general,FALSE,DEM,Travis Childers,40
+MS,1,Tarrance Group,10/4/2010,10/5/2010,300,lv,R,2010,11/2/2010,general,FALSE,REP,Alan Nunnelee,51
+MS,1,Tarrance Group,9/13/2010,9/14/2010,300,lv,R,2010,11/2/2010,general,FALSE,DEM,Travis Childers,41
+MS,1,Tarrance Group,9/13/2010,9/14/2010,300,lv,R,2010,11/2/2010,general,FALSE,REP,Alan Nunnelee,48
+MS,1,Anzalone Liszt Grove Research,8/30/2010,9/1/2010,400,lv,D,2010,11/2/2010,general,FALSE,DEM,Travis Childers,46
+MS,1,Anzalone Liszt Grove Research,8/30/2010,9/1/2010,400,lv,D,2010,11/2/2010,general,FALSE,REP,Alan Nunnelee,41
+MS,1,Tarrance Group,6/8/2010,6/9/2010,303,lv,R,2010,11/2/2010,general,FALSE,DEM,Travis Childers,42
+MS,1,Tarrance Group,6/8/2010,6/9/2010,303,lv,R,2010,11/2/2010,general,FALSE,REP,Alan Nunnelee,50
+MS,2,JMC Analytics,10/18/2010,10/23/2010,467,lv,,2010,11/2/2010,general,FALSE,DEM,Bennie Thompson,42
+MS,2,JMC Analytics,10/18/2010,10/23/2010,467,lv,,2010,11/2/2010,general,FALSE,REP,Bill Marcy,41
+MS,2,JMC Analytics,9/11/2010,9/17/2010,441,rv,,2010,11/2/2010,general,FALSE,DEM,Bennie Thompson,35
+MS,2,JMC Analytics,9/11/2010,9/17/2010,441,rv,,2010,11/2/2010,general,FALSE,REP,Bill Marcy,34
+MS,4,Tarrance Group,10/18/2010,10/19/2010,300,lv,R,2010,11/2/2010,general,FALSE,DEM,Gene Taylor,41
+MS,4,Tarrance Group,10/18/2010,10/19/2010,300,lv,R,2010,11/2/2010,general,FALSE,REP,Steven Palazzo,43
+MS,4,Tarrance Group,9/21/2010,9/22/2010,400,lv,R,2010,11/2/2010,general,FALSE,DEM,Gene Taylor,45
+MS,4,Tarrance Group,9/21/2010,9/22/2010,400,lv,R,2010,11/2/2010,general,FALSE,REP,Steven Palazzo,41
+AL,2,GQR Research (GQRR),10/9/2010,10/12/2010,400,lv,D,2010,11/2/2010,general,FALSE,DEM,Bobby Bright,51
+AL,2,GQR Research (GQRR),10/9/2010,10/12/2010,400,lv,D,2010,11/2/2010,general,FALSE,REP,Martha Roby,39
+AL,2,Public Opinion Strategies,10/3/2010,10/4/2010,300,lv,R,2010,11/2/2010,general,FALSE,DEM,Bobby Bright,43
+AL,2,Public Opinion Strategies,10/3/2010,10/4/2010,300,lv,R,2010,11/2/2010,general,FALSE,REP,Martha Roby,45
+AL,2,GQR Research (GQRR),9/26/2010,9/28/2010,400,lv,D,2010,11/2/2010,general,FALSE,DEM,Bobby Bright,52
+AL,2,GQR Research (GQRR),9/26/2010,9/28/2010,400,lv,D,2010,11/2/2010,general,FALSE,REP,Martha Roby,43
+AL,2,GQR Research (GQRR),8/23/2010,8/26/2010,400,lv,D,2010,11/2/2010,general,FALSE,DEM,Bobby Bright,52
+AL,2,GQR Research (GQRR),8/23/2010,8/26/2010,400,lv,D,2010,11/2/2010,general,FALSE,REP,Martha Roby,43
+AL,2,Anzalone Liszt Grove Research,2/8/2010,2/10/2010,500,lv,D,2010,11/2/2010,general,FALSE,DEM,Bobby Bright,54
+AL,2,Anzalone Liszt Grove Research,2/8/2010,2/10/2010,500,lv,D,2010,11/2/2010,general,FALSE,REP,Martha Roby,30
+AL,5,Public Opinion Strategies,8/22/2010,8/23/2010,400,lv,R,2010,11/2/2010,general,FALSE,DEM,Steve Raby,37
+AL,5,Public Opinion Strategies,8/22/2010,8/23/2010,400,lv,R,2010,11/2/2010,general,FALSE,REP,Mo Brooks,48
+AL,5,Public Opinion Strategies,6/6/2010,6/7/2010,400,lv,R,2010,11/2/2010,general,FALSE,DEM,Steve Raby,40
+AL,5,Public Opinion Strategies,6/6/2010,6/7/2010,400,lv,R,2010,11/2/2010,general,FALSE,REP,Mo Brooks,48
+TN,3,Wilson,10/4/2010,10/8/2010,400,rv,R,2010,11/2/2010,general,FALSE,DEM,John Wolfe Jr.,20
+TN,3,Wilson,10/4/2010,10/8/2010,400,rv,R,2010,11/2/2010,general,FALSE,REP,Chuck Fleischmann,50
+TN,3,Wilson,10/6/2010,10/7/2010,400,rv,R,2010,11/2/2010,general,FALSE,DEM,John Wolfe Jr.,20
+TN,3,Wilson,10/6/2010,10/7/2010,400,rv,R,2010,11/2/2010,general,FALSE,REP,Chuck Fleischmann,50
+TN,4,Public Opinion Strategies,10/12/2010,10/14/2010,300,lv,R,2010,11/2/2010,general,FALSE,DEM,Lincoln Davis,40
+TN,4,Public Opinion Strategies,10/12/2010,10/14/2010,300,lv,R,2010,11/2/2010,general,FALSE,REP,Scott DesJarlais,45
+TN,4,Public Opinion Strategies,9/27/2010,9/28/2010,300,lv,R,2010,11/2/2010,general,FALSE,DEM,Lincoln Davis,42
+TN,4,Public Opinion Strategies,9/27/2010,9/28/2010,300,lv,R,2010,11/2/2010,general,FALSE,REP,Scott DesJarlais,42
+TN,4,Benenson Strategy Group,8/24/2010,8/26/2010,400,lv,D,2010,11/2/2010,general,FALSE,DEM,Lincoln Davis,51
+TN,4,Benenson Strategy Group,8/24/2010,8/26/2010,400,lv,D,2010,11/2/2010,general,FALSE,REP,Scott DesJarlais,40
+TN,4,Public Opinion Strategies,8/10/2010,8/12/2010,300,lv,R,2010,11/2/2010,general,FALSE,DEM,Lincoln Davis,45
+TN,4,Public Opinion Strategies,8/10/2010,8/12/2010,300,lv,R,2010,11/2/2010,general,FALSE,REP,Scott DesJarlais,41
+TN,4,OnMessage Inc.,3/21/2010,3/22/2010,300,rv,R,2010,11/2/2010,general,FALSE,DEM,Lincoln Davis,44
+TN,4,OnMessage Inc.,3/21/2010,3/22/2010,300,rv,R,2010,11/2/2010,general,FALSE,REP,Scott DesJarlais,33
 TN,8,Penn Schoen & Berland,10/2/2010,10/7/2010,416,lv,D,2010,11/2/2010,general,FALSE,DEM,Roy Herron,37
 TN,8,Penn Schoen & Berland,10/2/2010,10/7/2010,416,lv,D,2010,11/2/2010,general,FALSE,REP,Stephen Fincher,47
+TN,8,Tarrance Group,10/18/2010,10/19/2010,300,lv,R,2010,11/2/2010,general,FALSE,DEM,Roy Herron,35
+TN,8,Tarrance Group,10/18/2010,10/19/2010,300,lv,R,2010,11/2/2010,general,FALSE,REP,Stephen Fincher,50
+TN,8,Tarrance Group,10/11/2010,10/12/2010,304,lv,R,2010,11/2/2010,general,FALSE,DEM,Roy Herron,36
+TN,8,Tarrance Group,10/11/2010,10/12/2010,304,lv,R,2010,11/2/2010,general,FALSE,REP,Stephen Fincher,47
+TN,8,Tarrance Group,8/10/2010,8/11/2010,400,lv,R,2010,11/2/2010,general,FALSE,DEM,Roy Herron,37
+TN,8,Tarrance Group,8/10/2010,8/11/2010,400,lv,R,2010,11/2/2010,general,FALSE,REP,Stephen Fincher,47
+TN,9,Yaccoubian Research,9/7/2010,9/7/2010,205,lv,,2010,11/2/2010,general,FALSE,DEM,Steve Cohen,66
+TN,9,Yaccoubian Research,9/7/2010,9/7/2010,205,lv,,2010,11/2/2010,general,FALSE,REP,Charlotte Bergmann,23
 KY,3,SurveyUSA,10/21/2010,10/25/2010,588,lv,,2010,11/2/2010,general,FALSE,DEM,John Yarmuth,50
 KY,3,SurveyUSA,10/21/2010,10/25/2010,588,lv,,2010,11/2/2010,general,FALSE,REP,Todd Lally,46
 KY,3,Braun Research,10/18/2010,10/19/2010,504,lv,,2010,11/2/2010,general,FALSE,DEM,John Yarmuth,58
@@ -4213,48 +4295,140 @@ KY,3,SurveyUSA,8/27/2010,8/30/2010,541,lv,,2010,11/2/2010,general,FALSE,DEM,John
 KY,3,SurveyUSA,8/27/2010,8/30/2010,541,lv,,2010,11/2/2010,general,FALSE,REP,Todd Lally,45
 KY,3,Braun Research,8/9/2010,8/10/2010,502,lv,,2010,11/2/2010,general,FALSE,DEM,John Yarmuth,52
 KY,3,Braun Research,8/9/2010,8/10/2010,502,lv,,2010,11/2/2010,general,FALSE,REP,Todd Lally,29
+KY,3,Rivercity Polling,10/19/2010,10/23/2010,239,lv,R,2010,11/2/2010,general,FALSE,DEM,John Yarmuth,41
+KY,3,Rivercity Polling,10/19/2010,10/23/2010,239,lv,R,2010,11/2/2010,general,FALSE,REP,Todd Lally,37
+KY,3,Rivercity Polling,6/20/2010,6/29/2010,300,lv,R,2010,11/2/2010,general,FALSE,DEM,John Yarmuth,44
+KY,3,Rivercity Polling,6/20/2010,6/29/2010,300,lv,R,2010,11/2/2010,general,FALSE,REP,Todd Lally,43
+KY,3,Cooper & Secrest,6/21/2010,6/23/2010,566,lv,D,2010,11/2/2010,general,FALSE,DEM,John Yarmuth,58
+KY,3,Cooper & Secrest,6/21/2010,6/23/2010,566,lv,D,2010,11/2/2010,general,FALSE,REP,Todd Lally,32
 KY,6,Mason-Dixon Polling & Strategy,10/15/2010,10/19/2010,500,lv,,2010,11/2/2010,general,FALSE,DEM,Ben Chandler,48
 KY,6,Mason-Dixon Polling & Strategy,10/15/2010,10/19/2010,500,lv,,2010,11/2/2010,general,FALSE,REP,Andy Barr,44
 KY,6,Braun Research,9/21/2010,9/22/2010,508,lv,,2010,11/2/2010,general,FALSE,DEM,Ben Chandler,51
 KY,6,Braun Research,9/21/2010,9/22/2010,508,lv,,2010,11/2/2010,general,FALSE,REP,Andy Barr,37
 KY,6,Braun Research,7/26/2010,7/27/2010,503,lv,,2010,11/2/2010,general,FALSE,DEM,Ben Chandler,46
 KY,6,Braun Research,7/26/2010,7/27/2010,503,lv,,2010,11/2/2010,general,FALSE,REP,Andy Barr,32
+KY,6,Tarrance Group,10/4/2010,10/5/2010,400,lv,R,2010,11/2/2010,general,FALSE,DEM,Ben Chandler,47
+KY,6,Tarrance Group,10/4/2010,10/5/2010,400,lv,R,2010,11/2/2010,general,FALSE,REP,Andy Barr,48
+KY,6,Mellman Group,9/29/2010,9/30/2010,400,lv,D,2010,11/2/2010,general,FALSE,DEM,Ben Chandler,52
+KY,6,Mellman Group,9/29/2010,9/30/2010,400,lv,D,2010,11/2/2010,general,FALSE,REP,Andy Barr,40
+KY,6,Tarrance Group,9/20/2010,9/21/2010,407,lv,R,2010,11/2/2010,general,FALSE,DEM,Ben Chandler,49
+KY,6,Tarrance Group,9/20/2010,9/21/2010,407,lv,R,2010,11/2/2010,general,FALSE,REP,Andy Barr,42
+KY,6,Mellman Group,9/13/2010,9/14/2010,400,lv,D,2010,11/2/2010,general,FALSE,DEM,Ben Chandler,53
+KY,6,Mellman Group,9/13/2010,9/14/2010,400,lv,D,2010,11/2/2010,general,FALSE,REP,Andy Barr,33
+KY,6,Grove Insight,9/6/2010,9/8/2010,400,lv,D,2010,11/2/2010,general,FALSE,DEM,Ben Chandler,52
+KY,6,Grove Insight,9/6/2010,9/8/2010,400,lv,D,2010,11/2/2010,general,FALSE,REP,Andy Barr,38
+KY,6,Tarrance Group,5/24/2010,5/25/2010,405,lv,R,2010,11/2/2010,general,FALSE,DEM,Ben Chandler,45
+KY,6,Tarrance Group,5/24/2010,5/25/2010,405,lv,R,2010,11/2/2010,general,FALSE,REP,Andy Barr,38
 OH,1,SurveyUSA,9/28/2010,9/29/2010,594,lv,,2010,11/2/2010,general,FALSE,DEM,Steve Driehaus,41
 OH,1,SurveyUSA,9/28/2010,9/29/2010,594,lv,,2010,11/2/2010,general,FALSE,REP,Steve Chabot,53
-OH,1,American Action Forum,8/16/2010,8/21/2010,400,lv,,2010,11/2/2010,general,FALSE,DEM,Steve Driehaus,45
-OH,1,American Action Forum,8/16/2010,8/21/2010,400,lv,,2010,11/2/2010,general,FALSE,REP,Steve Chabot,47
-OH,1,We Ask America,8/4/2010,8/4/2010,1001,rv,,2010,11/2/2010,general,FALSE,DEM,Steve Driehaus,39
-OH,1,We Ask America,8/4/2010,8/4/2010,1001,rv,,2010,11/2/2010,general,FALSE,REP,Steve Chabot,51
+OH,1,American Action Forum,8/16/2010,8/21/2010,400,lv,R,2010,11/2/2010,general,FALSE,DEM,Steve Driehaus,45
+OH,1,American Action Forum,8/16/2010,8/21/2010,400,lv,R,2010,11/2/2010,general,FALSE,REP,Steve Chabot,47
+OH,1,We Ask America,8/4/2010,8/4/2010,1001,rv,R,2010,11/2/2010,general,FALSE,DEM,Steve Driehaus,39
+OH,1,We Ask America,8/4/2010,8/4/2010,1001,rv,R,2010,11/2/2010,general,FALSE,REP,Steve Chabot,51
 OH,1,SurveyUSA,1/12/2010,1/14/2010,600,lv,,2010,11/2/2010,general,FALSE,DEM,Steve Driehaus,39
 OH,1,SurveyUSA,1/12/2010,1/14/2010,600,lv,,2010,11/2/2010,general,FALSE,REP,Steve Chabot,56
-OH,12,We Ask America,8/4/2010,8/4/2010,995,rv,,2010,11/2/2010,general,FALSE,DEM,Paula Brooks,34
-OH,12,We Ask America,8/4/2010,8/4/2010,995,rv,,2010,11/2/2010,general,FALSE,REP,Patrick Tiberi,51
+OH,1,The Polling Company Inc.,7/30/2010,8/2/2010,301,rv,R,2010,11/2/2010,general,FALSE,DEM,Steve Driehaus,41
+OH,1,The Polling Company Inc.,7/30/2010,8/2/2010,301,rv,R,2010,11/2/2010,general,FALSE,REP,Steve Chabot,51
+OH,1,Public Opinion Strategies,5/12/2010,5/13/2010,400,lv,R,2010,11/2/2010,general,FALSE,DEM,Steve Driehaus,39
+OH,1,Public Opinion Strategies,5/12/2010,5/13/2010,400,lv,R,2010,11/2/2010,general,FALSE,REP,Steve Chabot,53
+OH,6,Public Opinion Strategies,10/3/2010,10/4/2010,400,lv,R,2010,11/2/2010,general,FALSE,DEM,Steve Driehaus,44
+OH,6,Public Opinion Strategies,10/3/2010,10/4/2010,400,lv,R,2010,11/2/2010,general,FALSE,REP,Steve Chabot,46
+OH,6,Public Opinion Strategies,8/1/2010,8/2/2010,300,lv,R,2010,11/2/2010,general,FALSE,DEM,Steve Driehaus,47
+OH,6,Public Opinion Strategies,8/1/2010,8/2/2010,300,lv,R,2010,11/2/2010,general,FALSE,REP,Steve Chabot,44
+OH,8,HRC Legacy PAC,10/5/2010,10/8/2010,250,rv,D,2010,11/2/2010,general,FALSE,DEM,Justin Coussoule,20
+OH,8,HRC Legacy PAC,10/5/2010,10/8/2010,250,rv,D,2010,11/2/2010,general,FALSE,REP,John Boehner,30
+OH,12,We Ask America,8/4/2010,8/4/2010,995,rv,R,2010,11/2/2010,general,FALSE,DEM,Paula Brooks,34
+OH,12,We Ask America,8/4/2010,8/4/2010,995,rv,R,2010,11/2/2010,general,FALSE,REP,Patrick Tiberi,51
+OH,12,Public Opinion Strategies,6/27/2010,6/29/2010,400,lv,R,2010,11/2/2010,general,FALSE,DEM,Paula Brooks,28
+OH,12,Public Opinion Strategies,6/27/2010,6/29/2010,400,lv,R,2010,11/2/2010,general,FALSE,REP,Patrick Tiberi,53
+OH,12,GQR Research (GQRR),6/2/2010,6/6/2010,416,lv,D,2010,11/2/2010,general,FALSE,DEM,Paula Brooks,36
+OH,12,GQR Research (GQRR),6/2/2010,6/6/2010,416,lv,D,2010,11/2/2010,general,FALSE,REP,Patrick Tiberi,48
 OH,13,American Action Forum,8/16/2010,8/19/2010,400,lv,R,2010,11/2/2010,general,FALSE,DEM,Betty Sutton,43
 OH,13,American Action Forum,8/16/2010,8/19/2010,400,lv,R,2010,11/2/2010,general,FALSE,REP,Tom Ganley,41
+OH,13,Public Opinion Strategies,2/7/2010,2/8/2010,400,lv,R,2010,11/2/2010,general,FALSE,DEM,Betty Sutton,43
+OH,13,Public Opinion Strategies,2/7/2010,2/8/2010,400,lv,R,2010,11/2/2010,general,FALSE,REP,Tom Ganley,48
 OH,15,Penn Schoen & Berland,9/28/2010,9/30/2010,404,lv,D,2010,11/2/2010,general,FALSE,DEM,Mary Jo Kilroy,38
 OH,15,Penn Schoen & Berland,9/28/2010,9/30/2010,404,lv,D,2010,11/2/2010,general,FALSE,REP,Steve Stivers,47
 OH,15,American Action Forum,8/16/2010,8/21/2010,400,lv,R,2010,11/2/2010,general,FALSE,DEM,Mary Jo Kilroy,44
 OH,15,American Action Forum,8/16/2010,8/21/2010,400,lv,R,2010,11/2/2010,general,FALSE,REP,Steve Stivers,49
-OH,15,We Ask America,8/4/2010,8/4/2010,998,rv,,2010,11/2/2010,general,FALSE,DEM,Mary Jo Kilroy,41
-OH,15,We Ask America,8/4/2010,8/4/2010,998,rv,,2010,11/2/2010,general,FALSE,REP,Steve Stivers,46
+OH,15,We Ask America,8/4/2010,8/4/2010,998,rv,R,2010,11/2/2010,general,FALSE,DEM,Mary Jo Kilroy,41
+OH,15,We Ask America,8/4/2010,8/4/2010,998,rv,R,2010,11/2/2010,general,FALSE,REP,Steve Stivers,46
 OH,16,Penn Schoen & Berland,9/25/2010,9/27/2010,401,lv,D,2010,11/2/2010,general,FALSE,DEM,John Boccieri,39
 OH,16,Penn Schoen & Berland,9/25/2010,9/27/2010,401,lv,D,2010,11/2/2010,general,FALSE,REP,Jim Renacci,42
 OH,16,American Action Forum,8/16/2010,8/167/2010,400,lv,R,2010,11/2/2010,general,FALSE,DEM,John Boccieri,35
 OH,16,American Action Forum,8/16/2010,8/167/2010,400,lv,R,2010,11/2/2010,general,FALSE,REP,Jim Renacci,49
+OH,16,McLaughlin & Associates,10/13/2010,10/13/2010,300,lv,R,2010,11/2/2010,general,FALSE,DEM,John Boccieri,33
+OH,16,McLaughlin & Associates,10/13/2010,10/13/2010,300,lv,R,2010,11/2/2010,general,FALSE,REP,Jim Renacci,47
+OH,18,OnMessage Inc.,8/3/2010,8/4/2010,400,lv,R,2010,11/2/2010,general,FALSE,DEM,Zack Space,43
+OH,18,OnMessage Inc.,8/3/2010,8/4/2010,400,lv,R,2010,11/2/2010,general,FALSE,REP,Bob Gibbs,43
 IN,2,EPIC-MRA,10/20/2010,10/22/2010,400,lv,,2010,11/2/2010,general,FALSE,DEM,Joe Donnelly,48
 IN,2,EPIC-MRA,10/20/2010,10/22/2010,400,lv,,2010,11/2/2010,general,FALSE,REP,Jackie Walorski,43
 IN,2,EPIC-MRA,10/1/2010,10/3/2010,400,lv,,2010,11/2/2010,general,FALSE,DEM,Joe Donnelly,48
 IN,2,EPIC-MRA,10/1/2010,10/3/2010,400,lv,,2010,11/2/2010,general,FALSE,REP,Jackie Walorski,39
-IN,2,American Action Forum,8/16/2010,8/19/2010,400,lv,,2010,11/2/2010,general,FALSE,DEM,Joe Donnelly,46
-IN,2,American Action Forum,8/16/2010,8/19/2010,400,lv,,2010,11/2/2010,general,FALSE,REP,Jackie Walorski,44
+IN,2,American Action Forum,8/16/2010,8/19/2010,400,lv,R,2010,11/2/2010,general,FALSE,DEM,Joe Donnelly,46
+IN,2,American Action Forum,8/16/2010,8/19/2010,400,lv,R,2010,11/2/2010,general,FALSE,REP,Jackie Walorski,44
+IN,2,The Polling Company Inc.,7/31/2010,8/3/2010,309,rv,R,2010,11/2/2010,general,FALSE,DEM,Joe Donnelly,52
+IN,2,The Polling Company Inc.,7/31/2010,8/3/2010,309,rv,R,2010,11/2/2010,general,FALSE,REP,Jackie Walorski,35
+IN,3,Riggs Research,10/27/2010,10/28/2010,400,lv,D,2010,11/2/2010,general,FALSE,DEM,Tom Hayhurst,40
+IN,3,Riggs Research,10/27/2010,10/28/2010,400,lv,D,2010,11/2/2010,general,FALSE,REP,Marlin Stutzman,36
+IN,3,SurveyUSA,10/21/2010,10/25/2010,400,lv,,2010,11/2/2010,general,FALSE,DEM,Tom Hayhurst,32
+IN,3,SurveyUSA,10/21/2010,10/25/2010,400,lv,,2010,11/2/2010,general,FALSE,REP,Marlin Stutzman,57
+IN,3,American Viewpoint,7/19/2010,7/20/2010,400,lv,R,2010,11/2/2010,general,FALSE,DEM,Tom Hayhurst,29
+IN,3,American Viewpoint,7/19/2010,7/20/2010,400,lv,R,2010,11/2/2010,general,FALSE,REP,Marlin Stutzman,56
+IN,7,EPIC-MRA,10/19/2010,10/21/2010,400,lv,,2010,11/2/2010,general,FALSE,DEM,Andre Carson,50
+IN,7,EPIC-MRA,10/19/2010,10/21/2010,400,lv,,2010,11/2/2010,general,FALSE,REP,Marvin Scott,37
+IN,7,EPIC-MRA,9/13/2010,9/14/2010,400,lv,,2010,11/2/2010,general,FALSE,DEM,Andre Carson,50
+IN,7,EPIC-MRA,9/13/2010,9/14/2010,400,lv,,2010,11/2/2010,general,FALSE,REP,Marvin Scott,33
+IN,8,OnMessage Inc.,9/13/2010,9/14/2010,400,lv,R,2010,11/2/2010,general,FALSE,DEM,Trent Van Haaften,20
+IN,8,OnMessage Inc.,9/13/2010,9/14/2010,400,lv,R,2010,11/2/2010,general,FALSE,REP,Larry Bucshon,41
+IN,8,Public Opinion Strategies,7/21/2010,7/22/2010,400,lv,R,2010,11/2/2010,general,FALSE,DEM,Trent Van Haaften,27
+IN,8,Public Opinion Strategies,7/21/2010,7/22/2010,400,lv,R,2010,11/2/2010,general,FALSE,REP,Larry Bucshon,43
 IN,9,Penn Schoen & Berland,10/16/2010,10/19/2010,400,lv,D,2010,11/2/2010,general,FALSE,DEM,Baron Hill,46
 IN,9,Penn Schoen & Berland,10/16/2010,10/19/2010,400,lv,D,2010,11/2/2010,general,FALSE,REP,Todd Young,44
+IN,9,Public Opinion Strategies,7/26/2010,7/28/2010,300,lv,R,2010,11/2/2010,general,FALSE,DEM,Baron Hill,42
+IN,9,Public Opinion Strategies,7/26/2010,7/28/2010,300,lv,R,2010,11/2/2010,general,FALSE,REP,Todd Young,41
+IN,9,Public Opinion Strategies,5/24/2010,5/25/2010,300,lv,R,2010,11/2/2010,general,FALSE,DEM,Baron Hill,41
+IN,9,Public Opinion Strategies,5/24/2010,5/25/2010,300,lv,R,2010,11/2/2010,general,FALSE,REP,Todd Young,34
 MI,1,EPIC-MRA,10/17/2010,10/18/2010,400,lv,,2010,11/2/2010,general,FALSE,DEM,Gary McDowell,40
 MI,1,EPIC-MRA,10/17/2010,10/18/2010,400,lv,,2010,11/2/2010,general,FALSE,REP,Dan Benishek,42
 MI,1,Penn Schoen & Berland,10/2/2010,10/7/2010,401,lv,D,2010,11/2/2010,general,FALSE,DEM,Gary McDowell,39
 MI,1,Penn Schoen & Berland,10/2/2010,10/7/2010,401,lv,D,2010,11/2/2010,general,FALSE,REP,Dan Benishek,42
-MI,1,We Ask America,8/4/2010,8/4/2010,1016,rv,,2010,11/2/2010,general,FALSE,DEM,Gary McDowell,29
-MI,1,We Ask America,8/4/2010,8/4/2010,1016,rv,,2010,11/2/2010,general,FALSE,REP,Dan Benishek,45
+MI,1,GQR Research (GQRR),9/21/2010,9/22/2010,505,lv,D,2010,11/2/2010,general,FALSE,DEM,Gary McDowell,38
+MI,1,GQR Research (GQRR),9/21/2010,9/22/2010,505,lv,D,2010,11/2/2010,general,FALSE,REP,Dan Benishek,41
+MI,1,Hill Research Consultants,9/19/2010,9/21/2010,400,lv,R,2010,11/2/2010,general,FALSE,DEM,Gary McDowell,24
+MI,1,Hill Research Consultants,9/19/2010,9/21/2010,400,lv,R,2010,11/2/2010,general,FALSE,REP,Dan Benishek,40
+MI,1,TargetPoint,8/31/2010,9/2/2010,406,lv,R,2010,11/2/2010,general,FALSE,DEM,Gary McDowell,34
+MI,1,TargetPoint,8/31/2010,9/2/2010,406,lv,R,2010,11/2/2010,general,FALSE,REP,Dan Benishek,51
+MI,1,We Ask America,8/4/2010,8/4/2010,1016,rv,R,2010,11/2/2010,general,FALSE,DEM,Gary McDowell,29
+MI,1,We Ask America,8/4/2010,8/4/2010,1016,rv,R,2010,11/2/2010,general,FALSE,REP,Dan Benishek,45
+MI,3,Public Opinion Strategies,10/19/2010,10/20/2010,400,lv,R,2010,11/2/2010,general,FALSE,DEM,Patrick Miles Jr.,30
+MI,3,Public Opinion Strategies,10/19/2010,10/20/2010,400,lv,R,2010,11/2/2010,general,FALSE,REP,Justin Amash,49
+MI,3,EPIC-MRA,10/16/2010,10/19/2010,400,lv,,2010,11/2/2010,general,FALSE,DEM,Patrick Miles Jr.,37
+MI,3,EPIC-MRA,10/16/2010,10/19/2010,400,lv,,2010,11/2/2010,general,FALSE,REP,Justin Amash,46
+MI,3,We Ask America,8/4/2010,8/4/2010,1006,rv,R,2010,11/2/2010,general,FALSE,DEM,Patrick Miles Jr.,31
+MI,3,We Ask America,8/4/2010,8/4/2010,1006,rv,R,2010,11/2/2010,general,FALSE,REP,Justin Amash,51
+MI,7,MRG Research,10/24/2010,10/26/2010,400,lv,,2010,11/2/2010,general,FALSE,DEM,Mark Schauer,50
+MI,7,MRG Research,10/24/2010,10/26/2010,400,lv,,2010,11/2/2010,general,FALSE,REP,Tim Walberg,43
+MI,7,National Research Inc.,10/20/2010,10/21/2010,300,lv,R,2010,11/2/2010,general,FALSE,DEM,Mark Schauer,36
+MI,7,National Research Inc.,10/20/2010,10/21/2010,300,lv,R,2010,11/2/2010,general,FALSE,REP,Tim Walberg,49
+MI,7,EPIC-MRA,10/16/2010,10/17/2010,400,lv,,2010,11/2/2010,general,FALSE,DEM,Mark Schauer,45
+MI,7,EPIC-MRA,10/16/2010,10/17/2010,400,lv,,2010,11/2/2010,general,FALSE,REP,Tim Walberg,39
+MI,7,Myers,10/3/2010,10/4/2010,500,lv,D,2010,11/2/2010,general,FALSE,DEM,Mark Schauer,44
+MI,7,Myers,10/3/2010,10/4/2010,500,lv,D,2010,11/2/2010,general,FALSE,REP,Tim Walberg,40
+MI,7,Penn Schoen & Berland,9/25/2010,9/27/2010,404,lv,D,2010,11/2/2010,general,FALSE,DEM,Mark Schauer,41
+MI,7,Penn Schoen & Berland,9/25/2010,9/27/2010,404,lv,D,2010,11/2/2010,general,FALSE,REP,Tim Walberg,41
+MI,7,Rossman Group,10/20/2010,10/20/2010,300,lv,,2010,11/2/2010,general,FALSE,DEM,Mark Schauer,38
+MI,7,Rossman Group,10/20/2010,10/20/2010,300,lv,,2010,11/2/2010,general,FALSE,REP,Tim Walberg,42
+MI,7,Myers,9/19/2010,9/20/2010,500,lv,D,2010,11/2/2010,general,FALSE,DEM,Mark Schauer,45
+MI,7,Myers,9/19/2010,9/20/2010,500,lv,D,2010,11/2/2010,general,FALSE,REP,Tim Walberg,43
+MI,7,American Action Forum,8/16/2010,8/18/2010,400,lv,R,2010,11/2/2010,general,FALSE,DEM,Mark Schauer,40
+MI,7,American Action Forum,8/16/2010,8/18/2010,400,lv,R,2010,11/2/2010,general,FALSE,REP,Tim Walberg,50
+MI,7,We Ask America,8/4/2010,8/4/2010,1008,rv,R,2010,11/2/2010,general,FALSE,DEM,Mark Schauer,37
+MI,7,We Ask America,8/4/2010,8/4/2010,1008,rv,R,2010,11/2/2010,general,FALSE,REP,Tim Walberg,45
+MI,7,National Research Inc.,1/11/2010,1/12/2010,300,lv,R,2010,11/2/2010,general,FALSE,DEM,Mark Schauer,40
+MI,7,National Research Inc.,1/11/2010,1/12/2010,300,lv,R,2010,11/2/2010,general,FALSE,REP,Tim Walberg,50
+MI,9,Great Lakes Strategies,10/27/2010,10/27/2010,700,lv,R,2010,11/2/2010,general,FALSE,DEM,Gary Peters,43
+MI,9,Great Lakes Strategies,10/27/2010,10/27/2010,700,lv,R,2010,11/2/2010,general,FALSE,REP,Rocky Raczkowski,48
 MI,9,EPIC-MRA,10/16/2010,10/17/2010,400,lv,,2010,11/2/2010,general,FALSE,DEM,Gary Peters,48
 MI,9,EPIC-MRA,10/16/2010,10/17/2010,400,lv,,2010,11/2/2010,general,FALSE,REP,Rocky Raczkowski,43
 MI,9,Rossman Group,9/13/2010,9/13/2010,300,lv,R,2010,11/2/2010,general,FALSE,DEM,Gary Peters,41
@@ -4263,8 +4437,8 @@ MI,15,EPIC-MRA,10/16/2010,10/19/2010,400,lv,,2010,11/2/2010,general,FALSE,DEM,Jo
 MI,15,EPIC-MRA,10/16/2010,10/19/2010,400,lv,,2010,11/2/2010,general,FALSE,REP,Rob Steele,36
 MI,15,Rossman Group,10/4/2010,10/4/2010,300,lv,R,2010,11/2/2010,general,FALSE,DEM,John Dingell,40
 MI,15,Rossman Group,10/4/2010,10/4/2010,300,lv,R,2010,11/2/2010,general,FALSE,REP,Rob Steele,44
-MI,15,Detroit News,9/15/2010,9/16/2010,400,lv,,2010,11/2/2010,general,FALSE,DEM,John Dingell,49
-MI,15,Detroit News,9/15/2010,9/16/2010,400,lv,,2010,11/2/2010,general,FALSE,REP,Rob Steele,30
+MI,15,Glengariff Group Inc.,9/15/2010,9/16/2010,400,lv,,2010,11/2/2010,general,FALSE,DEM,John Dingell,49
+MI,15,Glengariff Group Inc.,9/15/2010,9/16/2010,400,lv,,2010,11/2/2010,general,FALSE,REP,Rob Steele,30
 MI,7,EPIC-MRA,10/16/2010,10/17/2010,400,lv,,2010,11/2/2010,general,FALSE,DEM,Mark Schauer,45
 MI,7,EPIC-MRA,10/16/2010,10/17/2010,400,lv,,2010,11/2/2010,general,FALSE,REP,Tim Walberg,39
 MI,7,Penn Schoen & Berland,9/25/2010,9/27/2010,404,lv,D,2010,11/2/2010,general,FALSE,DEM,Mark Schauer,41
@@ -4273,102 +4447,228 @@ MI,7,Rossman Group,9/20/2010,9/20/2010,300,lv,D,2010,11/2/2010,general,FALSE,DEM
 MI,7,Rossman Group,9/20/2010,9/20/2010,300,lv,D,2010,11/2/2010,general,FALSE,REP,Tim Walberg,42
 MI,7,American Action Forum,8/16/2010,8/18/2010,400,lv,R,2010,11/2/2010,general,FALSE,DEM,Mark Schauer,40
 MI,7,American Action Forum,8/16/2010,8/18/2010,400,lv,R,2010,11/2/2010,general,FALSE,REP,Tim Walberg,50
-MI,7,We Ask America,8/4/2010,8/4/2010,1008,rv,,2010,11/2/2010,general,FALSE,DEM,Mark Schauer,37
-MI,7,We Ask America,8/4/2010,8/4/2010,1008,rv,,2010,11/2/2010,general,FALSE,REP,Tim Walberg,45
-WI,7,We Ask America,10/18/2010,10/18/2010,1150,rv,,2010,11/2/2010,general,FALSE,DEM,Julie Lassa,39
-WI,7,We Ask America,10/18/2010,10/18/2010,1150,rv,,2010,11/2/2010,general,FALSE,REP,Sean Duffy,46
+MI,7,We Ask America,8/4/2010,8/4/2010,1008,rv,R,2010,11/2/2010,general,FALSE,DEM,Mark Schauer,37
+MI,7,We Ask America,8/4/2010,8/4/2010,1008,rv,R,2010,11/2/2010,general,FALSE,REP,Tim Walberg,45
+WI,3,Tarrance Group,8/15/2010,8/16/2010,400,lv,R,2010,11/2/2010,general,FALSE,DEM,Ron Kind,49
+WI,3,Tarrance Group,8/15/2010,8/16/2010,400,lv,R,2010,11/2/2010,general,FALSE,REP,Dan Kapanke,40
+WI,3,Public Opinion Strategies,7/18/2010,7/19/2010,300,lv,R,2010,11/2/2010,general,FALSE,DEM,Ron Kind,44
+WI,3,Public Opinion Strategies,7/18/2010,7/19/2010,300,lv,R,2010,11/2/2010,general,FALSE,REP,Dan Kapanke,38
+WI,7,We Ask America,10/18/2010,10/18/2010,1150,rv,R,2010,11/2/2010,general,FALSE,DEM,Julie Lassa,39
+WI,7,We Ask America,10/18/2010,10/18/2010,1150,rv,R,2010,11/2/2010,general,FALSE,REP,Sean Duffy,46
 WI,7,Penn Schoen & Berland,10/2/2010,10/7/2010,400,lv,D,2010,11/2/2010,general,FALSE,DEM,Julie Lassa,35
 WI,7,Penn Schoen & Berland,10/2/2010,10/7/2010,400,lv,D,2010,11/2/2010,general,FALSE,REP,Sean Duffy,44
-WI,7,We Ask America,8/4/2010,8/4/2010,1002,rv,,2010,11/2/2010,general,FALSE,DEM,Julie Lassa,33
-WI,7,We Ask America,8/4/2010,8/4/2010,1002,rv,,2010,11/2/2010,general,FALSE,REP,Sean Duffy,42
+WI,7,Garin-Hart-Yang Research Group,10/26/2010,10/27/2010,504,lv,D,2010,11/2/2010,general,FALSE,DEM,Julie Lassa,41
+WI,7,Garin-Hart-Yang Research Group,10/26/2010,10/27/2010,504,lv,D,2010,11/2/2010,general,FALSE,REP,Sean Duffy,42
+WI,7,Public Opinion Strategies,9/21/2010,9/22/2010,400,lv,R,2010,11/2/2010,general,FALSE,DEM,Julie Lassa,34
+WI,7,Public Opinion Strategies,9/21/2010,9/22/2010,400,lv,R,2010,11/2/2010,general,FALSE,REP,Sean Duffy,47
+WI,7,McLaughlin & Associates,9/15/2010,9/16/2010,400,lv,R,2010,11/2/2010,general,FALSE,DEM,Julie Lassa,38
+WI,7,McLaughlin & Associates,9/15/2010,9/16/2010,400,lv,R,2010,11/2/2010,general,FALSE,REP,Sean Duffy,52
+WI,7,We Ask America,8/4/2010,8/4/2010,1002,rv,R,2010,11/2/2010,general,FALSE,DEM,Julie Lassa,33
+WI,7,We Ask America,8/4/2010,8/4/2010,1002,rv,R,2010,11/2/2010,general,FALSE,REP,Sean Duffy,42
 WI,8,Public Policy Polling,10/23/2010,10/24/2010,1419,lv,D,2010,11/2/2010,general,FALSE,DEM,Steve Kagen,37
 WI,8,Public Policy Polling,10/23/2010,10/24/2010,1419,lv,D,2010,11/2/2010,general,FALSE,REP,Reid Ribble,40
 WI,8,Penn Schoen & Berland,10/12/2010,10/14/2010,415,lv,D,2010,11/2/2010,general,FALSE,DEM,Steve Kagen,44
 WI,8,Penn Schoen & Berland,10/12/2010,10/14/2010,415,lv,D,2010,11/2/2010,general,FALSE,REP,Reid Ribble,45
+WI,8,OnMessage Inc.,9/15/2010,9/16/2010,400,lv,R,2010,11/2/2010,general,FALSE,DEM,Steve Kagen,39
+WI,8,OnMessage Inc.,9/15/2010,9/16/2010,400,lv,R,2010,11/2/2010,general,FALSE,REP,Reid Ribble,57
 WI,8,American Action Forum,8/16/2010,8/19/2010,400,lv,R,2010,11/2/2010,general,FALSE,DEM,Steve Kagen,39
 WI,8,American Action Forum,8/16/2010,8/19/2010,400,lv,R,2010,11/2/2010,general,FALSE,REP,Reid Ribble,49
-IL,8,We Ask America,10/31/2010,10/31/2010,773,lv,,2010,11/2/2010,general,FALSE,DEM,Melissa Bean,46
-IL,8,We Ask America,10/31/2010,10/31/2010,773,lv,,2010,11/2/2010,general,FALSE,REP,Joe Walsh,49
-IL,8,We Ask America,9/28/2010,9/28/2010,1381,lv,,2010,11/2/2010,general,FALSE,DEM,Melissa Bean,41
-IL,8,We Ask America,9/28/2010,9/28/2010,1381,lv,,2010,11/2/2010,general,FALSE,REP,Joe Walsh,41
-IL,10,We Ask America,10/31/2010,10/31/2010,861,lv,,2010,11/2/2010,general,FALSE,DEM,Dan Seals,46
-IL,10,We Ask America,10/31/2010,10/31/2010,861,lv,,2010,11/2/2010,general,FALSE,REP,Bob Dold,55
-IL,10,We Ask America,10/15/2010,10/15/2010,1148,lv,,2010,11/2/2010,general,FALSE,DEM,Dan Seals,39
-IL,10,We Ask America,10/15/2010,10/15/2010,1148,lv,,2010,11/2/2010,general,FALSE,REP,Bob Dold,50
+IL,8,We Ask America,10/31/2010,10/31/2010,773,lv,R,2010,11/2/2010,general,FALSE,DEM,Melissa Bean,46
+IL,8,We Ask America,10/31/2010,10/31/2010,773,lv,R,2010,11/2/2010,general,FALSE,REP,Joe Walsh,49
+IL,8,We Ask America,9/28/2010,9/28/2010,1381,lv,R,2010,11/2/2010,general,FALSE,DEM,Melissa Bean,41
+IL,8,We Ask America,9/28/2010,9/28/2010,1381,lv,R,2010,11/2/2010,general,FALSE,REP,Joe Walsh,41
+IL,8,We Ask America,2/18/2010,2/18/2010,827,rv,R,2010,11/2/2010,general,FALSE,DEM,Melissa Bean,38
+IL,8,We Ask America,2/18/2010,2/18/2010,827,rv,R,2010,11/2/2010,general,FALSE,REP,Joe Walsh,38
+IL,9,Magellan Strategies,10/12/2010,10/12/2010,945,lv,R,2010,11/2/2010,general,FALSE,DEM,Jan Schakowsky,48
+IL,9,Magellan Strategies,10/12/2010,10/12/2010,945,lv,R,2010,11/2/2010,general,FALSE,REP,Joel Pollak,30
+IL,10,We Ask America,10/31/2010,10/31/2010,861,lv,R,2010,11/2/2010,general,FALSE,DEM,Dan Seals,46
+IL,10,We Ask America,10/31/2010,10/31/2010,861,lv,R,2010,11/2/2010,general,FALSE,REP,Bob Dold,55
+IL,10,We Ask America,10/15/2010,10/15/2010,1148,lv,R,2010,11/2/2010,general,FALSE,DEM,Dan Seals,39
+IL,10,We Ask America,10/15/2010,10/15/2010,1148,lv,R,2010,11/2/2010,general,FALSE,REP,Bob Dold,50
 IL,10,Penn Schoen & Berland,10/2/2010,10/7/2010,405,lv,D,2010,11/2/2010,general,FALSE,DEM,Dan Seals,49
 IL,10,Penn Schoen & Berland,10/2/2010,10/7/2010,405,lv,D,2010,11/2/2010,general,FALSE,REP,Bob Dold,37
-IL,10,We Ask America,8/4/2010,8/4/2010,1015,rv,,2010,11/2/2010,general,FALSE,DEM,Dan Seals,43
-IL,10,We Ask America,8/4/2010,8/4/2010,1015,rv,,2010,11/2/2010,general,FALSE,REP,Bob Dold,40
-IL,11,We Ask America,10/31/2010,10/31/2010,829,lv,,2010,11/2/2010,general,FALSE,DEM,Debbie Halvorson,45
-IL,11,We Ask America,10/31/2010,10/31/2010,829,lv,,2010,11/2/2010,general,FALSE,REP,Adam Kinzinger,55
+IL,10,We Ask America,8/4/2010,8/4/2010,1015,rv,R,2010,11/2/2010,general,FALSE,DEM,Dan Seals,43
+IL,10,We Ask America,8/4/2010,8/4/2010,1015,rv,R,2010,11/2/2010,general,FALSE,REP,Bob Dold,40
+IL,10,Anzalone Liszt Grove Research,8/30/2010,9/2/2010,500,lv,D,2010,11/2/2010,general,FALSE,DEM,Dan Seals,49
+IL,10,Anzalone Liszt Grove Research,8/30/2010,9/2/2010,500,lv,D,2010,11/2/2010,general,FALSE,REP,Bob Dold,36
+IL,10,Anzalone Liszt Grove Research,5/12/2010,5/17/2010,502,lv,D,2010,11/2/2010,general,FALSE,DEM,Dan Seals,46
+IL,10,Anzalone Liszt Grove Research,5/12/2010,5/17/2010,502,lv,D,2010,11/2/2010,general,FALSE,REP,Bob Dold,38
+IL,10,We Ask America,2/18/2010,2/18/2010,878,rv,R,2010,11/2/2010,general,FALSE,DEM,Dan Seals,41
+IL,10,We Ask America,2/18/2010,2/18/2010,878,rv,R,2010,11/2/2010,general,FALSE,REP,Bob Dold,37
+IL,11,We Ask America,10/31/2010,10/31/2010,829,lv,R,2010,11/2/2010,general,FALSE,DEM,Debbie Halvorson,45
+IL,11,We Ask America,10/31/2010,10/31/2010,829,lv,R,2010,11/2/2010,general,FALSE,REP,Adam Kinzinger,55
 IL,11,Penn Schoen & Berland,9/28/2010,9/30/2010,401,lv,D,2010,11/2/2010,general,FALSE,DEM,Debbie Halvorson,31
 IL,11,Penn Schoen & Berland,9/28/2010,9/30/2010,401,lv,D,2010,11/2/2010,general,FALSE,REP,Adam Kinzinger,49
-IL,11,We Ask America,8/4/2010,8/4/2010,1015,rv,,2010,11/2/2010,general,FALSE,DEM,Debbie Halvorson,32
-IL,11,We Ask America,8/4/2010,8/4/2010,1015,rv,,2010,11/2/2010,general,FALSE,REP,Adam Kinzinger,52
-IL,14,We Ask America,10/31/2010,10/31/2010,784,lv,,2010,11/2/2010,general,FALSE,DEM,Bill Foster,45
-IL,14,We Ask America,10/31/2010,10/31/2010,784,lv,,2010,11/2/2010,general,FALSE,REP,Randy Hulgren,50
+IL,11,We Ask America,8/4/2010,8/4/2010,1015,rv,R,2010,11/2/2010,general,FALSE,DEM,Debbie Halvorson,32
+IL,11,We Ask America,8/4/2010,8/4/2010,1015,rv,R,2010,11/2/2010,general,FALSE,REP,Adam Kinzinger,52
+IL,11,Anzalone Liszt Grove Research,10/5/2010,10/7/2010,500,lv,D,2010,11/2/2010,general,FALSE,DEM,Debbie Halvorson,41
+IL,11,Anzalone Liszt Grove Research,10/5/2010,10/7/2010,500,lv,D,2010,11/2/2010,general,FALSE,REP,Adam Kinzinger,45
+IL,11,Public Opinion Strategies,8/4/2010,8/5/2010,400,lv,R,2010,11/2/2010,general,FALSE,DEM,Debbie Halvorson,40
+IL,11,Public Opinion Strategies,8/4/2010,8/5/2010,400,lv,R,2010,11/2/2010,general,FALSE,REP,Adam Kinzinger,51
+IL,11,Public Opinion Strategies,3/21/2010,3/22/2010,400,lv,R,2010,11/2/2010,general,FALSE,DEM,Debbie Halvorson,38
+IL,11,Public Opinion Strategies,3/21/2010,3/22/2010,400,lv,R,2010,11/2/2010,general,FALSE,REP,Adam Kinzinger,44
+IL,11,We Ask America,2/18/2010,2/18/2010,804,rv,R,2010,11/2/2010,general,FALSE,DEM,Debbie Halvorson,30
+IL,11,We Ask America,2/18/2010,2/18/2010,804,rv,R,2010,11/2/2010,general,FALSE,REP,Adam Kinzinger,42
+IL,13,American Viewpoint,7/27/2010,7/28/2010,400,lv,R,2010,11/2/2010,general,FALSE,DEM,Scott Harper,28
+IL,13,American Viewpoint,7/27/2010,7/28/2010,400,lv,R,2010,11/2/2010,general,FALSE,REP,Judy Biggert,61
+IL,13,Global Strategy Group,6/28/2010,6/30/2010,400,lv,D,2010,11/2/2010,general,FALSE,DEM,Scott Harper,29
+IL,13,Global Strategy Group,6/28/2010,6/30/2010,400,lv,D,2010,11/2/2010,general,FALSE,REP,Judy Biggert,55
+IL,14,We Ask America,10/31/2010,10/31/2010,784,lv,R,2010,11/2/2010,general,FALSE,DEM,Bill Foster,28
+IL,14,We Ask America,10/31/2010,10/31/2010,784,lv,R,2010,11/2/2010,general,FALSE,REP,Randy Hulgren,61
 IL,14,Penn Schoen & Berland,10/9/2010,10/12/2010,406,lv,D,2010,11/2/2010,general,FALSE,DEM,Bill Foster,42
 IL,14,Penn Schoen & Berland,10/9/2010,10/12/2010,406,lv,D,2010,11/2/2010,general,FALSE,REP,Randy Hulgren,43
-IL,14,We Ask America,8/4/2010,8/4/2010,1028,rv,,2010,11/2/2010,general,FALSE,DEM,Bill Foster,37
-IL,14,We Ask America,8/4/2010,8/4/2010,1028,rv,,2010,11/2/2010,general,FALSE,REP,Randy Hulgren,44
-IL,17,We Ask America,10/31/2010,10/31/2010,1103,lv,,2010,11/2/2010,general,FALSE,DEM,Phil Hare,44
-IL,17,We Ask America,10/31/2010,10/31/2010,1103,lv,,2010,11/2/2010,general,FALSE,REP,Bobby Schilling,52
+IL,14,We Ask America,8/4/2010,8/4/2010,1028,rv,R,2010,11/2/2010,general,FALSE,DEM,Bill Foster,37
+IL,14,We Ask America,8/4/2010,8/4/2010,1028,rv,R,2010,11/2/2010,general,FALSE,REP,Randy Hulgren,44
+IL,14,Benenson Strategy Group,10/4/2010,10/6/2010,400,lv,D,2010,11/2/2010,general,FALSE,DEM,Bill Foster,48
+IL,14,Benenson Strategy Group,10/4/2010,10/6/2010,400,lv,D,2010,11/2/2010,general,FALSE,REP,Randy Hulgren,38
+IL,14,Tarrance Group,10/3/2010,10/4/2010,400,lv,R,2010,11/2/2010,general,FALSE,DEM,Bill Foster,38
+IL,14,Tarrance Group,10/3/2010,10/4/2010,400,lv,R,2010,11/2/2010,general,FALSE,REP,Randy Hulgren,44
+IL,14,Tarrance Group,5/3/2010,5/4/2010,300,lv,R,2010,11/2/2010,general,FALSE,DEM,Bill Foster,44
+IL,14,Tarrance Group,5/3/2010,5/4/2010,300,lv,R,2010,11/2/2010,general,FALSE,REP,Randy Hulgren,45
+IL,14,We Ask America,2/18/2010,2/18/2010,817,rv,R,2010,11/2/2010,general,FALSE,DEM,Bill Foster,37
+IL,14,We Ask America,2/18/2010,2/18/2010,817,rv,R,2010,11/2/2010,general,FALSE,REP,Randy Hulgren,38
+IL,17,We Ask America,10/31/2010,10/31/2010,1103,lv,R,2010,11/2/2010,general,FALSE,DEM,Phil Hare,44
+IL,17,We Ask America,10/31/2010,10/31/2010,1103,lv,R,2010,11/2/2010,general,FALSE,REP,Bobby Schilling,52
 IL,17,Penn Schoen & Berland,10/12/2010,10/14/2010,417,lv,D,2010,11/2/2010,general,FALSE,DEM,Phil Hare,38
 IL,17,Penn Schoen & Berland,10/12/2010,10/14/2010,417,lv,D,2010,11/2/2010,general,FALSE,REP,Bobby Schilling,45
-IL,17,We Ask America,9/8/2010,9/8/2010,1250,rv,,2010,11/2/2010,general,FALSE,DEM,Phil Hare,38
-IL,17,We Ask America,9/8/2010,9/8/2010,1250,rv,,2010,11/2/2010,general,FALSE,REP,Bobby Schilling,41
+IL,17,We Ask America,9/8/2010,9/8/2010,1250,rv,R,2010,11/2/2010,general,FALSE,DEM,Phil Hare,38
+IL,17,We Ask America,9/8/2010,9/8/2010,1250,rv,R,2010,11/2/2010,general,FALSE,REP,Bobby Schilling,41
+IL,17,Public Opinion Strategies,9/26/2010,9/27/2010,400,lv,R,2010,11/2/2010,general,FALSE,DEM,Phil Hare,39
+IL,17,Public Opinion Strategies,9/26/2010,9/27/2010,400,lv,R,2010,11/2/2010,general,FALSE,REP,Bobby Schilling,37
+IL,17,Tarrance Group,9/23/2010,9/25/2010,400,lv,R,2010,11/2/2010,general,FALSE,DEM,Phil Hare,43
+IL,17,Tarrance Group,9/23/2010,9/25/2010,400,lv,R,2010,11/2/2010,general,FALSE,REP,Bobby Schilling,44
+IL,17,Public Opinion Strategies,8/1/2010,8/2/2010,300,lv,R,2010,11/2/2010,general,FALSE,DEM,Phil Hare,33
+IL,17,Public Opinion Strategies,8/1/2010,8/2/2010,300,lv,R,2010,11/2/2010,general,FALSE,REP,Bobby Schilling,31
+IL,17,Magellan Strategies,7/12/2010,7/12/2010,715,lv,R,2010,11/2/2010,general,FALSE,DEM,Phil Hare,32
+IL,17,Magellan Strategies,7/12/2010,7/12/2010,715,lv,R,2010,11/2/2010,general,FALSE,REP,Bobby Schilling,45
+IL,17,We Ask America,2/18/2010,2/18/2010,1056,rv,R,2010,11/2/2010,general,FALSE,DEM,Phil Hare,39
+IL,17,We Ask America,2/18/2010,2/18/2010,1056,rv,R,2010,11/2/2010,general,FALSE,REP,Bobby Schilling,32
 MN,1,SurveyUSA,10/22/2010,10/26/2010,558,lv,,2010,11/2/2010,general,FALSE,DEM,Tim Walz,50
 MN,1,SurveyUSA,10/22/2010,10/26/2010,558,lv,,2010,11/2/2010,general,FALSE,REP,Randy Demmer,41
+MN,1,Grove Insight,10/18/2010,10/19/2010,400,lv,D,2010,11/2/2010,general,FALSE,DEM,Tim Walz,50
+MN,1,Grove Insight,10/18/2010,10/19/2010,400,lv,D,2010,11/2/2010,general,FALSE,REP,Randy Demmer,34
 MN,1,SurveyUSA,10/12/2010,10/14/2010,584,lv,,2010,11/2/2010,general,FALSE,DEM,Tim Walz,47
 MN,1,SurveyUSA,10/12/2010,10/14/2010,584,lv,,2010,11/2/2010,general,FALSE,REP,Randy Demmer,42
+MN,3,Lake Research Partners,7/20/2010,7/22/2010,400,lv,D,2010,11/2/2010,general,FALSE,DEM,Jim Meffert,22
+MN,3,Lake Research Partners,7/20/2010,7/22/2010,400,lv,D,2010,11/2/2010,general,FALSE,REP,Erik Paulsen,44
 MN,6,SurveyUSA,9/13/2010,9/15/2010,582,lv,,2010,11/2/2010,general,FALSE,DEM,Tarryl Clark,40
 MN,6,SurveyUSA,9/13/2010,9/15/2010,582,lv,,2010,11/2/2010,general,FALSE,REP,Michele Bachmann,49
 MN,6,SurveyUSA,7/9/2010,7/11/2010,565,lv,,2010,11/2/2010,general,FALSE,DEM,Tarryl Clark,39
 MN,6,SurveyUSA,7/9/2010,7/11/2010,565,lv,,2010,11/2/2010,general,FALSE,REP,Michele Bachmann,48
+MN,7,Global Strategy Group,9/28/2010,9/28/2010,404,lv,D,2010,11/2/2010,general,FALSE,DEM,Collin Peterson,54
+MN,7,Global Strategy Group,9/28/2010,9/28/2010,404,lv,D,2010,11/2/2010,general,FALSE,REP,Lee Byberg,20
 MN,8,SurveyUSA,10/25/2010,10/28/2010,665,lv,,2010,11/2/2010,general,FALSE,DEM,Jim Oberstar,47
 MN,8,SurveyUSA,10/25/2010,10/28/2010,665,lv,,2010,11/2/2010,general,FALSE,REP,Chip Cravaack,46
+MN,8,Public Opinion Strategies,9/28/2010,9/29/2010,300,lv,R,2010,11/2/2010,general,FALSE,DEM,Jim Oberstar,45
+MN,8,Public Opinion Strategies,9/28/2010,9/29/2010,300,lv,R,2010,11/2/2010,general,FALSE,REP,Chip Cravaack,42
 IA,1,Consumer Research,8/31/2010,9/3/2010,300,rv,R,2010,11/2/2010,general,FALSE,DEM,Bruce Bradley,50
 IA,1,Consumer Research,8/31/2010,9/3/2010,300,rv,R,2010,11/2/2010,general,FALSE,REP,Ben Lange,39
 IA,2,Consumer Research,8/31/2010,9/3/2010,300,rv,R,2010,11/2/2010,general,FALSE,DEM,Dave Loebsack,47
 IA,2,Consumer Research,8/31/2010,9/3/2010,300,rv,R,2010,11/2/2010,general,FALSE,REP,Mariannette Miller-Meeks,39
+IA,2,Tarrance Group,10/18/2010,10/19/2010,300,lv,R,2010,11/2/2010,general,FALSE,DEM,Dave Loebsack,44
+IA,2,Tarrance Group,10/18/2010,10/19/2010,300,lv,R,2010,11/2/2010,general,FALSE,REP,Mariannette Miller-Meeks,45
+IA,2,Tarrance Group,9/13/2010,9/14/2010,400,lv,R,2010,11/2/2010,general,FALSE,DEM,Dave Loebsack,41
+IA,2,Tarrance Group,9/13/2010,9/14/2010,400,lv,R,2010,11/2/2010,general,FALSE,REP,Mariannette Miller-Meeks,40
+IA,2,Susquehanna Polling & Research Inc.,6/23/2010,6/25/2010,288,lv,R,2010,11/2/2010,general,FALSE,DEM,Dave Loebsack,46
+IA,2,Susquehanna Polling & Research Inc.,6/23/2010,6/25/2010,288,lv,R,2010,11/2/2010,general,FALSE,REP,Mariannette Miller-Meeks,41
 IA,3,Penn Schoen & Berland,10/19/2010,10/21/2010,404,lv,D,2010,11/2/2010,general,FALSE,DEM,Leonard Boswell,49
 IA,3,Penn Schoen & Berland,10/19/2010,10/21/2010,404,lv,D,2010,11/2/2010,general,FALSE,REP,Brad Zaun,37
 IA,3,Consumer Research,8/31/2010,9/3/2010,300,rv,R,2010,11/2/2010,general,FALSE,DEM,Leonard Boswell,48
 IA,3,Consumer Research,8/31/2010,9/3/2010,300,rv,R,2010,11/2/2010,general,FALSE,REP,Brad Zaun,39
 IA,3,American Action Forum,8/16/2010,8/18/2010,400,lv,R,2010,11/2/2010,general,FALSE,DEM,Leonard Boswell,41
 IA,3,American Action Forum,8/16/2010,8/18/2010,400,lv,R,2010,11/2/2010,general,FALSE,REP,Brad Zaun,51
+IA,3,Anzalone Liszt Grove Research,10/3/2010,10/5/2010,500,lv,D,2010,11/2/2010,general,FALSE,DEM,Leonard Boswell,47
+IA,3,Anzalone Liszt Grove Research,10/3/2010,10/5/2010,500,lv,D,2010,11/2/2010,general,FALSE,REP,Brad Zaun,38
+IA,3,Bennett Petts Blumenthal,10/3/2010,10/4/2010,400,lv,D,2010,11/2/2010,general,FALSE,DEM,Leonard Boswell,49
+IA,3,Bennett Petts Blumenthal,10/3/2010,10/4/2010,400,lv,D,2010,11/2/2010,general,FALSE,REP,Brad Zaun,41
+IA,3,Victory Enterprises,8/4/2010,8/5/2010,300,lv,R,2010,11/2/2010,general,FALSE,DEM,Leonard Boswell,38
+IA,3,Victory Enterprises,8/4/2010,8/5/2010,300,lv,R,2010,11/2/2010,general,FALSE,REP,Brad Zaun,45
+IA,3,Victory Enterprises,6/17/2010,6/17/2010,400,lv,R,2010,11/2/2010,general,FALSE,DEM,Leonard Boswell,32
+IA,3,Victory Enterprises,6/17/2010,6/17/2010,400,lv,R,2010,11/2/2010,general,FALSE,REP,Brad Zaun,41
 MO,3,American Action Forum,8/16/2010,8/20/2010,400,lv,R,2010,11/2/2010,general,FALSE,DEM,Russ Canahan,54
 MO,3,American Action Forum,8/16/2010,8/20/2010,400,lv,R,2010,11/2/2010,general,FALSE,REP,Ed Martin,38
-MO,3,We Ask America,8/17/2010,8/17/2010,1089,rv,,2010,11/2/2010,general,FALSE,DEM,Russ Canahan,48
-MO,3,We Ask America,8/17/2010,8/17/2010,1089,rv,,2010,11/2/2010,general,FALSE,REP,Ed Martin,39
+MO,3,We Ask America,8/17/2010,8/17/2010,1089,rv,R,2010,11/2/2010,general,FALSE,DEM,Russ Canahan,48
+MO,3,We Ask America,8/17/2010,8/17/2010,1089,rv,R,2010,11/2/2010,general,FALSE,REP,Ed Martin,39
 MO,4,Missouri State University,10/20/2010,10/27/2010,159,lv,,2010,11/2/2010,general,FALSE,DEM,Ike Skelton,46
 MO,4,Missouri State University,10/20/2010,10/27/2010,159,lv,,2010,11/2/2010,general,FALSE,REP,Vicky Hartzler,39
 MO,4,Missouri State University,8/6/2010,8/22/2010,187,rv,,2010,11/2/2010,general,FALSE,DEM,Ike Skelton,47
 MO,4,Missouri State University,8/6/2010,8/22/2010,187,rv,,2010,11/2/2010,general,FALSE,REP,Vicky Hartzler,35
-MO,4,We Ask America,8/17/2010,8/17/2010,1207,rv,,2010,11/2/2010,general,FALSE,DEM,Ike Skelton,45
-MO,4,We Ask America,8/17/2010,8/17/2010,1207,rv,,2010,11/2/2010,general,FALSE,REP,Vicky Hartzler,42
+MO,4,We Ask America,8/17/2010,8/17/2010,1207,rv,R,2010,11/2/2010,general,FALSE,DEM,Ike Skelton,45
+MO,4,We Ask America,8/17/2010,8/17/2010,1207,rv,R,2010,11/2/2010,general,FALSE,REP,Vicky Hartzler,42
+MO,4,Wilson,10/17/2010,10/18/2010,300,lv,R,2010,11/2/2010,general,FALSE,DEM,Ike Skelton,42
+MO,4,Wilson,10/17/2010,10/18/2010,300,lv,R,2010,11/2/2010,general,FALSE,REP,Vicky Hartzler,42
+MO,5,Rasmussen Reports/Pulse Opinion Research,10/5/2010,10/5/2010,500,lv,,2010,11/2/2010,general,FALSE,DEM,Emanuel Cleaver,52
+MO,5,Rasmussen Reports/Pulse Opinion Research,10/5/2010,10/5/2010,500,lv,,2010,11/2/2010,general,FALSE,REP,Jacob Turk,43
+MO,7,Missouri State University,10/20/2010,10/27/2010,199,lv,,2010,11/2/2010,general,FALSE,DEM,Scott Eckersley,23
+MO,7,Missouri State University,10/20/2010,10/27/2010,199,lv,,2010,11/2/2010,general,FALSE,REP,Billy Long,56
+MO,7,Missouri State University,8/6/2010,8/22/2010,198,lv,,2010,11/2/2010,general,FALSE,DEM,Scott Eckersley,23
+MO,7,Missouri State University,8/6/2010,8/22/2010,198,lv,,2010,11/2/2010,general,FALSE,REP,Billy Long,51
+MO,8,Missouri State University,8/6/2010,8/22/2010,171,rv,,2010,11/2/2010,general,FALSE,DEM,Tommy Sowers,17
+MO,8,Missouri State University,8/6/2010,8/22/2010,171,rv,,2010,11/2/2010,general,FALSE,REP,Jo Ann Emerson,64
+MO,8,American Viewpoint,4/19/2010,4/20/2010,400,lv,R,2010,11/2/2010,general,FALSE,DEM,Tommy Sowers,18
+MO,8,American Viewpoint,4/19/2010,4/20/2010,400,lv,R,2010,11/2/2010,general,FALSE,REP,Jo Ann Emerson,71
 AR,1,Hendrix College,10/14/2010,10/14/2010,436,lv,,2010,11/2/2010,general,FALSE,DEM,Chad Causey,34
 AR,1,Hendrix College,10/14/2010,10/14/2010,436,lv,,2010,11/2/2010,general,FALSE,REP,Rick Crawford,42
 AR,1,Penn Schoen & Berland,10/5/2010,10/7/2010,409,lv,D,2010,11/2/2010,general,FALSE,DEM,Chad Causey,34
 AR,1,Penn Schoen & Berland,10/5/2010,10/7/2010,409,lv,D,2010,11/2/2010,general,FALSE,REP,Rick Crawford,46
 AR,1,Hendrix College,8/17/2010,8/17/2010,630,lv,,2010,11/2/2010,general,FALSE,DEM,Chad Causey,32
 AR,1,Hendrix College,8/17/2010,8/17/2010,630,lv,,2010,11/2/2010,general,FALSE,REP,Rick Crawford,48
+AR,1,Anzalone Liszt Grove Research,10/11/2010,10/13/2010,400,lv,D,2010,11/2/2010,general,FALSE,DEM,Chad Causey,44
+AR,1,Anzalone Liszt Grove Research,10/11/2010,10/13/2010,400,lv,D,2010,11/2/2010,general,FALSE,REP,Rick Crawford,42
+AR,1,Anzalone Liszt Grove Research,9/13/2010,9/16/2010,400,lv,D,2010,11/2/2010,general,FALSE,DEM,Chad Causey,46
+AR,1,Anzalone Liszt Grove Research,9/13/2010,9/16/2010,400,lv,D,2010,11/2/2010,general,FALSE,REP,Rick Crawford,44
+AR,1,Garin-Hart-Yang Research Group,8/16/2010,8/18/2010,404,lv,D,2010,11/2/2010,general,FALSE,DEM,Chad Causey,51
+AR,1,Garin-Hart-Yang Research Group,8/16/2010,8/18/2010,404,lv,D,2010,11/2/2010,general,FALSE,REP,Rick Crawford,40
+AR,1,Zata3,7/23/2010,7/23/2010,600,lv,D,2010,11/2/2010,general,FALSE,DEM,Chad Causey,42
+AR,1,Zata3,7/23/2010,7/23/2010,600,lv,D,2010,11/2/2010,general,FALSE,REP,Rick Crawford,40
+AR,1,Public Opinion Strategies,5/24/2010,5/25/2010,300,lv,R,2010,11/2/2010,general,FALSE,DEM,Chad Causey,34
+AR,1,Public Opinion Strategies,5/24/2010,5/25/2010,300,lv,R,2010,11/2/2010,general,FALSE,REP,Rick Crawford,40
 AR,2,Hendrix College,10/14/2010,10/14/2010,446,lv,,2010,11/2/2010,general,FALSE,DEM,Joyce Elliott,38
 AR,2,Hendrix College,10/14/2010,10/14/2010,446,lv,,2010,11/2/2010,general,FALSE,REP,Tim Griffin,50
 AR,2,Hendrix College,8/17/2010,8/17/2010,716,lv,,2010,11/2/2010,general,FALSE,DEM,Joyce Elliott,35
 AR,2,Hendrix College,8/17/2010,8/17/2010,716,lv,,2010,11/2/2010,general,FALSE,REP,Tim Griffin,52
+AR,2,OnMessage Inc.,10/13/2010,10/14/2010,400,lv,R,2010,11/2/2010,general,FALSE,DEM,Joyce Elliott,40
+AR,2,OnMessage Inc.,10/13/2010,10/14/2010,400,lv,R,2010,11/2/2010,general,FALSE,REP,Tim Griffin,52
+AR,2,OnMessage Inc.,6/13/2010,6/14/2010,400,lv,R,2010,11/2/2010,general,FALSE,DEM,Joyce Elliott,34
+AR,2,OnMessage Inc.,6/13/2010,6/14/2010,400,lv,R,2010,11/2/2010,general,FALSE,REP,Tim Griffin,50
 AR,3,Hendrix College,8/25/2010,8/25/2010,579,lv,,2010,11/2/2010,general,FALSE,DEM,David Whitaker,31
 AR,3,Hendrix College,8/25/2010,8/25/2010,579,lv,,2010,11/2/2010,general,FALSE,REP,Steve Womack,55
 AR,4,Hendrix College,10/14/2010,10/14/2010,518,lv,,2010,11/2/2010,general,FALSE,DEM,Mike Ross,52
 AR,4,Hendrix College,10/14/2010,10/14/2010,518,lv,,2010,11/2/2010,general,FALSE,REP,Beth Anne Rankin,34
 AR,4,Hendrix College,8/25/2010,8/26/2010,956,lv,,2010,11/2/2010,general,FALSE,DEM,Mike Ross,49
 AR,4,Hendrix College,8/25/2010,8/26/2010,956,lv,,2010,11/2/2010,general,FALSE,REP,Beth Anne Rankin,31
+AR,4,Diamond State Consulting,9/27/2010,9/27/2010,1057,lv,R,2010,11/2/2010,general,FALSE,DEM,Mike Ross,44
+AR,4,Diamond State Consulting,9/27/2010,9/27/2010,1057,lv,R,2010,11/2/2010,general,FALSE,REP,Beth Anne Rankin,41
 LA,2,Anzalone Liszt Grove Research,10/20/2010,10/21/2010,400,lv,D,2010,11/2/2010,general,FALSE,DEM,Cedric Richmond,49
 LA,2,Anzalone Liszt Grove Research,10/20/2010,10/21/2010,400,lv,D,2010,11/2/2010,general,FALSE,REP,Joseph Cao,32
 LA,2,Public Policy Polling,10/2/2010,10/3/2010,605,lv,D,2010,11/2/2010,general,FALSE,DEM,Cedric Richmond,49
 LA,2,Public Policy Polling,10/2/2010,10/3/2010,605,lv,D,2010,11/2/2010,general,FALSE,REP,Joseph Cao,38
+LA,2,Zata3,10/20/2010,10/20/2010,500,lv,D,2010,11/2/2010,general,FALSE,DEM,Cedric Richmond,53
+LA,2,Zata3,10/20/2010,10/20/2010,500,lv,D,2010,11/2/2010,general,FALSE,REP,Joseph Cao,36
+LA,2,Anzalone Liszt Grove Research,9/12/2010,9/15/2010,500,lv,D,2010,11/2/2010,general,FALSE,DEM,Cedric Richmond,45
+LA,2,Anzalone Liszt Grove Research,9/12/2010,9/15/2010,500,lv,D,2010,11/2/2010,general,FALSE,REP,Joseph Cao,35
+LA,2,Market Research Insight,5/27/2010,6/2/2010,400,lv,R,2010,11/2/2010,general,FALSE,DEM,Cedric Richmond,26
+LA,2,Market Research Insight,5/27/2010,6/2/2010,400,lv,R,2010,11/2/2010,general,FALSE,REP,Joseph Cao,51
 TX,17,Penn Schoen & Berland,10/19/2010,10/21/2010,404,lv,D,2010,11/2/2010,general,FALSE,DEM,Chet Edwards,40
 TX,17,Penn Schoen & Berland,10/19/2010,10/21/2010,404,lv,D,2010,11/2/2010,general,FALSE,REP,Bill Flores,52
+TX,17,Bennett Petts Blumenthal,10/4/2010,10/5/2010,400,lv,D,2010,11/2/2010,general,FALSE,DEM,Chet Edwards,42
+TX,17,Bennett Petts Blumenthal,10/4/2010,10/5/2010,400,lv,D,2010,11/2/2010,general,FALSE,REP,Bill Flores,46
+TX,17,OnMessage Inc.,9/19/2010,9/20/2010,400,lv,R,2010,11/2/2010,general,FALSE,DEM,Chet Edwards,36
+TX,17,OnMessage Inc.,9/19/2010,9/20/2010,400,lv,R,2010,11/2/2010,general,FALSE,REP,Bill Flores,55
+TX,17,OnMessage Inc.,5/2/2010,5/3/2010,400,lv,R,2010,11/2/2010,general,FALSE,DEM,Chet Edwards,41
+TX,17,OnMessage Inc.,5/2/2010,5/3/2010,400,lv,R,2010,11/2/2010,general,FALSE,REP,Bill Flores,53
+TX,23,OnMessage Inc.,10/19/2010,10/20/2010,400,lv,R,2010,11/2/2010,general,FALSE,DEM,Ciro Rodriguez,39
+TX,23,OnMessage Inc.,10/19/2010,10/20/2010,400,lv,R,2010,11/2/2010,general,FALSE,REP,Quico Canseco,45
+TX,23,OnMessage Inc.,8/15/2010,8/16/2010,400,lv,R,2010,11/2/2010,general,FALSE,DEM,Ciro Rodriguez,37
+TX,23,OnMessage Inc.,8/15/2010,8/16/2010,400,lv,R,2010,11/2/2010,general,FALSE,REP,Quico Canseco,43
+TX,23,OnMessage Inc.,6/11/2010,6/13/2010,400,lv,R,2010,11/2/2010,general,FALSE,DEM,Ciro Rodriguez,48
+TX,23,OnMessage Inc.,6/11/2010,6/13/2010,400,lv,R,2010,11/2/2010,general,FALSE,REP,Quico Canseco,45
+TX,27,OnMessage Inc.,10/11/2010,10/11/2010,400,lv,R,2010,11/2/2010,general,FALSE,DEM,Solomon Ortiz,36
+TX,27,OnMessage Inc.,10/11/2010,10/11/2010,400,lv,R,2010,11/2/2010,general,FALSE,REP,Blake Farenthold,44
+OK,2,Myers,9/6/2010,9/7/2010,400,lv,D,2010,11/2/2010,general,FALSE,DEM,Dan Boren,65
+OK,2,Myers,9/6/2010,9/7/2010,400,lv,D,2010,11/2/2010,general,FALSE,REP,Charles Thompson,31
+OK,2,Public Policy Polling,2/26/2010,2/28/2010,664,rv,D,2010,11/2/2010,general,FALSE,DEM,Dan Boren,45
+OK,2,Public Policy Polling,2/26/2010,2/28/2010,664,rv,D,2010,11/2/2010,general,FALSE,REP,Charles Thompson,25
 KS,1,SurveyUSA,10/5/2010,10/6/2010,541,lv,,2010,11/2/2010,general,FALSE,DEM,Alan Jilka,26
 KS,1,SurveyUSA,10/5/2010,10/6/2010,541,lv,,2010,11/2/2010,general,FALSE,REP,Tim Huelskamp,63
 KS,1,SurveyUSA,8/5/2010,8/8/2010,542,lv,,2010,11/2/2010,general,FALSE,DEM,Alan Jilka,23
@@ -4387,3 +4687,331 @@ KS,4,Gerstein Agne,8/10/2010,8/12/2010,500,lv,D,2010,11/2/2010,general,FALSE,DEM
 KS,4,Gerstein Agne,8/10/2010,8/12/2010,500,lv,D,2010,11/2/2010,general,FALSE,REP,Mike Pompeo,50
 KS,4,SurveyUSA,8/9/2010,8/11/2010,604,lv,,2010,11/2/2010,general,FALSE,DEM,Raj Goyle,42
 KS,4,SurveyUSA,8/9/2010,8/11/2010,604,lv,,2010,11/2/2010,general,FALSE,REP,Mike Pompeo,49
+AK,1,Public Policy Polling,10/9/2010,10/10/2010,1678,lv,D,2010,11/2/2010,general,FALSE,DEM,Harry Crawford,36
+AK,1,Public Policy Polling,10/9/2010,10/10/2010,1678,lv,D,2010,11/2/2010,general,FALSE,REP,Don Young,58
+AK,1,Ivan Moore,9/23/2010,9/27/2010,573,lv,,2010,11/2/2010,general,FALSE,DEM,Harry Crawford,32
+AK,1,Ivan Moore,9/23/2010,9/27/2010,573,lv,,2010,11/2/2010,general,FALSE,REP,Don Young,65
+AK,1,Public Policy Polling,8/27/2010,8/28/2010,1308,lv,D,2010,11/2/2010,general,FALSE,DEM,Harry Crawford,36
+AK,1,Public Policy Polling,8/27/2010,8/28/2010,1308,lv,D,2010,11/2/2010,general,FALSE,REP,Don Young,55
+AK,1,Public Policy Polling,1/27/2010,1/28/2010,710,lv,D,2010,11/2/2010,general,FALSE,DEM,Harry Crawford,34
+AK,1,Public Policy Polling,1/27/2010,1/28/2010,710,lv,D,2010,11/2/2010,general,FALSE,REP,Don Young,49
+AZ,1,Lake Research Partners,10/12/2010,10/14/2010,500,lv,D,2010,11/2/2010,general,FALSE,DEM,Ann Kirkpatrick,41
+AZ,1,Lake Research Partners,10/12/2010,10/14/2010,500,lv,D,2010,11/2/2010,general,FALSE,REP,Paul Gosar,38
+AZ,1,Penn Schoen & Berland,9/25/2010,9/30/2010,403,lv,D,2010,11/2/2010,general,FALSE,DEM,Ann Kirkpatrick,39
+AZ,1,Penn Schoen & Berland,9/25/2010,9/30/2010,403,lv,D,2010,11/2/2010,general,FALSE,REP,Paul Gosar,46
+AZ,1,Moore Information,8/30/2010,8/31/2010,412,lv,R,2010,11/2/2010,general,FALSE,DEM,Ann Kirkpatrick,43
+AZ,1,Moore Information,8/30/2010,8/31/2010,412,lv,R,2010,11/2/2010,general,FALSE,REP,Paul Gosar,43
+AZ,1,American Action Forum,8/25/2010,8/29/2010,400,lv,R,2010,11/2/2010,general,FALSE,DEM,Ann Kirkpatrick,41
+AZ,1,American Action Forum,8/25/2010,8/29/2010,400,lv,R,2010,11/2/2010,general,FALSE,REP,Paul Gosar,47
+AZ,1,Lake Research Partners,8/24/2010,8/26/2010,500,lv,D,2010,11/2/2010,general,FALSE,DEM,Ann Kirkpatrick,43
+AZ,1,Lake Research Partners,8/24/2010,8/26/2010,500,lv,D,2010,11/2/2010,general,FALSE,REP,Paul Gosar,39
+AZ,3,Public Policy Polling,10/16/2010,10/17/2010,655,lv,D,2010,11/2/2010,general,FALSE,DEM,John Hulburd,46
+AZ,3,Public Policy Polling,10/16/2010,10/17/2010,655,lv,D,2010,11/2/2010,general,FALSE,REP,Ben Quayle,44
+AZ,5,Penn Schoen & Berland,10/12/2010,10/14/2010,408,lv,D,2010,11/2/2010,general,FALSE,DEM,Harry Mitchell,42
+AZ,5,Penn Schoen & Berland,10/12/2010,10/14/2010,408,lv,D,2010,11/2/2010,general,FALSE,REP,David Schweikert,45
+AZ,5,Benenson Strategy Group,10/5/2010,10/7/2010,400,lv,D,2010,11/2/2010,general,FALSE,DEM,Harry Mitchell,46
+AZ,5,Benenson Strategy Group,10/5/2010,10/7/2010,400,lv,D,2010,11/2/2010,general,FALSE,REP,David Schweikert,39
+AZ,5,National Research Inc.,10/5/2010,10/6/2010,400,lv,R,2010,11/2/2010,general,FALSE,DEM,Harry Mitchell,43
+AZ,5,National Research Inc.,10/5/2010,10/6/2010,400,lv,R,2010,11/2/2010,general,FALSE,REP,David Schweikert,45
+AZ,5,Bennett Petts Blumenthal,9/26/2010,9/27/2010,400,lv,D,2010,11/2/2010,general,FALSE,DEM,Harry Mitchell,43
+AZ,5,Bennett Petts Blumenthal,9/26/2010,9/27/2010,400,lv,D,2010,11/2/2010,general,FALSE,REP,David Schweikert,40
+AZ,5,Harstad Strategic Resource,9/13/2010,9/16/2010,400,lv,D,2010,11/2/2010,general,FALSE,DEM,Harry Mitchell,45
+AZ,5,Harstad Strategic Resource,9/13/2010,9/16/2010,400,lv,D,2010,11/2/2010,general,FALSE,REP,David Schweikert,44
+AZ,5,National Research Inc.,8/31/2010,9/2/2010,400,lv,R,2010,11/2/2010,general,FALSE,DEM,Harry Mitchell,38
+AZ,5,National Research Inc.,8/31/2010,9/2/2010,400,lv,R,2010,11/2/2010,general,FALSE,REP,David Schweikert,46
+AZ,5,American Action Forum,8/25/2010,8/29/2010,400,lv,R,2010,11/2/2010,general,FALSE,DEM,Harry Mitchell,44
+AZ,5,American Action Forum,8/25/2010,8/29/2010,400,lv,R,2010,11/2/2010,general,FALSE,REP,David Schweikert,50
+AZ,7,Summit Consulting Group,10/4/2010,10/5/2010,1807,lv,,2010,11/2/2010,general,FALSE,DEM,Raul Grijalva,37
+AZ,7,Summit Consulting Group,10/4/2010,10/5/2010,1807,lv,,2010,11/2/2010,general,FALSE,REP,Ruth McClung,39
+AZ,7,Magellan Strategies,9/29/2010,9/29/2010,686,lv,R,2010,11/2/2010,general,FALSE,DEM,Raul Grijalva,40
+AZ,7,Magellan Strategies,9/29/2010,9/29/2010,686,lv,R,2010,11/2/2010,general,FALSE,REP,Ruth McClung,38
+AZ,7,American Political Consultants,9/25/2010,9/26/2010,450,lv,R,2010,11/2/2010,general,FALSE,DEM,Raul Grijalva,42
+AZ,7,American Political Consultants,9/25/2010,9/26/2010,450,lv,R,2010,11/2/2010,general,FALSE,REP,Ruth McClung,35
+AZ,8,American Action Forum,8/25/2010,8/29/2010,400,lv,R,2010,11/2/2010,general,FALSE,DEM,Gabby Giffords,46
+AZ,8,American Action Forum,8/25/2010,8/29/2010,400,lv,R,2010,11/2/2010,general,FALSE,REP,Jesse Kelly,46
+CA,3,Public Policy Polling,9/18/2010,9/19/2010,617,lv,D,2010,11/2/2010,general,FALSE,DEM,Ami Bera,38
+CA,3,Public Policy Polling,9/18/2010,9/19/2010,617,lv,D,2010,11/2/2010,general,FALSE,REP,Dan Lungren,46
+CA,8,Wenzel Strategies,3/22/2010,3/24/2010,535,lv,,2010,11/2/2010,general,FALSE,DEM,Nancy Pelosi,61
+CA,8,Wenzel Strategies,3/22/2010,3/24/2010,535,lv,,2010,11/2/2010,general,FALSE,REP,John Dennis,19
+CA,11,SurveyUSA,10/8/2010,10/11/2010,624,lv,,2010,11/2/2010,general,FALSE,DEM,Jerry McNerney,42
+CA,11,SurveyUSA,10/8/2010,10/11/2010,624,lv,,2010,11/2/2010,general,FALSE,REP,David Harmer,48
+CA,11,Lake Research Partners,9/21/2010,9/25/2010,500,lv,D,2010,11/2/2010,general,FALSE,DEM,Jerry McNerney,45
+CA,11,Lake Research Partners,9/21/2010,9/25/2010,500,lv,D,2010,11/2/2010,general,FALSE,REP,David Harmer,35
+CA,11,American Action Forum,8/23/2010,8/28/2010,400,lv,R,2010,11/2/2010,general,FALSE,DEM,Jerry McNerney,44
+CA,11,American Action Forum,8/23/2010,8/28/2010,400,lv,R,2010,11/2/2010,general,FALSE,REP,David Harmer,45
+CA,18,SurveyUSA,10/5/2010,10/6/2010,612,lv,,2010,11/2/2010,general,FALSE,DEM,Dennis Cardoza,50
+CA,18,SurveyUSA,10/5/2010,10/6/2010,612,lv,,2010,11/2/2010,general,FALSE,REP,Mike Berryhill,44
+CA,18,JMM Research,9/27/2010,9/29/2010,400,lv,,2010,11/2/2010,general,FALSE,DEM,Dennis Cardoza,53
+CA,18,JMM Research,9/27/2010,9/29/2010,400,lv,,2010,11/2/2010,general,FALSE,REP,Mike Berryhill,37
+CA,19,SurveyUSA,10/10/2010,10/13/2010,645,lv,,2010,11/2/2010,general,FALSE,DEM,Loraine Goodwin,30
+CA,19,SurveyUSA,10/10/2010,10/13/2010,645,lv,,2010,11/2/2010,general,FALSE,REP,Jeff Denham,63
+CA,20,SurveyUSA,10/21/2010,10/24/2010,601,lv,,2010,11/2/2010,general,FALSE,DEM,Jim Costa,42
+CA,20,SurveyUSA,10/21/2010,10/24/2010,601,lv,,2010,11/2/2010,general,FALSE,REP,Andy Vidak,52
+CA,20,Bennett Petts Blumenthal,10/21/2010,10/24/2010,400,lv,D,2010,11/2/2010,general,FALSE,DEM,Jim Costa,47
+CA,20,Bennett Petts Blumenthal,10/21/2010,10/24/2010,400,lv,D,2010,11/2/2010,general,FALSE,REP,Andy Vidak,41
+CA,20,SurveyUSA,9/10/2010,9/12/2010,561,lv,,2010,11/2/2010,general,FALSE,DEM,Jim Costa,48
+CA,20,SurveyUSA,9/10/2010,9/12/2010,561,lv,,2010,11/2/2010,general,FALSE,REP,Andy Vidak,46
+CA,44,Zata3,10/12/2010,10/12/2010,611,lv,D,2010,11/2/2010,general,FALSE,DEM,Bill Hedrick,43
+CA,44,Zata3,10/12/2010,10/12/2010,611,lv,D,2010,11/2/2010,general,FALSE,REP,Ken Calvert,48
+CA,44,Public Policy Polling,9/24/2010,9/26/2010,760,lv,D,2010,11/2/2010,general,FALSE,DEM,Bill Hedrick,38
+CA,44,Public Policy Polling,9/24/2010,9/26/2010,760,lv,D,2010,11/2/2010,general,FALSE,REP,Ken Calvert,39
+CA,44,Tulchin Research,1/28/2010,2/1/2010,400,lv,D,2010,11/2/2010,general,FALSE,DEM,Bill Hedrick,35
+CA,44,Tulchin Research,1/28/2010,2/1/2010,400,lv,D,2010,11/2/2010,general,FALSE,REP,Ken Calvert,49
+CA,47,Public Opinion Strategies,10/13/2010,10/14/2010,300,lv,R,2010,11/2/2010,general,FALSE,DEM,Loretta Sanchez,39
+CA,47,Public Opinion Strategies,10/13/2010,10/14/2010,300,lv,R,2010,11/2/2010,general,FALSE,REP,Van Tran,39
+CA,47,American Action Forum,8/23/2010,8/29/2010,400,lv,R,2010,11/2/2010,general,FALSE,DEM,Loretta Sanchez,45
+CA,47,American Action Forum,8/23/2010,8/29/2010,400,lv,R,2010,11/2/2010,general,FALSE,REP,Van Tran,43
+CO,1,ccAdvertising,10/17/2010,10/19/2010,698,lv,R,2010,11/2/2010,general,FALSE,DEM,Diana DeGette,44
+CO,1,ccAdvertising,10/17/2010,10/19/2010,698,lv,R,2010,11/2/2010,general,FALSE,REP,Mike Fallon,36
+CO,2,Magellan Strategies,9/20/2010,9/20/2010,688,lv,R,2010,11/2/2010,general,FALSE,DEM,Jared Polis,48
+CO,2,Magellan Strategies,9/20/2010,9/20/2010,688,lv,R,2010,11/2/2010,general,FALSE,REP,Stephen Bailey,36
+CO,3,Penn Schoen & Berland,10/19/2010,10/21/2010,400,lv,D,2010,11/2/2010,general,FALSE,DEM,John Salazar,43
+CO,3,Penn Schoen & Berland,10/19/2010,10/21/2010,400,lv,D,2010,11/2/2010,general,FALSE,REP,Scott Tipton,47
+CO,3,American Action Forum,8/23/2010,8/29/2010,400,lv,R,2010,11/2/2010,general,FALSE,DEM,John Salazar,43
+CO,3,American Action Forum,8/23/2010,8/29/2010,400,lv,R,2010,11/2/2010,general,FALSE,REP,Scott Tipton,51
+CO,3,Magellan Strategies,8/17/2010,8/17/2010,973,lv,R,2010,11/2/2010,general,FALSE,DEM,John Salazar,43
+CO,3,Magellan Strategies,8/17/2010,8/17/2010,973,lv,R,2010,11/2/2010,general,FALSE,REP,Scott Tipton,49
+CO,4,Penn Schoen & Berland,9/25/2010,9/27/2010,391,lv,D,2010,11/2/2010,general,FALSE,DEM,Betsy Markey,41
+CO,4,Penn Schoen & Berland,9/25/2010,9/27/2010,391,lv,D,2010,11/2/2010,general,FALSE,REP,Cory Gardner,44
+CO,4,Bennett Petts Blumenthal,9/6/2010,9/7/2010,400,lv,D,2010,11/2/2010,general,FALSE,DEM,Betsy Markey,38
+CO,4,Bennett Petts Blumenthal,9/6/2010,9/7/2010,400,lv,D,2010,11/2/2010,general,FALSE,REP,Cory Gardner,38
+CO,4,American Action Forum,8/23/2010,8/28/2010,400,lv,R,2010,11/2/2010,general,FALSE,DEM,Betsy Markey,39
+CO,4,American Action Forum,8/23/2010,8/28/2010,400,lv,R,2010,11/2/2010,general,FALSE,REP,Cory Gardner,50
+CO,7,Magellan Strategies,8/26/2010,8/26/2010,830,lv,R,2010,11/2/2010,general,FALSE,DEM,Ed Perlmutter,39
+CO,7,Magellan Strategies,8/26/2010,8/26/2010,830,lv,R,2010,11/2/2010,general,FALSE,REP,Ryan Frazier,40
+HI,1,Merriman River Group,10/23/2010,10/23/2010,620,lv,,2010,11/2/2010,general,FALSE,DEM,Colleen Hanabusa,50
+HI,1,Merriman River Group,10/23/2010,10/23/2010,620,lv,,2010,11/2/2010,general,FALSE,REP,Charles Djou,45
+HI,1,Honolulu Advertiser,10/12/2010,10/19/2010,399,rv,,2010,11/2/2010,general,FALSE,DEM,Colleen Hanabusa,45
+HI,1,Honolulu Advertiser,10/12/2010,10/19/2010,399,rv,,2010,11/2/2010,general,FALSE,REP,Charles Djou,48
+HI,1,Penn Schoen & Berland,10/2/2010,10/7/2010,406,lv,D,2010,11/2/2010,general,FALSE,DEM,Colleen Hanabusa,41
+HI,1,Penn Schoen & Berland,10/2/2010,10/7/2010,406,lv,D,2010,11/2/2010,general,FALSE,REP,Charles Djou,45
+HI,1,Global Strategy Group,10/4/2010,10/6/2010,400,lv,,2010,11/2/2010,general,FALSE,DEM,Colleen Hanabusa,48
+HI,1,Global Strategy Group,10/4/2010,10/6/2010,400,lv,,2010,11/2/2010,general,FALSE,REP,Charles Djou,44
+HI,1,Public Policy Polling,10/2/2010,10/3/2010,641,lv,D,2010,11/2/2010,general,FALSE,DEM,Colleen Hanabusa,48
+HI,1,Public Policy Polling,10/2/2010,10/3/2010,641,lv,D,2010,11/2/2010,general,FALSE,REP,Charles Djou,47
+HI,1,Tarrance Group,7/26/2010,7/27/2010,400,lv,R,2010,11/2/2010,general,FALSE,DEM,Colleen Hanabusa,42
+HI,1,Tarrance Group,7/26/2010,7/27/2010,400,lv,R,2010,11/2/2010,general,FALSE,REP,Charles Djou,50
+HI,2,Honolulu Advertiser,10/12/2010,10/19/2010,192,lv,,2010,11/2/2010,general,FALSE,DEM,Mazie Hirono,77
+HI,2,Honolulu Advertiser,10/12/2010,10/19/2010,192,lv,,2010,11/2/2010,general,FALSE,REP,John Willoughby,16
+ID,1,Greg Smith,10/28/2010,10/30/2010,400,lv,,2010,11/2/2010,general,FALSE,DEM,Walt Minnick,48
+ID,1,Greg Smith,10/28/2010,10/30/2010,400,lv,,2010,11/2/2010,general,FALSE,REP,Raul Labrador,38
+ID,1,Mason-Dixon Polling & Strategy,10/20/2010,10/22/2010,400,lv,,2010,11/2/2010,general,FALSE,DEM,Walt Minnick,44
+ID,1,Mason-Dixon Polling & Strategy,10/20/2010,10/22/2010,400,lv,,2010,11/2/2010,general,FALSE,REP,Raul Labrador,41
+ID,1,Moore Information,10/5/2010,10/6/2010,300,rv,R,2010,11/2/2010,general,FALSE,DEM,Walt Minnick,37
+ID,1,Moore Information,10/5/2010,10/6/2010,300,rv,R,2010,11/2/2010,general,FALSE,REP,Raul Labrador,31
+ID,1,Mason-Dixon Polling & Strategy,9/13/2010,9/15/2010,400,lv,,2010,11/2/2010,general,FALSE,DEM,Walt Minnick,46
+ID,1,Mason-Dixon Polling & Strategy,9/13/2010,9/15/2010,400,lv,,2010,11/2/2010,general,FALSE,REP,Raul Labrador,36
+ID,1,Qualtrics,9/1/2010,9/9/2010,1347,rv,,2010,11/2/2010,general,FALSE,DEM,Walt Minnick,60
+ID,1,Qualtrics,9/1/2010,9/9/2010,1347,rv,,2010,11/2/2010,general,FALSE,REP,Raul Labrador,30
+ID,1,GS Strategy Group,7/29/2010,7/29/2010,400,lv,R,2010,11/2/2010,general,FALSE,DEM,Walt Minnick,52
+ID,1,GS Strategy Group,7/29/2010,7/29/2010,400,lv,R,2010,11/2/2010,general,FALSE,REP,Raul Labrador,29
+ID,1,Moore Information,7/12/2010,7/13/2010,300,lv,R,2010,11/2/2010,general,FALSE,DEM,Walt Minnick,37
+ID,1,Moore Information,7/12/2010,7/13/2010,300,lv,R,2010,11/2/2010,general,FALSE,REP,Raul Labrador,27
+ID,1,Greg Smith,6/7/2010,6/8/2010,400,rv,,2010,11/2/2010,general,FALSE,DEM,Walt Minnick,29
+ID,1,Greg Smith,6/7/2010,6/8/2010,400,rv,,2010,11/2/2010,general,FALSE,REP,Raul Labrador,40
+ID,2,Mason-Dixon Polling & Strategy,10/20/2010,10/22/2010,300,lv,,2010,11/2/2010,general,FALSE,DEM,Mike Crawford,17
+ID,2,Mason-Dixon Polling & Strategy,10/20/2010,10/22/2010,300,lv,,2010,11/2/2010,general,FALSE,REP,Mike Simpson,67
+ID,2,Mason-Dixon Polling & Strategy,9/13/2010,9/15/2010,300,lv,,2010,11/2/2010,general,FALSE,DEM,Mike Crawford,23
+ID,2,Mason-Dixon Polling & Strategy,9/13/2010,9/15/2010,300,lv,,2010,11/2/2010,general,FALSE,REP,Mike Simpson,51
+ND,1,Public Opinion Strategies,10/24/2010,10/25/2010,400,lv,,2010,11/2/2010,general,FALSE,DEM,Earl Pomeroy,42
+ND,1,Public Opinion Strategies,10/24/2010,10/25/2010,400,lv,,2010,11/2/2010,general,FALSE,REP,Rick Berg,51
+ND,1,Rasmussen Reports/Pulse Opinion Research,10/18/2010,10/19/2010,500,lv,,2010,11/2/2010,general,FALSE,DEM,Earl Pomeroy,42
+ND,1,Rasmussen Reports/Pulse Opinion Research,10/18/2010,10/19/2010,500,lv,,2010,11/2/2010,general,FALSE,REP,Rick Berg,52
+ND,1,Penn Schoen & Berland,10/16/2010,10/19/2010,398,lv,,2010,11/2/2010,general,FALSE,DEM,Earl Pomeroy,45
+ND,1,Penn Schoen & Berland,10/16/2010,10/19/2010,398,lv,,2010,11/2/2010,general,FALSE,REP,Rick Berg,44
+ND,1,Rasmussen Reports/Pulse Opinion Research,9/20/2010,9/21/2010,500,lv,,2010,11/2/2010,general,FALSE,DEM,Earl Pomeroy,45
+ND,1,Rasmussen Reports/Pulse Opinion Research,9/20/2010,9/21/2010,500,lv,,2010,11/2/2010,general,FALSE,REP,Rick Berg,48
+ND,1,Garin-Hart-Yang Research Group,9/10/2010,9/12/2010,501,lv,D,2010,11/2/2010,general,FALSE,DEM,Earl Pomeroy,46
+ND,1,Garin-Hart-Yang Research Group,9/10/2010,9/12/2010,501,lv,D,2010,11/2/2010,general,FALSE,REP,Rick Berg,44
+ND,1,Rasmussen Reports/Pulse Opinion Research,8/10/2010,8/11/2010,500,lv,,2010,11/2/2010,general,FALSE,DEM,Earl Pomeroy,44
+ND,1,Rasmussen Reports/Pulse Opinion Research,8/10/2010,8/11/2010,500,lv,,2010,11/2/2010,general,FALSE,REP,Rick Berg,53
+ND,1,Rasmussen Reports/Pulse Opinion Research,7/21/2010,7/22/2010,500,lv,,2010,11/2/2010,general,FALSE,DEM,Earl Pomeroy,46
+ND,1,Rasmussen Reports/Pulse Opinion Research,7/21/2010,7/22/2010,500,lv,,2010,11/2/2010,general,FALSE,REP,Rick Berg,49
+ND,1,Rasmussen Reports/Pulse Opinion Research,6/15/2010,6/16/2010,500,lv,,2010,11/2/2010,general,FALSE,DEM,Earl Pomeroy,44
+ND,1,Rasmussen Reports/Pulse Opinion Research,6/15/2010,6/16/2010,500,lv,,2010,11/2/2010,general,FALSE,REP,Rick Berg,51
+ND,1,Rasmussen Reports/Pulse Opinion Research,5/18/2010,5/19/2010,500,lv,,2010,11/2/2010,general,FALSE,DEM,Earl Pomeroy,43
+ND,1,Rasmussen Reports/Pulse Opinion Research,5/18/2010,5/19/2010,500,lv,,2010,11/2/2010,general,FALSE,REP,Rick Berg,52
+ND,1,Rasmussen Reports/Pulse Opinion Research,4/20/2010,4/20/2010,500,lv,,2010,11/2/2010,general,FALSE,DEM,Earl Pomeroy,45
+ND,1,Rasmussen Reports/Pulse Opinion Research,4/20/2010,4/20/2010,500,lv,,2010,11/2/2010,general,FALSE,REP,Rick Berg,49
+ND,1,Rasmussen Reports/Pulse Opinion Research,3/23/2010,3/24/2010,500,lv,,2010,11/2/2010,general,FALSE,DEM,Earl Pomeroy,44
+ND,1,Rasmussen Reports/Pulse Opinion Research,3/23/2010,3/24/2010,500,lv,,2010,11/2/2010,general,FALSE,REP,Rick Berg,51
+ND,1,Rasmussen Reports/Pulse Opinion Research,2/9/2010,2/11/2010,500,lv,,2010,11/2/2010,general,FALSE,DEM,Earl Pomeroy,40
+ND,1,Rasmussen Reports/Pulse Opinion Research,2/9/2010,2/11/2010,500,lv,,2010,11/2/2010,general,FALSE,REP,Rick Berg,46
+NE,2,Wiese Research Associates,10/17/2010,10/21/2010,450,lv,,2010,11/2/2010,general,FALSE,DEM,Tom White,40
+NE,2,Wiese Research Associates,10/17/2010,10/21/2010,450,lv,,2010,11/2/2010,general,FALSE,REP,Lee Terry,48
+NM,1,Research & Polling,10/27/2010,10/28/2010,400,lv,,2010,11/2/2010,general,FALSE,DEM,Martin Heinrich,46
+NM,1,Research & Polling,10/27/2010,10/28/2010,400,lv,,2010,11/2/2010,general,FALSE,REP,Jon Barela,49
+NM,1,Public Opinion Strategies,10/24/2010,10/25/2010,400,lv,R,2010,11/2/2010,general,FALSE,DEM,Martin Heinrich,47
+NM,1,Public Opinion Strategies,10/24/2010,10/25/2010,400,lv,R,2010,11/2/2010,general,FALSE,REP,Jon Barela,49
+NM,1,Research & Polling,9/27/2010,9/30/2010,403,lv,,2010,11/2/2010,general,FALSE,DEM,Martin Heinrich,48
+NM,1,Research & Polling,9/27/2010,9/30/2010,403,lv,,2010,11/2/2010,general,FALSE,REP,Jon Barela,41
+NM,1,Public Policy Polling,9/25/2010,9/26/2010,540,lv,D,2010,11/2/2010,general,FALSE,DEM,Martin Heinrich,50
+NM,1,Public Policy Polling,9/25/2010,9/26/2010,540,lv,D,2010,11/2/2010,general,FALSE,REP,Jon Barela,43
+NM,1,American Action Forum,8/23/2010,8/29/2010,400,lv,R,2010,11/2/2010,general,FALSE,DEM,Martin Heinrich,49
+NM,1,American Action Forum,8/23/2010,8/29/2010,400,lv,R,2010,11/2/2010,general,FALSE,REP,Jon Barela,42
+NM,1,Research & Polling,8/23/2010,8/27/2010,402,lv,,2010,11/2/2010,general,FALSE,DEM,Martin Heinrich,47
+NM,1,Research & Polling,8/23/2010,8/27/2010,402,lv,,2010,11/2/2010,general,FALSE,REP,Jon Barela,41
+NM,1,SurveyUSA,7/22/2010,7/25/2010,559,lv,,2010,11/2/2010,general,FALSE,DEM,Martin Heinrich,45
+NM,1,SurveyUSA,7/22/2010,7/25/2010,559,lv,,2010,11/2/2010,general,FALSE,REP,Jon Barela,51
+NM,1,GQR Research (GQRR),7/8/2010,7/13/2010,505,lv,D,2010,11/2/2010,general,FALSE,DEM,Martin Heinrich,53
+NM,1,GQR Research (GQRR),7/8/2010,7/13/2010,505,lv,D,2010,11/2/2010,general,FALSE,REP,Jon Barela,41
+NM,1,GQR Research (GQRR),4/28/2010,5/2/2010,505,lv,D,2010,11/2/2010,general,FALSE,DEM,Martin Heinrich,55
+NM,1,GQR Research (GQRR),4/28/2010,5/2/2010,505,lv,D,2010,11/2/2010,general,FALSE,REP,Jon Barela,38
+NM,1,Public Policy Polling,2/18/2010,2/20/2010,400,rv,D,2010,11/2/2010,general,FALSE,DEM,Martin Heinrich,45
+NM,1,Public Policy Polling,2/18/2010,2/20/2010,400,rv,D,2010,11/2/2010,general,FALSE,REP,Jon Barela,36
+NM,2,Research & Polling,10/27/2010,10/28/2010,402,lv,,2010,11/2/2010,general,FALSE,DEM,Harry Teague,45
+NM,2,Research & Polling,10/27/2010,10/28/2010,402,lv,,2010,11/2/2010,general,FALSE,REP,Steve Pearce,48
+NM,2,Tarrance Group,10/19/2010,10/20/2010,350,lv,R,2010,11/2/2010,general,FALSE,DEM,Harry Teague,41
+NM,2,Tarrance Group,10/19/2010,10/20/2010,350,lv,R,2010,11/2/2010,general,FALSE,REP,Steve Pearce,50
+NM,2,Penn Schoen & Berland,9/28/2010,9/30/2010,401,lv,D,2010,11/2/2010,general,FALSE,DEM,Harry Teague,42
+NM,2,Penn Schoen & Berland,9/28/2010,9/30/2010,401,lv,D,2010,11/2/2010,general,FALSE,REP,Steve Pearce,46
+NM,2,Research & Polling,9/27/2010,9/30/2010,402,lv,,2010,11/2/2010,general,FALSE,DEM,Harry Teague,44
+NM,2,Research & Polling,9/27/2010,9/30/2010,402,lv,,2010,11/2/2010,general,FALSE,REP,Steve Pearce,45
+NM,2,Public Policy Polling,9/25/2010,9/26/2010,540,lv,D,2010,11/2/2010,general,FALSE,DEM,Harry Teague,47
+NM,2,Public Policy Polling,9/25/2010,9/26/2010,540,lv,D,2010,11/2/2010,general,FALSE,REP,Steve Pearce,48
+NM,2,Anzalone Liszt Grove Research,9/6/2010,9/8/2010,400,lv,D,2010,11/2/2010,general,FALSE,DEM,Harry Teague,51
+NM,2,Anzalone Liszt Grove Research,9/6/2010,9/8/2010,400,lv,D,2010,11/2/2010,general,FALSE,REP,Steve Pearce,44
+NM,2,Research & Polling,8/23/2010,8/27/2010,404,lv,,2010,11/2/2010,general,FALSE,DEM,Harry Teague,45
+NM,2,Research & Polling,8/23/2010,8/27/2010,404,lv,,2010,11/2/2010,general,FALSE,REP,Steve Pearce,42
+NM,2,Hamilton Beattie,4/6/2010,4/8/2010,500,lv,D,2010,11/2/2010,general,FALSE,DEM,Harry Teague,47
+NM,2,Hamilton Beattie,4/6/2010,4/8/2010,500,lv,D,2010,11/2/2010,general,FALSE,REP,Steve Pearce,46
+NM,2,Public Policy Polling,2/18/2010,2/20/2010,400,rv,D,2010,11/2/2010,general,FALSE,DEM,Harry Teague,41
+NM,2,Public Policy Polling,2/18/2010,2/20/2010,400,rv,D,2010,11/2/2010,general,FALSE,REP,Steve Pearce,43
+NM,2,Tarrance Group,2/16/2010,2/18/2010,401,lv,R,2010,11/2/2010,general,FALSE,DEM,Harry Teague,44
+NM,2,Tarrance Group,2/16/2010,2/18/2010,401,lv,R,2010,11/2/2010,general,FALSE,REP,Steve Pearce,48
+NM,3,Public Policy Polling,9/25/2010,9/26/2010,540,lv,D,2010,11/2/2010,general,FALSE,DEM,Ben Ray Lujan,49
+NM,3,Public Policy Polling,9/25/2010,9/26/2010,540,lv,D,2010,11/2/2010,general,FALSE,REP,Thomas Mullins,43
+NM,3,Public Policy Polling,2/18/2010,2/20/2010,400,rv,D,2010,11/2/2010,general,FALSE,DEM,Ben Ray Lujan,42
+NM,3,Public Policy Polling,2/18/2010,2/20/2010,400,rv,D,2010,11/2/2010,general,FALSE,REP,Thomas Mullins,36
+NV,3,Mason-Dixon Polling & Strategy,10/25/2010,10/27/2010,400,lv,,2010,11/2/2010,general,FALSE,DEM,Dina Titus,43
+NV,3,Mason-Dixon Polling & Strategy,10/25/2010,10/27/2010,400,lv,,2010,11/2/2010,general,FALSE,REP,Joe Heck,53
+NV,3,Penn Schoen & Berland,9/25/2010,9/27/2010,403,lv,D,2010,11/2/2010,general,FALSE,DEM,Dina Titus,44
+NV,3,Penn Schoen & Berland,9/25/2010,9/27/2010,403,lv,D,2010,11/2/2010,general,FALSE,REP,Joe Heck,47
+NV,3,Mason-Dixon Polling & Strategy,9/7/2010,9/9/2010,400,lv,,2010,11/2/2010,general,FALSE,DEM,Dina Titus,47
+NV,3,Mason-Dixon Polling & Strategy,9/7/2010,9/9/2010,400,lv,,2010,11/2/2010,general,FALSE,REP,Joe Heck,43
+NV,3,Mason-Dixon Polling & Strategy,9/6/2010,9/8/2010,400,lv,,2010,11/2/2010,general,FALSE,DEM,Dina Titus,45
+NV,3,Mason-Dixon Polling & Strategy,9/6/2010,9/8/2010,400,lv,,2010,11/2/2010,general,FALSE,REP,Joe Heck,48
+NV,3,American Action Forum,8/23/2010,8/24/2010,400,lv,R,2010,11/2/2010,general,FALSE,DEM,Dina Titus,43
+NV,3,American Action Forum,8/23/2010,8/24/2010,400,lv,R,2010,11/2/2010,general,FALSE,REP,Joe Heck,42
+NV,3,Mason-Dixon Polling & Strategy,8/9/2010,8/11/2010,400,lv,,2010,11/2/2010,general,FALSE,DEM,Dina Titus,42
+NV,3,Mason-Dixon Polling & Strategy,8/9/2010,8/11/2010,400,lv,,2010,11/2/2010,general,FALSE,REP,Joe Heck,40
+NV,3,Mason-Dixon Polling & Strategy,7/12/2010,7/14/2010,400,lv,,2010,11/2/2010,general,FALSE,DEM,Dina Titus,44
+NV,3,Mason-Dixon Polling & Strategy,7/12/2010,7/14/2010,400,lv,,2010,11/2/2010,general,FALSE,REP,Joe Heck,49
+NV,3,Mason-Dixon Polling & Strategy,4/5/2010,4/7/2010,300,lv,,2010,11/2/2010,general,FALSE,DEM,Dina Titus,35
+NV,3,Mason-Dixon Polling & Strategy,4/5/2010,4/7/2010,300,lv,,2010,11/2/2010,general,FALSE,REP,Joe Heck,40
+NV,3,Wilson,3/24/2010,3/25/2010,400,lv,R,2010,11/2/2010,general,FALSE,DEM,Dina Titus,40
+NV,3,Wilson,3/24/2010,3/25/2010,400,lv,R,2010,11/2/2010,general,FALSE,REP,Joe Heck,40
+OR,1,Elway Research,10/18/2010,10/21/2010,400,lv,,2010,11/2/2010,general,FALSE,DEM,David Wu,51
+OR,1,Elway Research,10/18/2010,10/21/2010,400,lv,,2010,11/2/2010,general,FALSE,REP,Rob Cornilles,38
+OR,1,SurveyUSA,10/16/2010,10/18/2010,602,lv,,2010,11/2/2010,general,FALSE,DEM,David Wu,51
+OR,1,SurveyUSA,10/16/2010,10/18/2010,602,lv,,2010,11/2/2010,general,FALSE,REP,Rob Cornilles,42
+OR,1,Moore Information,5/26/2010,5/27/2010,435,lv,R,2010,11/2/2010,general,FALSE,DEM,David Wu,46
+OR,1,Moore Information,5/26/2010,5/27/2010,435,lv,R,2010,11/2/2010,general,FALSE,REP,Rob Cornilles,40
+OR,4,Grove Insight,10/11/2010,10/12/2010,400,lv,D,2010,11/2/2010,general,FALSE,DEM,Peter DeFazio,53
+OR,4,Grove Insight,10/11/2010,10/12/2010,400,lv,D,2010,11/2/2010,general,FALSE,REP,Arthur Robinson,39
+OR,4,Wilson,10/4/2010,10/5/2010,300,lv,R,2010,11/2/2010,general,FALSE,DEM,Peter DeFazio,48
+OR,4,Wilson,10/4/2010,10/5/2010,300,lv,R,2010,11/2/2010,general,FALSE,REP,Arthur Robinson,42
+OR,5,Elway Research,10/18/2010,10/21/2010,400,lv,,2010,11/2/2010,general,FALSE,DEM,Kurt Schrader,50
+OR,5,Elway Research,10/18/2010,10/21/2010,400,lv,,2010,11/2/2010,general,FALSE,REP,Scott Bruun,38
+OR,5,SurveyUSA,10/17/2010,10/19/2010,601,lv,,2010,11/2/2010,general,FALSE,DEM,Kurt Schrader,41
+OR,5,SurveyUSA,10/17/2010,10/19/2010,601,lv,,2010,11/2/2010,general,FALSE,REP,Scott Bruun,51
+OR,5,Moore Information,10/13/2010,10/14/2010,300,lv,R,2010,11/2/2010,general,FALSE,DEM,Kurt Schrader,40
+OR,5,Moore Information,10/13/2010,10/14/2010,300,lv,R,2010,11/2/2010,general,FALSE,REP,Scott Bruun,44
+OR,5,Grove Insight,9/6/2010,9/8/2010,400,lv,D,2010,11/2/2010,general,FALSE,DEM,Kurt Schrader,42
+OR,5,Grove Insight,9/6/2010,9/8/2010,400,lv,D,2010,11/2/2010,general,FALSE,REP,Scott Bruun,29
+OR,5,American Action Forum,8/23/2010,8/29/2010,400,lv,R,2010,11/2/2010,general,FALSE,DEM,Kurt Schrader,44
+OR,5,American Action Forum,8/23/2010,8/29/2010,400,lv,R,2010,11/2/2010,general,FALSE,REP,Scott Bruun,36
+OR,5,Moore Information,8/18/2010,8/19/2010,300,lv,R,2010,11/2/2010,general,FALSE,DEM,Kurt Schrader,38
+OR,5,Moore Information,8/18/2010,8/19/2010,300,lv,R,2010,11/2/2010,general,FALSE,REP,Scott Bruun,41
+OR,5,Lake Research Partners,7/21/2010,7/25/2010,400,lv,D,2010,11/2/2010,general,FALSE,DEM,Kurt Schrader,46
+OR,5,Lake Research Partners,7/21/2010,7/25/2010,400,lv,D,2010,11/2/2010,general,FALSE,REP,Scott Bruun,35
+SD,1,Nielson Brothers Polling,10/20/2010,10/22/2010,679,lv,,2010,11/2/2010,general,FALSE,DEM,Stephanie Herseth Sandlin,42
+SD,1,Nielson Brothers Polling,10/20/2010,10/22/2010,679,lv,,2010,11/2/2010,general,FALSE,REP,Kristi Noem,40
+SD,1,Mason-Dixon Polling & Strategy,10/20/2010,10/21/2010,800,lv,,2010,11/2/2010,general,FALSE,DEM,Stephanie Herseth Sandlin,43
+SD,1,Mason-Dixon Polling & Strategy,10/20/2010,10/21/2010,800,lv,,2010,11/2/2010,general,FALSE,REP,Kristi Noem,45
+SD,1,Rasmussen Reports/Pulse Opinion Research,10/20/2010,10/20/2010,500,lv,,2010,11/2/2010,general,FALSE,DEM,Stephanie Herseth Sandlin,44
+SD,1,Rasmussen Reports/Pulse Opinion Research,10/20/2010,10/20/2010,500,lv,,2010,11/2/2010,general,FALSE,REP,Kristi Noem,49
+SD,1,Penn Schoen & Berland,10/16/2010,10/19/2010,399,lv,D,2010,11/2/2010,general,FALSE,DEM,Stephanie Herseth Sandlin,45
+SD,1,Penn Schoen & Berland,10/16/2010,10/19/2010,399,lv,D,2010,11/2/2010,general,FALSE,REP,Kristi Noem,42
+SD,1,Rasmussen Reports/Pulse Opinion Research,10/4/2010,10/4/2010,500,lv,,2010,11/2/2010,general,FALSE,DEM,Stephanie Herseth Sandlin,44
+SD,1,Rasmussen Reports/Pulse Opinion Research,10/4/2010,10/4/2010,500,lv,,2010,11/2/2010,general,FALSE,REP,Kristi Noem,47
+SD,1,Bennett Petts Blumenthal,9/22/2010,9/23/2010,400,lv,D,2010,11/2/2010,general,FALSE,DEM,Stephanie Herseth Sandlin,51
+SD,1,Bennett Petts Blumenthal,9/22/2010,9/23/2010,400,lv,D,2010,11/2/2010,general,FALSE,REP,Kristi Noem,38
+SD,1,Rasmussen Reports/Pulse Opinion Research,9/7/2010,9/7/2010,500,lv,,2010,11/2/2010,general,FALSE,DEM,Stephanie Herseth Sandlin,47
+SD,1,Rasmussen Reports/Pulse Opinion Research,9/7/2010,9/7/2010,500,lv,,2010,11/2/2010,general,FALSE,REP,Kristi Noem,45
+SD,1,Anzalone Liszt Grove Research,8/31/2010,9/2/2010,500,lv,D,2010,11/2/2010,general,FALSE,DEM,Stephanie Herseth Sandlin,50
+SD,1,Anzalone Liszt Grove Research,8/31/2010,9/2/2010,500,lv,D,2010,11/2/2010,general,FALSE,REP,Kristi Noem,41
+SD,1,Rasmussen Reports/Pulse Opinion Research,8/3/2010,8/3/2010,500,lv,,2010,11/2/2010,general,FALSE,DEM,Stephanie Herseth Sandlin,42
+SD,1,Rasmussen Reports/Pulse Opinion Research,8/3/2010,8/3/2010,500,lv,,2010,11/2/2010,general,FALSE,REP,Kristi Noem,51
+SD,1,Rasmussen Reports/Pulse Opinion Research,7/6/2010,7/6/2010,500,lv,,2010,11/2/2010,general,FALSE,DEM,Stephanie Herseth Sandlin,44
+SD,1,Rasmussen Reports/Pulse Opinion Research,7/6/2010,7/6/2010,500,lv,,2010,11/2/2010,general,FALSE,REP,Kristi Noem,49
+SD,1,Rasmussen Reports/Pulse Opinion Research,6/10/2010,6/10/2010,500,lv,,2010,11/2/2010,general,FALSE,DEM,Stephanie Herseth Sandlin,41
+SD,1,Rasmussen Reports/Pulse Opinion Research,6/10/2010,6/10/2010,500,lv,,2010,11/2/2010,general,FALSE,REP,Kristi Noem,53
+SD,1,Rasmussen Reports/Pulse Opinion Research,5/27/2010,5/27/2010,500,lv,,2010,11/2/2010,general,FALSE,DEM,Stephanie Herseth Sandlin,47
+SD,1,Rasmussen Reports/Pulse Opinion Research,5/27/2010,5/27/2010,500,lv,,2010,11/2/2010,general,FALSE,REP,Kristi Noem,47
+SD,1,Rasmussen Reports/Pulse Opinion Research,4/21/2010,4/21/2010,500,lv,,2010,11/2/2010,general,FALSE,DEM,Stephanie Herseth Sandlin,50
+SD,1,Rasmussen Reports/Pulse Opinion Research,4/21/2010,4/21/2010,500,lv,,2010,11/2/2010,general,FALSE,REP,Kristi Noem,35
+SD,1,Rasmussen Reports/Pulse Opinion Research,3/25/2010,3/25/2010,500,lv,,2010,11/2/2010,general,FALSE,DEM,Stephanie Herseth Sandlin,46
+SD,1,Rasmussen Reports/Pulse Opinion Research,3/25/2010,3/25/2010,500,lv,,2010,11/2/2010,general,FALSE,REP,Kristi Noem,35
+SD,1,Rasmussen Reports/Pulse Opinion Research,2/23/2010,2/23/2010,500,lv,,2010,11/2/2010,general,FALSE,DEM,Stephanie Herseth Sandlin,49
+SD,1,Rasmussen Reports/Pulse Opinion Research,2/23/2010,2/23/2010,500,lv,,2010,11/2/2010,general,FALSE,REP,Kristi Noem,34
+UT,1,Dan Jones & Associates,10/25/2010,10/28/2010,375,lv,,2010,11/2/2010,general,FALSE,DEM,Morgan Bowen,21
+UT,1,Dan Jones & Associates,10/25/2010,10/28/2010,375,lv,,2010,11/2/2010,general,FALSE,REP,Rob Bishop,66
+UT,1,Mason-Dixon Polling & Strategy,10/25/2010,10/27/2010,400,lv,,2010,11/2/2010,general,FALSE,DEM,Morgan Bowen,13
+UT,1,Mason-Dixon Polling & Strategy,10/25/2010,10/27/2010,400,lv,,2010,11/2/2010,general,FALSE,REP,Rob Bishop,65
+UT,2,Dan Jones & Associates,10/25/2010,10/28/2010,456,lv,,2010,11/2/2010,general,FALSE,DEM,Jim Matheson,51
+UT,2,Dan Jones & Associates,10/25/2010,10/28/2010,456,lv,,2010,11/2/2010,general,FALSE,REP,Morgan Philpot,39
+UT,2,Mason-Dixon Polling & Strategy,10/25/2010,10/27/2010,400,lv,,2010,11/2/2010,general,FALSE,DEM,Jim Matheson,48
+UT,2,Mason-Dixon Polling & Strategy,10/25/2010,10/27/2010,400,lv,,2010,11/2/2010,general,FALSE,REP,Morgan Philpot,35
+UT,2,Dan Jones & Associates,10/11/2010,10/13/2010,226,lv,,2010,11/2/2010,general,FALSE,DEM,Jim Matheson,57
+UT,2,Dan Jones & Associates,10/11/2010,10/13/2010,226,lv,,2010,11/2/2010,general,FALSE,REP,Morgan Philpot,31
+UT,2,Western Wats,9/30/2010,10/3/2010,200,rv,,2010,11/2/2010,general,FALSE,DEM,Jim Matheson,46
+UT,2,Western Wats,9/30/2010,10/3/2010,200,rv,,2010,11/2/2010,general,FALSE,REP,Morgan Philpot,30
+UT,3,Dan Jones & Associates,10/25/2010,10/28/2010,375,lv,,2010,11/2/2010,general,FALSE,DEM,Karen Hyer,19
+UT,3,Dan Jones & Associates,10/25/2010,10/28/2010,375,lv,,2010,11/2/2010,general,FALSE,REP,Jason Chaffetz,70
+UT,3,Mason-Dixon Polling & Strategy,10/25/2010,10/27/2010,400,lv,,2010,11/2/2010,general,FALSE,DEM,Karen Hyer,11
+UT,3,Mason-Dixon Polling & Strategy,10/25/2010,10/27/2010,400,lv,,2010,11/2/2010,general,FALSE,REP,Jason Chaffetz,56
+WA,1,Moore Information,3/23/2010,3/24/2010,300,rv,R,2010,11/2/2010,general,FALSE,DEM,Jay Inslee,41
+WA,1,Moore Information,3/23/2010,3/24/2010,300,rv,R,2010,11/2/2010,general,FALSE,REP,James Watkins,27
+WA,2,SurveyUSA,10/19/2010,10/21/2010,643,lv,,2010,11/2/2010,general,FALSE,DEM,Rick Larsen,50
+WA,2,SurveyUSA,10/19/2010,10/21/2010,643,lv,,2010,11/2/2010,general,FALSE,REP,John Koster,46
+WA,2,SurveyUSA,9/26/2010,9/28/2010,576,lv,,2010,11/2/2010,general,FALSE,DEM,Rick Larsen,50
+WA,2,SurveyUSA,9/26/2010,9/28/2010,576,lv,,2010,11/2/2010,general,FALSE,REP,John Koster,47
+WA,2,SurveyUSA,8/31/2010,9/2/2010,612,lv,,2010,11/2/2010,general,FALSE,DEM,Rick Larsen,46
+WA,2,SurveyUSA,8/31/2010,9/2/2010,612,lv,,2010,11/2/2010,general,FALSE,REP,John Koster,50
+WA,2,Moore Information,4/20/2010,4/21/2010,300,lv,R,2010,11/2/2010,general,FALSE,DEM,Rick Larsen,44
+WA,2,Moore Information,4/20/2010,4/21/2010,300,lv,R,2010,11/2/2010,general,FALSE,REP,John Koster,37
+WA,3,SurveyUSA,10/24/2010,10/26/2010,640,lv,,2010,11/2/2010,general,FALSE,DEM,Dennis Heck,46
+WA,3,SurveyUSA,10/24/2010,10/26/2010,640,lv,,2010,11/2/2010,general,FALSE,REP,Jaime Herrera Beutler,50
+WA,3,SurveyUSA,10/10/2010,10/12/2010,579,lv,,2010,11/2/2010,general,FALSE,DEM,Dennis Heck,42
+WA,3,SurveyUSA,10/10/2010,10/12/2010,579,lv,,2010,11/2/2010,general,FALSE,REP,Jaime Herrera Beutler,53
+WA,3,Penn Schoen & Berland,10/2/2010,10/7/2010,400,lv,D,2010,11/2/2010,general,FALSE,DEM,Dennis Heck,40
+WA,3,Penn Schoen & Berland,10/2/2010,10/7/2010,400,lv,D,2010,11/2/2010,general,FALSE,REP,Jaime Herrera Beutler,42
+WA,3,SurveyUSA,9/12/2010,9/14/2010,552,lv,,2010,11/2/2010,general,FALSE,DEM,Dennis Heck,43
+WA,3,SurveyUSA,9/12/2010,9/14/2010,552,lv,,2010,11/2/2010,general,FALSE,REP,Jaime Herrera Beutler,52
+WA,3,GQR Research (GQRR),9/7/2010,9/9/2010,502,lv,D,2010,11/2/2010,general,FALSE,DEM,Dennis Heck,44
+WA,3,GQR Research (GQRR),9/7/2010,9/9/2010,502,lv,D,2010,11/2/2010,general,FALSE,REP,Jaime Herrera Beutler,47
+WA,3,SurveyUSA,8/23/2010,8/24/2010,562,lv,,2010,11/2/2010,general,FALSE,DEM,Dennis Heck,41
+WA,3,SurveyUSA,8/23/2010,8/24/2010,562,lv,,2010,11/2/2010,general,FALSE,REP,Jaime Herrera Beutler,54
+WA,6,Wenzel Strategies,10/18/2010,10/19/2010,1262,lv,R,2010,11/2/2010,general,FALSE,DEM,Norm Dicks,44
+WA,6,Wenzel Strategies,10/18/2010,10/19/2010,1262,lv,R,2010,11/2/2010,general,FALSE,REP,Doug Cloud,48
+WA,8,SurveyUSA,10/18/2010,10/20/2010,639,lv,,2010,11/2/2010,general,FALSE,DEM,Suzan DelBene,45
+WA,8,SurveyUSA,10/18/2010,10/20/2010,639,lv,,2010,11/2/2010,general,FALSE,REP,Dave Reichert,52
+WA,8,Public Policy Polling,10/9/2010,10/10/2010,1036,lv,D,2010,11/2/2010,general,FALSE,DEM,Suzan DelBene,46
+WA,8,Public Policy Polling,10/9/2010,10/10/2010,1036,lv,D,2010,11/2/2010,general,FALSE,REP,Dave Reichert,49
+WA,8,Fairbank Maslin,10/4/2010,10/5/2010,400,lv,D,2010,11/2/2010,general,FALSE,DEM,Suzan DelBene,44
+WA,8,Fairbank Maslin,10/4/2010,10/5/2010,400,lv,D,2010,11/2/2010,general,FALSE,REP,Dave Reichert,48
+WA,8,SurveyUSA,9/27/2010,9/29/2010,579,lv,,2010,11/2/2010,general,FALSE,DEM,Suzan DelBene,45
+WA,8,SurveyUSA,9/27/2010,9/29/2010,579,lv,,2010,11/2/2010,general,FALSE,REP,Dave Reichert,52
+WA,8,SurveyUSA,8/31/2010,9/2/2010,657,lv,,2010,11/2/2010,general,FALSE,DEM,Suzan DelBene,41
+WA,8,SurveyUSA,8/31/2010,9/2/2010,657,lv,,2010,11/2/2010,general,FALSE,REP,Dave Reichert,54
+WA,9,SurveyUSA,10/22/2010,10/25/2010,590,lv,,2010,11/2/2010,general,FALSE,DEM,Adam Smith,49
+WA,9,SurveyUSA,10/22/2010,10/25/2010,590,lv,,2010,11/2/2010,general,FALSE,REP,Dick Muri,46
+WA,9,Benenson Strategy Group,9/18/2010,9/20/2010,400,lv,D,2010,11/2/2010,general,FALSE,DEM,Adam Smith,54
+WA,9,Benenson Strategy Group,9/18/2010,9/20/2010,400,lv,D,2010,11/2/2010,general,FALSE,REP,Dick Muri,35
+WA,9,SurveyUSA,9/14/2010,9/16/2010,586,lv,,2010,11/2/2010,general,FALSE,DEM,Adam Smith,49
+WA,9,SurveyUSA,9/14/2010,9/16/2010,586,lv,,2010,11/2/2010,general,FALSE,REP,Dick Muri,46
+WY,1,Rasmussen Reports/Pulse Opinion Research,9/30/2010,9/30/2010,500,lv,,2010,11/2/2010,general,FALSE,DEM,David Wendt,29
+WY,1,Rasmussen Reports/Pulse Opinion Research,9/30/2010,9/30/2010,500,lv,,2010,11/2/2010,general,FALSE,REP,Cynthia Lummis,61
+WY,1,Mason-Dixon Polling & Strategy,7/26/2010,7/28/2010,625,lv,,2010,11/2/2010,general,FALSE,DEM,David Wendt,29
+WY,1,Mason-Dixon Polling & Strategy,7/26/2010,7/28/2010,625,lv,,2010,11/2/2010,general,FALSE,REP,Cynthia Lummis,59
