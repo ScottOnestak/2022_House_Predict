@@ -28,11 +28,33 @@ gb_polls$start_date = as.Date(gb_polls$start_date,"%Y-%m-%d")
 gb_polls$end_date = as.Date(gb_polls$end_date,"%Y-%m-%d")
 gb_polls$election_date = as.Date(gb_polls$election_date,"%Y-%m-%d")
 
+#read in lean data
+leans = read.csv('Data/Historical Leans/Leans.csv',header=T,stringsAsFactors=F)
+colnames(leans)[1] = "year"
+
 #read in election results
 party_ind = read.csv('Data/Election Results/Cleaned Results/party_ind_data.csv',header=T,stringsAsFactors=F)
 election_results_raw = read.csv('Data/Election Results/Cleaned Results/votes_cleaned_data.csv',header=T,stringsAsFactors=F) %>%
-                          filter(year >= 2010 & runoff == FALSE)
+                          filter(year >= 2006 & runoff == FALSE)
 
+#read in House polls
+house_polls = read.csv('Data/Polls/House Polls/house_polls_historical.csv',header=T,stringsAsFactors=F) %>%
+                  filter(election_date %in% c("2020-11-03","2018-11-06","2016-11-08","2014-11-04","2012-11-06","2010-11-02") & population %in% c("rv","lv"))
+house_polls$start_date = as.Date(house_polls$start_date,"%Y-%m-%d")
+house_polls$end_date = as.Date(house_polls$end_date,"%Y-%m-%d")
+house_polls$election_date = as.Date(house_polls$election_date,"%Y-%m-%d")
+house_polls$District = paste(house_polls$State,"-",str_pad(house_polls$seat_number,2,pad="0"),sep="")
+house_polls$mid_date = NA
+house_polls$days_to_election = NA
+for(i in seq(from=1,to=dim(house_polls)[1],by=1)){
+  house_polls[i,"mid_date"] = mean.Date(c(house_polls[i,"start_date"],house_polls[i,"end_date"]))
+  house_polls[i,"days_to_election"] = as.numeric(house_polls[i,"election_date"] - house_polls[i,"mid_date"])
+}
+house_polls_cleaned = house_polls %>% filter(stage %in% c("general","jungle primary") & party %in% c("DEM","REP")) %>%
+                        group_by(District,pollster_rating_name,sample_size,population,partisan,cycle,party,days_to_election) %>%
+                        summarise(pct = sum(pct)) %>% #Combining all Rs and Ds from jungle primary together
+                        spread(key=party,val=pct) %>%
+                        filter(!is.na(REP) & !is.na(DEM)) #Filter out CDs in states like WA and CA that may have 2 Rs or 2Ds on the ballot
 
 #Build actual results for CDs that have both a Democrat and Republican on the ballot
 #For jungle generals some southern states have, group all Republican and Democrat votes together
@@ -44,7 +66,7 @@ rep_cand = election_results_raw %>% filter(PARTY == "R") %>%
               group_by(year,STATE,DISTRICT) %>%
               summarise(count=n())
 
-election_results = election_results_raw %>% inner_join(.,dem_cand %>% select(-count),by=c("year","STATE","DISTRICT")) %>%
+election_results = election_results_raw %>% filter(year>=2010) %>% inner_join(.,dem_cand %>% select(-count),by=c("year","STATE","DISTRICT")) %>%
                     inner_join(.,rep_cand %>% select(-count),by=c("year","STATE","DISTRICT")) %>%
                     group_by(year,STATE,DISTRICT,PARTY) %>%
                     summarise(VOTES = sum(candidate_votes,na.rm=T)) %>%
@@ -319,16 +341,319 @@ predict(DEM_base_lm,test)
 #Determine how to allocate undecides in the generic ballot
 gb_miss_by_days_to = gb_build %>% filter(days_to_election <= 100) %>%
                         mutate(party_in_power = ifelse(cycle %in% c(2004,2006,2008,2018,2020),"R","D"),
-                               midterm = ifelse(cycle %% 4 == 0,0,1))
+                               midterm = ifelse(cycle %% 4 == 0,0,1),
+                               GOP_undecideds = GOP_act - GOP,
+                               DEM_Undecideds = DEM_act - DEM) %>%
+                        mutate(GOP_und_prct = round(GOP_undecideds / (GOP_undecideds + DEM_Undecideds),2)*100,
+                               DEM_und_prct = round(DEM_Undecideds / (GOP_undecideds + DEM_Undecideds),2)*100)
 gb_miss_by_days_to$party_in_power = as.factor(gb_miss_by_days_to$party_in_power)
 gb_miss_by_days_to$midterm = as.factor(gb_miss_by_days_to$midterm)
+gb_miss_by_days_to$cycle = as.factor(gb_miss_by_days_to$cycle)
 
-train = gb_miss_by_days_to %>% filter(cycle < 2020)
-test = gb_miss_by_days_to %>% filter(cycle >= 2020)
+ggplot(gb_miss_by_days_to %>% filter(days_to_election <= 30),aes(x=days_to_election,y=GOP_und_prct)) +
+  geom_line(aes(color=cycle)) +
+  scale_x_reverse(name="Days to Election")
+#No real discernable pattern to model
+#ASSUMPTION: 2022 will behave similarly to 2010 and 2014 midterms with GOP out of power... ~60% of undecideds break GOP
+#            Center distribution about that 60% metric
 
-GOP_days_to_lm = lm(GOP_act ~ GOP + diff + days_to_election + midterm + GOP*days_to_election + GOP*midterm,data=train)
-summary(GOP_days_to_lm)
-predict(GOP_days_to_lm,test)
+#Compare different methods of predicting vote share
+
+##First get TSS aggregate and by year (only looking at CDs with both DEM and GOP on ballot)
+tss_by_year = election_results %>% mutate(DIFF = GOP_act - DEM_act) %>%
+                                   rename("cycle"="year") %>%
+                                   left_join(.,gb_acts %>% select(cycle,diff_act),by="cycle") %>%
+                                   mutate(TSS = (DIFF-diff_act)^2) %>%
+                                   group_by(cycle) %>%
+                                   summarise(TSS = sum(TSS),
+                                             count = n())
+tss = tss_by_year %>% summarise(TSS = sum(TSS),
+                                count = sum(count))
+
+##Look at how much can be explained away through the district lean + generic ballot
+lean1_gb_by_year = election_results %>% mutate(DIFF = GOP_act - DEM_act) %>%
+                                        left_join(.,leans %>% select(year,District,LEAN_1),by=c("year","District")) %>%
+                                        rename("cycle"="year") %>%
+                                        left_join(.,gb_acts %>% select(cycle,diff_act),by="cycle") %>%
+                                        mutate(PRED = LEAN_1 + diff_act) %>%
+                                        mutate(res = (DIFF-PRED)^2) %>%
+                                        group_by(cycle) %>%
+                                        summarise(RSS = sum(res),
+                                                  count = n()) %>%
+                                        mutate(type = "LEAN_1 + GB")
+lean1_gb = lean1_gb_by_year %>% summarise(RSS = sum(RSS),
+                                          count = sum(count)) %>%
+                                mutate(type = "LEAN_1 + GB")
+
+lean2_gb_by_year = election_results %>% mutate(DIFF = GOP_act - DEM_act) %>%
+                                        left_join(.,leans %>% select(year,District,LEAN_1,LEAN_2),by=c("year","District")) %>%
+                                        rename("cycle"="year") %>%
+                                        left_join(.,gb_acts %>% select(cycle,diff_act),by="cycle") %>%
+                                        mutate(PRED = ifelse(!is.na(LEAN_2),(LEAN_1 + LEAN_2)/2 + diff_act,
+                                                                             LEAN_1 + diff_act)) %>%
+                                        mutate(res = (DIFF-PRED)^2) %>%
+                                        group_by(cycle) %>%
+                                        summarise(RSS = sum(res),
+                                                  count = n()) %>%
+                                        mutate(type = "LEAN_1 + LEAN_2 + GB")
+lean2_gb = lean2_gb_by_year %>% summarise(RSS = sum(RSS),
+                                          count = sum(count)) %>%
+                                mutate(type = "LEAN_1 + LEAN_2 + GB")
+###Using just the previous election's lean vs the previous 2 works better... will only be using LEAN_1 going forward
+
+##Look at LEAN_1 + GB + Incumbent Previous Relative Performance
+incumbent_build = election_results_raw %>% inner_join(.,dem_cand %>% filter(count==1) %>% select(-count),by=c("year","STATE","DISTRICT")) %>%
+                    inner_join(.,rep_cand %>% filter(count==1) %>% select(-count),by=c("year","STATE","DISTRICT")) %>%
+                    group_by(year,STATE,DISTRICT,PARTY,FEC_ID,INCUMBENT_IND) %>%
+                    summarise(VOTES = sum(candidate_votes,na.rm=T)) %>%
+                    ungroup() %>%
+                    left_join(.,election_results_raw %>% select(year,STATE,DISTRICT,total_votes) %>% distinct(),by=c("year","STATE","DISTRICT")) %>%
+                    mutate(District = paste(STATE,"-",str_pad(DISTRICT,2,pad="0"),sep=""),
+                           prct = round(VOTES/total_votes*100,2)) 
+
+rep_inc_build = incumbent_build %>% filter(PARTY=="R") %>%
+                                    select(year,District,FEC_ID,INCUMBENT_IND,prct) %>%
+                                    rename("FEC_ID_GOP"="FEC_ID",
+                                           "INCUMBENT_IND_GOP"="INCUMBENT_IND",
+                                           "GOP_PRCT"="prct")
+dem_inc_build = incumbent_build %>% filter(PARTY=="D") %>%
+                                    select(year,District,FEC_ID,INCUMBENT_IND,prct) %>%
+                                    rename("FEC_ID_DEM"="FEC_ID",
+                                           "INCUMBENT_IND_DEM"="INCUMBENT_IND",
+                                           "DEM_PRCT"="prct")
+incumbent_temp = rep_inc_build %>% inner_join(.,dem_inc_build,by=c("year","District")) %>%
+                                   mutate(DIFF = GOP_PRCT - DEM_PRCT)
+
+incumbent_data = incumbent_temp %>% filter(year>=2010 & (INCUMBENT_IND_GOP == 1 | INCUMBENT_IND_DEM == 1)) %>% 
+                                    mutate(year1 = year - 2,
+                                           year2 = year - 4,
+                                           FEC_ID_MATCH = ifelse(INCUMBENT_IND_GOP==1,FEC_ID_GOP,FEC_ID_DEM)) %>%
+                                    rename("cycle"="year") %>%
+                                    left_join(.,incumbent_temp %>% mutate(year1 = year) %>%
+                                                                   left_join(.,leans %>% select(year,District,LEAN_1),by=c("year","District")) %>%
+                                                                   rename("cycle"="year") %>%
+                                                                   left_join(.,gb_acts %>% select(cycle,diff_act),by="cycle") %>%
+                                                                   mutate(PRED = LEAN_1 + diff_act) %>%
+                                                                   mutate(COMP1 = DIFF - PRED,
+                                                                          FEC_ID_MATCH = ifelse(DIFF > 0,FEC_ID_GOP,FEC_ID_DEM)) %>%
+                                                                   select(year1,FEC_ID_MATCH,COMP1),
+                                              by=c("year1","FEC_ID_MATCH")) %>%
+                                    left_join(.,incumbent_temp %>% mutate(year2 = year) %>%
+                                                left_join(.,leans %>% select(year,District,LEAN_1),by=c("year","District")) %>%
+                                                rename("cycle"="year") %>%
+                                                left_join(.,gb_acts %>% select(cycle,diff_act),by="cycle") %>%
+                                                mutate(PRED = LEAN_1 + diff_act) %>%
+                                                mutate(COMP2 = DIFF - PRED,
+                                                       FEC_ID_MATCH = ifelse(DIFF > 0,FEC_ID_GOP,FEC_ID_DEM)) %>%
+                                                select(year2,FEC_ID_MATCH,COMP2),
+                                              by=c("year2","FEC_ID_MATCH")) %>%
+                                    filter(!is.na(COMP1) | !is.na(COMP2)) #Sometimes incumbent because nobody ran against them prior or special election... so no comparable results
+                    
+###Test out some different weightings 
+
+###Use COMP1 if available... if not, use COMP2
+lean1_gb_comp1_by_year = election_results %>% mutate(DIFF = GOP_act - DEM_act) %>%
+                                              left_join(.,leans %>% select(year,District,LEAN_1),by=c("year","District")) %>%
+                                              rename("cycle"="year") %>%
+                                              left_join(.,gb_acts %>% select(cycle,diff_act),by="cycle") %>%
+                                              left_join(.,incumbent_data %>% mutate(COMP = ifelse(!is.na(COMP1),COMP1,COMP2)) %>%
+                                                                             select(cycle,District,COMP),
+                                                        by=c("cycle","District")) %>%
+                                              mutate(PRED = ifelse(is.na(COMP),LEAN_1 + diff_act,LEAN_1 + diff_act + COMP)) %>%
+                                              mutate(res = (DIFF-PRED)^2) %>%
+                                              group_by(cycle) %>%
+                                              summarise(RSS = sum(res),
+                                                        count = n()) %>%
+                                              mutate(type = "LEAN_1 + GB + COMP1 (COMP2 IF MISS)")
+lean1_gb_comp1 = lean1_gb_comp1_by_year %>% summarise(RSS = sum(RSS),
+                                                      count = sum(count)) %>%
+                                            mutate(type = "LEAN_1 + GB + COMP1 (COMP2 IF MISS)")
+
+###Use half of COMP1 if available... if not, use half of COMP2
+lean1_gb_comp1h_by_year = election_results %>% mutate(DIFF = GOP_act - DEM_act) %>%
+                                               left_join(.,leans %>% select(year,District,LEAN_1),by=c("year","District")) %>%
+                                               rename("cycle"="year") %>%
+                                               left_join(.,gb_acts %>% select(cycle,diff_act),by="cycle") %>%
+                                               left_join(.,incumbent_data %>% mutate(COMP = ifelse(!is.na(COMP1),COMP1/2,COMP2/2)) %>%
+                                                           select(cycle,District,COMP),
+                                                         by=c("cycle","District")) %>%
+                                               mutate(PRED = ifelse(is.na(COMP),LEAN_1 + diff_act,LEAN_1 + diff_act + COMP)) %>%
+                                               mutate(res = (DIFF-PRED)^2) %>%
+                                               group_by(cycle) %>%
+                                               summarise(RSS = sum(res),
+                                                         count = n()) %>%
+                                               mutate(type = "LEAN_1 + GB + COMP1/2 (COMP2/2 IF MISS)")
+lean1_gb_comp1h = lean1_gb_comp1h_by_year %>% summarise(RSS = sum(RSS),
+                                                      count = sum(count)) %>%
+                                              mutate(type = "LEAN_1 + GB + COMP1/2 (COMP2/2 IF MISS)")
+####The half works better than the full value
+####Tested combining COMP1 and COMP2 as well, but using COMP1 if available works better... will stick with the COMP1/2
+
+#Determine How to Weight the House Polls
+adv_score_miss_replace = pollster_bias %>%
+                          group_by(cycle) %>%
+                          summarise(adv_score_replace = quantile(adv_score,1))
+gb_final = gb_build %>% filter(days_to_election == 1)  %>% mutate(diff_gb_final = GOP - DEM) %>% select(cycle,diff_gb_final)
+decay = c(-0.5,-0.25,-0.1,-0.05,-0.01)
+penalty = c(0.1,0.2,0.3,0.4,0.5)
+ann_poll_results = NA
+agg_poll_results = NA
+poll_results_found = FALSE
+for(i in seq(from=1,to=length(decay),by=1)){
+  holder = NA
+  holder2 = NA
+  
+  thepolls_avg = house_polls_cleaned %>% rename("pollster"="pollster_rating_name") %>%
+                                         filter(DEM + REP >= 80 & !is.na(sample_size) & days_to_election <= 100) %>%
+                                         arrange(cycle,District,pollster,days_to_election,population) %>%
+                                         group_by(cycle,District,pollster) %>%
+                                         filter(row_number()==1) %>%
+                                         left_join(.,pollster_bias %>% select(-count),by=c("cycle","pollster")) %>%
+                                         left_join(.,partisan_bias,by=c("cycle","partisan")) %>%
+                                         mutate(adjustment = ifelse(population == "rv",
+                                                                    ifelse(is.na(POLLSTER_BIAS),PARTISAN_BIAS-1.5,PARTISAN_BIAS+POLLSTER_BIAS-1.5),
+                                                                    ifelse(is.na(POLLSTER_BIAS),PARTISAN_BIAS,PARTISAN_BIAS+POLLSTER_BIAS))) %>%
+                                         left_join(.,adv_score_miss_replace,by="cycle") %>%
+                                         mutate(DEM_adj = DEM + .5*adjustment,
+                                                GOP_adj = REP - .5*adjustment,
+                                                adv_score = ifelse(is.na(adv_score),adv_score_replace,adv_score)) %>%
+                                         mutate(sample_size_score = sqrt(sample_size/600),
+                                                pollster_adv_score = ((adv_score - min(pollster_bias$adv_score)) / (max(pollster_bias$adv_score) - min(pollster_bias$adv_score)) - 1) * -1 + 0.5,
+                                                time_score = exp(decay[i] * days_to_election)) %>%
+                                         mutate(theWeight = time_score * sample_size_score * pollster_adv_score) %>%
+                                         group_by(cycle,District) %>%
+                                         summarise(DEM = round(weighted.mean(DEM_adj,theWeight),2),
+                                                   GOP = round(weighted.mean(GOP_adj,theWeight),2),
+                                                   count = n()) %>%
+                                         left_join(.,election_results %>% rename("cycle"="year"),by=c("cycle","District")) %>%
+                                         left_join(.,gb_acts %>% rename("DEM_gb"="DEM_act","GOP_gb"="GOP_act","diff_gb"="diff_act"),by="cycle") %>%
+                                         mutate(diff = GOP - DEM,
+                                                diff_act = GOP_act - DEM_act) %>%
+                                         mutate(TSS = (diff_act-diff_gb)^2,
+                                                RSS = (diff_act-diff)^2) %>%
+                                         group_by(cycle) %>%
+                                         summarise(TSS = sum(TSS),
+                                                   RSS = sum(RSS),
+                                                   count=n()) %>%
+                                         mutate(R2 = 1 - (RSS/TSS),
+                                                type = paste("Simple w/ ",decay[i],sep=""))
+  thepolls_comb = thepolls_avg %>% summarise(TSS = sum(TSS),
+                                             RSS = sum(RSS),
+                                             count = sum(count)) %>%
+                                   mutate(R2 = 1 - (RSS/TSS),
+                                          type = paste("Simple w/ ",decay[i],sep=""))
+  
+  thepolls_avg_gbadj = house_polls_cleaned %>%  rename("pollster"="pollster_rating_name") %>%
+                                                filter(DEM + REP >= 80 & !is.na(sample_size) & days_to_election <= 100) %>%
+                                                arrange(cycle,District,pollster,days_to_election,population) %>%
+                                                group_by(cycle,District,pollster) %>%
+                                                filter(row_number()==1) %>%
+                                                left_join(.,pollster_bias %>% select(-count),by=c("cycle","pollster")) %>%
+                                                left_join(.,partisan_bias,by=c("cycle","partisan")) %>%
+                                                mutate(day_join = round(days_to_election,0)) %>%
+                                                left_join(.,gb_build %>% mutate(diff_gb_curr = GOP - DEM) %>% rename("day_join"="days_to_election") %>% select(cycle,day_join,diff_gb_curr),by=c("cycle","day_join")) %>%
+                                                left_join(.,gb_final,by="cycle") %>%
+                                                mutate(adjustment = ifelse(population == "rv",
+                                                                           ifelse(is.na(POLLSTER_BIAS),PARTISAN_BIAS-1.5+diff_gb_curr-diff_gb_final,PARTISAN_BIAS+POLLSTER_BIAS-1.5+diff_gb_curr-diff_gb_final),
+                                                                           ifelse(is.na(POLLSTER_BIAS),PARTISAN_BIAS+diff_gb_curr-diff_gb_final,PARTISAN_BIAS+POLLSTER_BIAS+diff_gb_curr-diff_gb_final))) %>%
+                                                left_join(.,adv_score_miss_replace,by="cycle") %>%
+                                                mutate(DEM_adj = DEM + .5*adjustment,
+                                                       GOP_adj = REP - .5*adjustment,
+                                                       adv_score = ifelse(is.na(adv_score),adv_score_replace,adv_score)) %>%
+                                                mutate(sample_size_score = sqrt(sample_size/600),
+                                                       pollster_adv_score = ((adv_score - min(pollster_bias$adv_score)) / (max(pollster_bias$adv_score) - min(pollster_bias$adv_score)) - 1) * -1 + 0.5,
+                                                       time_score = exp(decay[i] * days_to_election)) %>%
+                                                mutate(theWeight = time_score * sample_size_score * pollster_adv_score) %>%
+                                                group_by(cycle,District) %>%
+                                                summarise(DEM = round(weighted.mean(DEM_adj,theWeight),2),
+                                                          GOP = round(weighted.mean(GOP_adj,theWeight),2),
+                                                          count = n()) %>%
+                                                left_join(.,election_results %>% rename("cycle"="year"),by=c("cycle","District")) %>%
+                                                left_join(.,gb_acts %>% rename("DEM_gb"="DEM_act","GOP_gb"="GOP_act","diff_gb"="diff_act"),by="cycle") %>%
+                                                mutate(diff = GOP - DEM,
+                                                       diff_act = GOP_act - DEM_act) %>%
+                                                mutate(TSS = (diff_act-diff_gb)^2,
+                                                       RSS = (diff_act-diff)^2) %>%
+                                                group_by(cycle) %>%
+                                                summarise(TSS = sum(TSS),
+                                                          RSS = sum(RSS),
+                                                          count=n()) %>%
+                                                mutate(R2 = 1 - (RSS/TSS),
+                                                       type = paste("Simple w/ ",decay[i]," and GB Adj",sep=""))
+  thepolls_comb_gbadj = thepolls_avg_gbadj %>% summarise(TSS = sum(TSS),
+                                                         RSS = sum(RSS),
+                                                         count = sum(count)) %>%
+                                                mutate(R2 = 1 - (RSS/TSS),
+                                                       type = paste("Simple w/ ",decay[i]," and GB Adj",sep=""))
+  
+  holder = rbind(thepolls_avg,thepolls_avg_gbadj)
+  holder2 = rbind(thepolls_comb,thepolls_comb_gbadj)
+  
+  for(j in seq(from=1,to=length(penalty),by=1)){
+    thepolls_temp = house_polls_cleaned %>% rename("pollster"="pollster_rating_name") %>%
+                                            filter(DEM + REP >= 80 & !is.na(sample_size) & days_to_election <= 100) %>%
+                                            arrange(cycle,District,pollster,days_to_election,population) %>%
+                                            group_by(cycle,District,pollster) %>%
+                                            filter(row_number()==1) %>%
+                                            left_join(.,pollster_bias %>% select(-count),by=c("cycle","pollster")) %>%
+                                            left_join(.,partisan_bias,by=c("cycle","partisan")) %>%
+                                            mutate(adjustment = ifelse(population == "rv",
+                                                                       ifelse(is.na(POLLSTER_BIAS),PARTISAN_BIAS-1.5,PARTISAN_BIAS+POLLSTER_BIAS-1.5),
+                                                                       ifelse(is.na(POLLSTER_BIAS),PARTISAN_BIAS,PARTISAN_BIAS+POLLSTER_BIAS))) %>%
+                                            left_join(.,adv_score_miss_replace,by="cycle") %>%
+                                            mutate(DEM_adj = DEM + .5*adjustment,
+                                                   GOP_adj = REP - .5*adjustment,
+                                                   adv_score = ifelse(is.na(adv_score),adv_score_replace,adv_score)) %>%
+                                            mutate(sample_size_score = sqrt(sample_size/600),
+                                                   pollster_adv_score = ((adv_score - min(pollster_bias$adv_score)) / (max(pollster_bias$adv_score) - min(pollster_bias$adv_score)) - 1) * -1 + 0.5,
+                                                   time_score = exp(decay[i] * days_to_election),
+                                                   penalty = ifelse(partisan == "",1,1-penalty[j])) %>%
+                                            mutate(theWeight = time_score * sample_size_score * pollster_adv_score*penalty) %>%
+                                            group_by(cycle,District) %>%
+                                            summarise(DEM = round(weighted.mean(DEM_adj,theWeight),2),
+                                                      GOP = round(weighted.mean(GOP_adj,theWeight),2),
+                                                      count = n()) %>%
+                                            left_join(.,election_results %>% rename("cycle"="year"),by=c("cycle","District")) %>%
+                                            left_join(.,gb_acts %>% rename("DEM_gb"="DEM_act","GOP_gb"="GOP_act","diff_gb"="diff_act"),by="cycle") %>%
+                                            mutate(diff = GOP - DEM,
+                                                   diff_act = GOP_act - DEM_act) %>%
+                                            mutate(TSS = (diff_act-diff_gb)^2,
+                                                   RSS = (diff_act-diff)^2) %>%
+                                            group_by(cycle) %>%
+                                            summarise(TSS = sum(TSS),
+                                                      RSS = sum(RSS),
+                                                      count=n()) %>%
+                                            mutate(R2 = 1 - (RSS/TSS),
+                                                   type = paste("Simple w/ ",decay[i],sep=""))
+                                          thepolls_comb = thepolls_avg %>% summarise(TSS = sum(TSS),
+                                                                                     RSS = sum(RSS),
+                                                                                     count = sum(count)) %>%
+                                            mutate(R2 = 1 - (RSS/TSS),
+                                                   type = paste("Simple w/ ",decay[i]," and penalty",penalty[j],sep=""))
+                                          
+      thepolls_comb_temp = thepolls_temp %>% summarise(TSS = sum(TSS),
+                                                       RSS = sum(RSS),
+                                                       count = sum(count)) %>%
+                                             mutate(R2 = 1 - (RSS/TSS),
+                                                    type = paste("Simple w/ ",decay[i]," and penalty",penalty[j],sep=""))
+      
+      holder = rbind(holder,thepolls_temp)
+      holder2 = rbind(holder2,thepolls_comb_temp)
+  }
+  
+  if(poll_results_found==FALSE){
+    ann_poll_results = holder
+    agg_poll_results = holder2
+    poll_results_found = TRUE
+  } else {
+    ann_poll_results = rbind(ann_poll_results,holder)
+    agg_poll_results = rbind(agg_poll_results,holder2)
+  }
+}
+
+
+
+
 
 
 
