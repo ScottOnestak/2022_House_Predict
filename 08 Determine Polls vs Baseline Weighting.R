@@ -267,7 +267,7 @@ dev.off()
 
 #Determine the effect of 3rd parties/missing DEM-REP candidates on the generic ballot total
 third_party = gb_acts %>% mutate(total = GOP_act + DEM_act) %>% select(cycle,total) %>%
-                          left_join(.,party_ind %>% mutate(third_party_ind = ifelse(LBT_IND == 1 | GRN_IND == 1 | DEM_IND == 0 | REP_IND == 0,1,0)) %>%
+                          left_join(.,party_ind %>% mutate(third_party_ind = ifelse(LBT_IND == 1 | GRN_IND == 1  | DEM_IND == 0 | REP_IND == 0,1,0)) %>%
                                                     rename("cycle"="year") %>%
                                                     group_by(cycle) %>%
                                                     summarise(third_party_ind = sum(third_party_ind),
@@ -1022,11 +1022,13 @@ dev.off()
 
 #Determine Total 2-party vote using 3rd party candidates
 forThirdPartyModel = election_results %>% left_join(.,party_ind %>% mutate(District = paste(STATE,"-",str_pad(DISTRICT,2,pad="0"),sep="")) %>%
-                                                                    select(year,District,REP_IND,DEM_IND,LBT_IND,GRN_IND),
+                                                                    select(year,District,REP_IND,DEM_IND,LBT_IND,GRN_IND,IND_IND),
                                                     by=c("year","District")) %>% 
                                           filter(REP_IND == 1 & DEM_IND == 1) %>%
-                                          mutate(third_party_vote = round(100 - DEM_act - GOP_act,2))
+                                          rename("cycle"="year") %>%
+                                          left_join(.,gb_acts %>% mutate(national_third_party_vote = round(100 - DEM_act - GOP_act,2)) %>% select(cycle,national_third_party_vote),by="cycle") %>%
+                                          mutate(third_party_vote = round(100 - DEM_act - GOP_act,2)) 
 
-third_party_lm = lm(third_party_vote ~ LBT_IND + GRN_IND,data=forThirdPartyModel)
+third_party_lm = lm(third_party_vote ~ LBT_IND + GRN_IND + IND_IND,data=forThirdPartyModel)
 summary(third_party_lm)
 
