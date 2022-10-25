@@ -4,6 +4,9 @@
 
 #libraries
 library(dplyr)
+library(tidyr)
+library(stringr)
+library(ggplot2)
 
 #read in data
 
@@ -361,6 +364,14 @@ write.csv(train,"Data/Datasets/train.csv",row.names=F)
 candidates2022 = read.csv("Data/2022 Candidates File/candidate_list.csv",header=T,stringsAsFactors=F)
 party_ind_2022 = read.csv("Data/2022 Candidates File/party_ind_data.csv",header=T,stringsAsFactors=F)
 
+#Check which candidates are missing from FEC data
+fec_miss = candidates2022 %>% left_join(.,fec_data %>% select(-c("STATE","DISTRICT")),by=c("year","FEC_ID")) %>%
+                              filter(is.na(CAND_NAME))
+
+fec_low = candidates2022 %>% left_join(.,fec_data %>% select(-c("STATE","DISTRICT")),by=c("year","FEC_ID")) %>%
+                             filter(!is.na(CAND_NAME)) %>%
+                             filter(TOTAL_RECEIPTS<15000)
+
 dem_cand_2022 = candidates2022 %>% filter(PARTY=="D") %>%
                                    mutate(District = paste(STATE,"-",str_pad(DISTRICT,2,pad="0"),sep="")) %>%
                                    rename("FEC_ID_DEM"="FEC_ID",
@@ -370,9 +381,12 @@ dem_cand_2022 = candidates2022 %>% filter(PARTY=="D") %>%
                                     select(year,District,FEC_ID_DEM,FIRST_NAME_DEM,LAST_NAME_DEM,INCUMBENT_IND_DEM)
 
 dem_districts_to_model = dem_cand_2022 %>% group_by(year,District) %>% summarise(count=n()) %>% filter(count==1)
-dem_wins = dem_cand_2022 %>% group_by(year,District) %>% summarise(count=n()) %>% filter(count>1) %>%
-                             select(-count) %>% mutate(FIRST_NAME = "",
-                                                       LAST_NAME = "A DEMOCRAT",
+dem_wins = dem_cand_2022 %>% group_by(year,District) %>% summarise(INCUMBENT_IND_DEM = max(INCUMBENT_IND_DEM),count=n()) %>% filter(count>1) %>%
+                             select(-count) %>% mutate(FIRST_NAME_DEM = "",
+                                                       LAST_NAME_DEM = "A DEMOCRAT",
+                                                       INCUMBENT_IND_GOP = 0,
+                                                       FIRST_NAME_GOP = "",
+                                                       LAST_NAME_GOP = "",
                                                        GOP_win = 0)
 
 rep_cand_2022 = candidates2022 %>% filter(PARTY=="R") %>%
@@ -395,6 +409,123 @@ districts_for_model = dem_districts_to_model %>% select(-count) %>%
 
 default_wins = candidates2022 %>% mutate(District = paste(STATE,"-",str_pad(DISTRICT,2,pad="0"),sep="")) %>%
                                   filter(District %in% setdiff(sort(unlist(candidates2022 %>% mutate(District = paste(STATE,"-",str_pad(DISTRICT,2,pad="0"),sep="")) %>% select(District) %>% distinct())),
-                                                               c(districts_for_model$District,dem_wins$District)))
+                                                               c(districts_for_model$District,dem_wins$District))) %>%
+                                  mutate(FIRST_NAME_DEM = ifelse(PARTY=="D",FIRST_NAME,""),
+                                         LAST_NAME_DEM = ifelse(PARTY=="D",LAST_NAME,""),
+                                         INCUMBENT_IND_DEM = ifelse(PARTY=="D",INCUMBENT_IND,0),
+                                         FIRST_NAME_GOP = ifelse(PARTY=="R",FIRST_NAME,""),
+                                         LAST_NAME_GOP = ifelse(PARTY=="R",LAST_NAME,""),
+                                         INCUMBENT_IND_GOP = ifelse(PARTY=="R",INCUMBENT_IND,0),
+                                         GOP_win = ifelse(PARTY=="D",0,1)) %>%
+                                  select(year,District,INCUMBENT_IND_DEM,FIRST_NAME_DEM,LAST_NAME_DEM,
+                                         INCUMBENT_IND_GOP,FIRST_NAME_GOP,LAST_NAME_GOP,GOP_win)
 
+#stack and write out all default wins
+all_default_wins = rbind(default_wins,dem_wins)
+write.csv(all_default_wins,"Data/Datasets/default_wins.csv",row.names = F)
+
+
+#join data to create test base for static variables
+test_base = districts_for_model %>% left_join(.,census,by=c("year","District")) %>%
+                                    left_join(.,party_ind_2022 %>% mutate(District = paste(STATE,"-",str_pad(DISTRICT,2,pad="0"),sep="")) %>%
+                                                                   select(year,District,DEM_IND,REP_IND,LBT_IND,GRN_IND,IND_IND) %>%
+                                                                   rename("GOP_IND" = "REP_IND"),
+                                              by=c("year","District")) %>%
+                                    left_join(.,leans %>% select(year,District,LEAN_1),by=c("year","District"))
+
+
+#see how many points to sampe in normal distribution until it evens out
+sample_norm = NA
+for(i in seq(from=100,to=10000,by=100)){
+  temp = NA
+  for(j in seq(from=1,to=100,by=1)){
+    if(j==1){
+      temp = mean(rnorm(n=i,mean=0,sd=1))
+    } else {
+      temp = c(temp,mean(rnorm(n=i,mean=0,sd=1)))
+    }
+  }
+  
+  if(i==100){
+    sample_norm = as.data.frame(cbind(i,mean(temp),sd(temp)))
+  } else {
+    sample_norm = rbind(sample_norm,as.data.frame(cbind(i,mean(temp),sd(temp))))
+  }
+}
+colnames(sample_norm) = c("sample_size","mean","sd")
+
+ggplot(data=sample_norm,aes(x=sample_size,y=sd)) +
+  geom_line() +
+  geom_point() + 
+  theme_minimal() +
+  ggtitle("SD Change with Sample Size")
+
+ggplot(data=sample_norm,aes(x=sample_size,y=mean)) +
+  geom_line() +
+  geom_point() + 
+  theme_minimal() +
+  ggtitle("Mean Change with Sample Size")
+
+##Standard deviation appears quite stable by the time 10,000 is reached... will use that number of test cases
+
+plot(density(rnorm(n=15000,mean=0,sd=1)))
+##Curves look really smooth by 15000
+
+#Create the base dataset from which to construct model on
+set.seed(123)
+gb_rnorms = rnorm(n=15000,mean=0,sd=1)
+und_rnorms = rnorm(n=15000,mean=0,sd=1)
+holder = NA
+final_test_base = NA
+subset_found = FALSE
+subset = NA
+subset1 = NA
+subset2 = NA
+subset3 = NA
+for(i in seq(from=1,to=15000,by=1)){
+  cat(i,"\n",sep="")
+  temp = test_base %>% mutate(gb_rnorm = gb_rnorms[i],
+                              und_rnorm = und_rnorms[i],
+                              poll_rnorm = rnorm(n=400,mean=gb_rnorms[i],sd=1),
+                              scenario = i)
+  
+  if(i%%250==1){
+    holder = temp
+  } else {
+    holder = rbind(holder,temp)
+  }
+  
+  #Stack results 
+  if(i%%250==0){
+    if(subset_found==FALSE){
+      subset = holder
+      subset_found = TRUE
+    } else {
+      subset = rbind(subset,holder)
+    }
+    holder = NA
+  }
+  
+  #Create subset
+  if(i==5000){
+    subset1 = subset
+    subset = NA
+    subset_found = FALSE
+  }
+  
+  if(i==10000){
+    subset2 = subset
+    subset = NA
+    subset_found = FALSE
+  }
+  
+  if(i==15000){
+    subset3 = subset
+    subset = NA
+    subset_found = FALSE
+  }
+}
+final_test_base = rbind(subset1,subset2,subset3)
+
+write.csv(final_test_base,"Data/Datasets/test_base.csv",row.names = F)
 
