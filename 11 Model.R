@@ -13,10 +13,16 @@ memory.limit(size=10000)
 #set current data
 theDate = Sys.Date()
 
-
 #read in data
 train = read.csv("Data/Datasets/train.csv",header=T,stringsAsFactors=F)
 test_base = read.csv("Data/Datasets/test_base.csv",header=T,stringsAsFactors=F)
+
+gb_prev = read.csv("Data/Results/Generic_Ballot.csv",header=T,stringsAsFactors=F)
+expected_seat_prev = read.csv("Data/Results/Expected_Seats.csv",header=T,stringsAsFactors=F)
+majority_prev = read.csv("Data/Results/Majority.csv",header=T,stringsAsFactors=F)
+gb_prev$date = as.Date(gb_prev$date,"%Y-%m-%d")
+expected_seat_prev$date = as.Date(expected_seat_prev$date,"%Y-%m-%d")
+majority_prev$date = as.Date(majority_prev$date,"%Y-%m-%d")
 
 state_to_fips = read.csv("Data/State_to_FIPS.csv",header=T,stringsAsFactors=F)
 
@@ -117,6 +123,8 @@ gb_sd = gb_temp %>% mutate(DEM_SD = sqrt(((dem/100)*(1-dem/100))/sample_size)*10
 
 gb_est = gb_mean %>% left_join(.,gb_sd,by="cycle")
 
+gb_out = rbind(gb_prev,gb_est %>% mutate(date = theDate))
+write.csv(gb_out,"Data/Results/Generic_Ballot.csv",row.names=F)
 
 #Build house polling estimates
 
@@ -145,7 +153,7 @@ house_polls_2022_cleaned = rbind(oth,alaska) %>% rename("Name" = "state") %>%
                                                  mutate(District = paste(State,"-",str_pad(seat_number,2,pad="0"),sep="")) %>%
                                                  select(-c("State","Name","seat_number"))
 
-house_temp = house_polls_2022_cleaned %>% filter(DEM + REP >= 75 & !is.na(sample_size) & days_to_election <= 300 & days_to_election > 0) %>% 
+house_temp = house_polls_2022_cleaned %>% filter(DEM + REP >= 75 & !is.na(sample_size) & days_to_election <= 75 & days_to_election > 0) %>% 
                                           arrange(cycle,District,pollster,days_to_election,population) %>%
                                           group_by(cycle,District,pollster,population) %>%
                                           filter(row_number()==1) %>%
@@ -272,8 +280,7 @@ incumbent_data = test_base %>% filter(scenario==1) %>%
 
 
 #Join everything together to create the test dataset
-test = test_base %>% filter(scenario==1) %>% left_join(.,fec2022 %>% filter(CAND_PTY_AFFILIATION=="DEM") %>%
-                                 select(FEC_ID,year,TOTAL_RECEIPTS,TOTAL_DISBURSEMENTS,
+test = test_base %>% left_join(.,fec2022 %>% select(FEC_ID,year,TOTAL_RECEIPTS,TOTAL_DISBURSEMENTS,
                                         COH_COP,TOTAL_INDIVIDUAL_CONTRIBUTIONS,PARTY_CONTRIB,INDIV_REFUNDS) %>%
                                  rename("FEC_ID_DEM" = "FEC_ID",
                                         "TOTAL_RECEIPTS_DEM" = "TOTAL_RECEIPTS",
@@ -283,8 +290,7 @@ test = test_base %>% filter(scenario==1) %>% left_join(.,fec2022 %>% filter(CAND
                                         "PARTY_CONTRIBUTIONS_DEM" = "PARTY_CONTRIB",
                                         "INDIVIDUAL_REFUNDS_DEM" = "INDIV_REFUNDS"),
                                by=c("year","FEC_ID_DEM")) %>%
-                      left_join(.,fec2022 %>% filter(CAND_PTY_AFFILIATION=="REP") %>%
-                                  select(FEC_ID,year,TOTAL_RECEIPTS,TOTAL_DISBURSEMENTS,
+                      left_join(.,fec2022 %>% select(FEC_ID,year,TOTAL_RECEIPTS,TOTAL_DISBURSEMENTS,
                                          COH_COP,TOTAL_INDIVIDUAL_CONTRIBUTIONS,PARTY_CONTRIB,INDIV_REFUNDS) %>%
                                   rename("FEC_ID_GOP" = "FEC_ID",
                                          "TOTAL_RECEIPTS_GOP" = "TOTAL_RECEIPTS",
@@ -325,7 +331,7 @@ test = test_base %>% filter(scenario==1) %>% left_join(.,fec2022 %>% filter(CAND
                              poll_weight = ifelse(is.na(total_weight),NA,
                                                   ifelse(total_weight>=3.5,0,3.5-total_weight))) %>%
                       mutate(POLL_UND_EST = EST_TWO_PARTY - DEM_POLL_EST_SC - GOP_POLL_EST_SC) %>%
-                      mutate(GOP_POLL_UND_EST = min(max(qnorm(p=pnorm(und_rnorm),mean=0.6,sd=0.05),0),1)*POLL_UND_EST) %>%
+                      mutate(GOP_POLL_UND_EST = (min(max(qnorm(p=pnorm(und_rnorm),mean=0.6,sd=0.05),0),1)+LEAN_1/100/2)*POLL_UND_EST) %>%
                       mutate(DEM_POLL_UND_EST = POLL_UND_EST - GOP_POLL_UND_EST) %>%
                       mutate(DEM_LEAN_SC = EST_TWO_PARTY/2 - LEAN_PRED_SC/2,
                              GOP_LEAN_SC = EST_TWO_PARTY/2 + LEAN_PRED_SC/2,
@@ -366,8 +372,8 @@ test = test %>% mutate(TOTAL_RECEIPTS_DEM_LN = ifelse(TOTAL_RECEIPTS_DEM <= 0,0,
 
 
 #remove all objects from memory that are no longer needed
-rm(list=setdiff(ls(),c("train","test")))
-gc()
+#rm(list=setdiff(ls(),c("train","test")))
+#gc()
 
 
 #create variable lists
@@ -377,7 +383,7 @@ x_vars = setdiff(colnames(train),c("year","District","GOP_win","DEM_act","GOP_ac
                                    "LAST_NAME_GOP","GOP_IND","DEM_IND","TOTAL_RECEIPTS_DEM","TOTAL_DISBURSEMENTS_DEM",
                                    "COH_DEM","INDIVIDUAL_CONTRIBUTIONS_DEM","PARTY_CONTRIBUTIONS_DEM","INDIVIDUAL_REFUNDS_DEM",
                                    "TOTAL_RECEIPTS_GOP","TOTAL_DISBURSEMENTS_GOP","COH_GOP","INDIVIDUAL_CONTRIBUTIONS_GOP",
-                                   "PARTY_CONTRIBUTIONS_GOP","INDIVIDUAL_REFUNDS_GOP"))
+                                   "PARTY_CONTRIBUTIONS_GOP","INDIVIDUAL_REFUNDS_GOP","median_age","ppsm"))
 
 
 #start H2O
@@ -403,12 +409,12 @@ theModel = h2o.gbm(x=x_vars,
 # H2ORegressionMetrics: gbm
 # ** Reported on training data. **
 #   
-# MSE:  0.006564368
-# RMSE:  0.08102079
-# MAE:  0.03047589
-# RMSLE:  0.05930112
-# Mean Residual Deviance :  0.006564368
-# R2: 0.9735862
+# MSE:  0.007048057
+# RMSE:  0.08395271
+# MAE:  0.03125731
+# RMSLE:  0.06117685
+# Mean Residual Deviance :  0.007048057
+# R2: 0.97164
 
 test$GOP_win = as.vector(h2o.predict(theModel,test_data))
 
@@ -416,7 +422,7 @@ h2o.shutdown(prompt=FALSE)
 
 #Determine winner
 set.seed(412)
-test$random = runif(n=6000000,min=0,max=1)
+test$random = runif(n=4000000,min=0,max=1)
 test = test %>% mutate(GOP_seat = ifelse(GOP_win>=random,1,0))
 
 #Get scenario breakdown
@@ -424,22 +430,51 @@ scenarios = test %>% group_by(scenario) %>%
                      summarise(GOP_seat = sum(GOP_seat)) %>%
                      ungroup() %>%
                      mutate(GOP_seat_final = GOP_seat + 23,
-                            DEM_seat_final = (400 - GOP_seat) + 12) 
+                            DEM_seat_final = (400 - GOP_seat) + 12) %>%
+                     select(-c("GOP_seat"))
 
 majority = scenarios %>% mutate(GOP_majority = ifelse(GOP_seat_final>=218,1,0)) %>%
                          summarise(GOP_majority = round(sum(GOP_majority)/n()*100,2)) %>%
                          mutate(DEM_majority = 100 - GOP_majority)
 
 expected_seat = scenarios %>% summarise(GOP_expected_seat = round(mean(GOP_seat_final),0),
-                                        DEM_expected_seat = round(mean(DEM_seat_final),0))
+                                        DEM_expected_seat = round(mean(DEM_seat_final),0),
+                                        GOP_expected_seat_10 = quantile(GOP_seat_final,.1),
+                                        GOP_expected_seat_90 = quantile(GOP_seat_final,.9),
+                                        DEM_expected_seat_10 = quantile(DEM_seat_final,.1),
+                                        DEM_expected_seat_90 = quantile(DEM_seat_final,.9),
+                                        GOP_expected_seat_SD = round(sd(GOP_seat_final),0),
+                                        DEM_expected_seat_SD = round(sd(DEM_seat_final),0))
 
 
 #Look at individual seats
 seats = test %>% group_by(year,District,INCUMBENT_IND_DEM,FIRST_NAME_DEM,LAST_NAME_DEM,INCUMBENT_IND_GOP,FIRST_NAME_GOP,LAST_NAME_GOP) %>%
-                 summarise(GOP_win = round(sum(GOP_seat)/n(),2)*100)
+                 summarise(GOP_win = round(sum(GOP_seat)/n(),2)) %>%
+                 ungroup()
 
+defaults = read.csv("Data/Datasets/default_wins.csv",header=T,stringsAsFactors=F)
 
+seats_final = rbind(seats,defaults) %>% mutate(DEM = ifelse(INCUMBENT_IND_DEM == 1,trimws(paste(FIRST_NAME_DEM," ",LAST_NAME_DEM," (I)",sep="")),
+                                                                                   trimws(paste(FIRST_NAME_DEM," ",LAST_NAME_DEM,sep=""))),
+                                               GOP = ifelse(INCUMBENT_IND_GOP == 1,trimws(paste(FIRST_NAME_GOP," ",LAST_NAME_GOP," (I)",sep="")),
+                                                                                   trimws(paste(FIRST_NAME_GOP," ",LAST_NAME_GOP,sep=""))),
+                                               DEM_PRCT = (1-GOP_win)*100,
+                                               GOP_PRCT = GOP_win*100) %>%
+                                        select(District,DEM,DEM_PRCT,GOP,GOP_PRCT) %>%
+                                        arrange(District)
 
+majority_out = rbind(majority_prev,majority %>% mutate(date = theDate))
+expected_seat_out = rbind(expected_seat_prev,expected_seat %>% mutate(date = theDate))
+
+scenario_out = scenarios %>% group_by(GOP_seat_final) %>%
+                             summarise(probability = round(n()/10000*100,2)) %>%
+                             mutate(control = ifelse(GOP_seat_final>=218,"GOP","DEM"))
+
+#write out the files
+write.csv(seats_final,"Data/Results/Individual_Seats.csv",row.names = F)
+write.csv(scenario_out,"Data/Results/Scenarios.csv",row.names = F)
+write.csv(majority_out,"Data/Results/Majority.csv",row.names = F)
+write.csv(expected_seat_out,"Data/Results/Expected_Seats.csv",row.names = F)
 
 
 
