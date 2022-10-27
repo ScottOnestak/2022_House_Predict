@@ -9,9 +9,11 @@ library(stringr)
 library(h2o)
 
 memory.limit(size=10000)
+options(scipen=999)
 
 #set current data
-theDate = Sys.Date()
+#theDate = Sys.Date()
+theDate = as.Date("2022-10-26","%Y-%m-%d")
 
 #read in data
 train = read.csv("Data/Datasets/train.csv",header=T,stringsAsFactors=F)
@@ -87,14 +89,16 @@ house_polls_2022 = house_polls_2022 %>% filter(end_date <= theDate)
 #Build generic ballot
 na_replace_val = quantile(unlist(pollster_bias %>% filter(cycle == 2022) %>% select(adv_score)),1)
 gb_temp = gb_polls_2022 %>% filter(days_to_today >= 0) %>% 
+                            mutate(pollster = ifelse(pollster=="Big Village/Opinion Research Corporation","CNN/Opinion Research Corp.",
+                                                     ifelse(pollster=="Global Strategy Group/GBAO (Navigator Research)","Global Strategy Group",pollster))) %>% #update for FiveThirtyEight display name changes
                             arrange(desc(mid_date),pollster,population) %>%
                             group_by(pollster) %>%
                             filter(row_number()==1) %>%
                             left_join(.,pollster_bias %>% select(-count),by=c("cycle","pollster")) %>%
-                            left_join(.,avg_bias,by="cycle") %>%
-                            mutate(adjustment = ifelse(population == "RV",
-                                                       ifelse(is.na(POLLSTER_BIAS),-1.5,POLLSTER_BIAS-1.5),
-                                                       ifelse(is.na(POLLSTER_BIAS),0,POLLSTER_BIAS))) %>%
+                            left_join(.,partisan_bias,by=c("cycle","partisan")) %>%
+                            mutate(adjustment = ifelse(population == "rv",
+                                                       ifelse(is.na(POLLSTER_BIAS),PARTISAN_BIAS-1.5,PARTISAN_BIAS+POLLSTER_BIAS-1.5),
+                                                       ifelse(is.na(POLLSTER_BIAS),PARTISAN_BIAS,PARTISAN_BIAS+POLLSTER_BIAS))) %>%
                             mutate(DEM_adj = dem + .5*adjustment,
                                    GOP_adj = rep - .5*adjustment,
                                    adv_score = ifelse(is.na(adv_score),na_replace_val,adv_score)) %>%
@@ -123,8 +127,6 @@ gb_sd = gb_temp %>% mutate(DEM_SD = sqrt(((dem/100)*(1-dem/100))/sample_size)*10
 
 gb_est = gb_mean %>% left_join(.,gb_sd,by="cycle")
 
-gb_out = rbind(gb_prev,gb_est %>% mutate(date = theDate))
-write.csv(gb_out,"Data/Results/Generic_Ballot.csv",row.names=F)
 
 #Build house polling estimates
 
@@ -153,13 +155,13 @@ house_polls_2022_cleaned = rbind(oth,alaska) %>% rename("Name" = "state") %>%
                                                  mutate(District = paste(State,"-",str_pad(seat_number,2,pad="0"),sep="")) %>%
                                                  select(-c("State","Name","seat_number"))
 
-house_temp = house_polls_2022_cleaned %>% filter(DEM + REP >= 75 & !is.na(sample_size) & days_to_election <= 75 & days_to_election > 0) %>% 
+house_temp = house_polls_2022_cleaned %>% filter(DEM + REP >= 75 & !is.na(sample_size) & days_to_election <= 125 & days_to_election > 0) %>% 
                                           arrange(cycle,District,pollster,days_to_election,population) %>%
                                           group_by(cycle,District,pollster,population) %>%
                                           filter(row_number()==1) %>%
                                           left_join(.,pollster_bias %>% select(-count),by=c("cycle","pollster")) %>%
                                           left_join(.,partisan_bias,by=c("cycle","partisan")) %>%
-                                          mutate(adjustment = ifelse(population == "RV",
+                                          mutate(adjustment = ifelse(population == "rv",
                                                                      ifelse(is.na(POLLSTER_BIAS),PARTISAN_BIAS-1.5,PARTISAN_BIAS+POLLSTER_BIAS-1.5),
                                                                      ifelse(is.na(POLLSTER_BIAS),PARTISAN_BIAS,PARTISAN_BIAS+POLLSTER_BIAS))) %>%
                                           mutate(DEM_adj = DEM + .5*adjustment,
@@ -329,7 +331,7 @@ test = test_base %>% left_join(.,fec2022 %>% select(FEC_ID,year,TOTAL_RECEIPTS,T
                              GOP_POLL_EST_SC = ifelse(!is.na(GOP_POLL_EST),qnorm(p=pnorm(gb_rnorm),mean=GOP_POLL_EST,sd=GOP_POLL_SD),NA),
                              LEAN_PRED_SC = ifelse(is.na(COMP),LEAN_1 + GB_DIFF,LEAN_1 + GB_DIFF + COMP),
                              poll_weight = ifelse(is.na(total_weight),NA,
-                                                  ifelse(total_weight>=3.5,0,3.5-total_weight))) %>%
+                                                  ifelse(total_weight>=1.5,0,1.5-total_weight))) %>%
                       mutate(POLL_UND_EST = EST_TWO_PARTY - DEM_POLL_EST_SC - GOP_POLL_EST_SC) %>%
                       mutate(GOP_POLL_UND_EST = (min(max(qnorm(p=pnorm(und_rnorm),mean=0.6,sd=0.05),0),1)+LEAN_1/100/2)*POLL_UND_EST) %>%
                       mutate(DEM_POLL_UND_EST = POLL_UND_EST - GOP_POLL_UND_EST) %>%
@@ -337,7 +339,7 @@ test = test_base %>% left_join(.,fec2022 %>% select(FEC_ID,year,TOTAL_RECEIPTS,T
                              GOP_LEAN_SC = EST_TWO_PARTY/2 + LEAN_PRED_SC/2,
                              DEM_POLL_SC = DEM_POLL_EST_SC + DEM_POLL_UND_EST,
                              GOP_POLL_SC = GOP_POLL_EST_SC + GOP_POLL_UND_EST,
-                             theWeight = ifelse(is.na(poll_weight),0,0.9*exp(-0.015*poll_weight))) %>%
+                             theWeight = ifelse(is.na(poll_weight),0,0.75*exp(-0.5*poll_weight))) %>%
                       mutate(DEM_PRED = ifelse(theWeight==0,round(DEM_LEAN_SC,2),round(theWeight * DEM_POLL_SC + (1-theWeight) * DEM_LEAN_SC,2)),
                              GOP_PRED = ifelse(theWeight==0,round(GOP_LEAN_SC,2),round(theWeight * GOP_POLL_SC + (1-theWeight) * GOP_LEAN_SC,2))) %>%
                       mutate(PRED_DIFF = GOP_PRED - DEM_PRED)
@@ -376,7 +378,7 @@ test = test %>% mutate(TOTAL_RECEIPTS_DEM_LN = ifelse(TOTAL_RECEIPTS_DEM <= 0,0,
 #gc()
 
 
-#create variable lists
+#create variable lists...drop variables that have super small significance (Candidate Indicator)
 y_var = "GOP_win"
 x_vars = setdiff(colnames(train),c("year","District","GOP_win","DEM_act","GOP_act","D","R","total_votes",
                                    "FEC_ID_DEM","FIRST_NAME_DEM","LAST_NAME_DEM","FEC_ID_GOP","FIRST_NAME_GOP",
@@ -404,7 +406,7 @@ theModel = h2o.gbm(x=x_vars,
                    min_rows = 20,
                    ntrees = 50,
                    sample_rate = 0.8,
-                   seed=412)
+                   seed=123)
 
 # H2ORegressionMetrics: gbm
 # ** Reported on training data. **
@@ -416,12 +418,13 @@ theModel = h2o.gbm(x=x_vars,
 # Mean Residual Deviance :  0.007048057
 # R2: 0.97164
 
+
 test$GOP_win = as.vector(h2o.predict(theModel,test_data))
 
 h2o.shutdown(prompt=FALSE)
 
 #Determine winner
-set.seed(412)
+set.seed(123)
 test$random = runif(n=4000000,min=0,max=1)
 test = test %>% mutate(GOP_seat = ifelse(GOP_win>=random,1,0))
 
@@ -470,7 +473,10 @@ scenario_out = scenarios %>% group_by(GOP_seat_final) %>%
                              summarise(probability = round(n()/10000*100,2)) %>%
                              mutate(control = ifelse(GOP_seat_final>=218,"GOP","DEM"))
 
+gb_out = rbind(gb_prev,gb_est %>% mutate(date = theDate))
+
 #write out the files
+write.csv(gb_out,"Data/Results/Generic_Ballot.csv",row.names=F)
 write.csv(seats_final,"Data/Results/Individual_Seats.csv",row.names = F)
 write.csv(scenario_out,"Data/Results/Scenarios.csv",row.names = F)
 write.csv(majority_out,"Data/Results/Majority.csv",row.names = F)
@@ -624,17 +630,4 @@ write.csv(expected_seat_out,"Data/Results/Expected_Seats.csv",row.names = F)
 # 106         5       30    200         0.6  gbm_grid_model_97 0.02733162
 # 107         8       10    200         1.0  gbm_grid_model_21 0.02741210
 # 108        10       30    200         0.8  gbm_grid_model_92 0.02792780
-
-
-
-
-
-
-
-
-
-
-
-
-
 
