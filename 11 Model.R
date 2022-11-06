@@ -12,8 +12,8 @@ memory.limit(size=10000)
 options(scipen=999)
 
 #set current data
-#theDate = Sys.Date()
-theDate = as.Date("2022-10-26","%Y-%m-%d")
+theDate = Sys.Date()
+#theDate = as.Date("2022-11-04","%Y-%m-%d")
 
 #read in data
 train = read.csv("Data/Datasets/train.csv",header=T,stringsAsFactors=F)
@@ -88,10 +88,10 @@ house_polls_2022 = house_polls_2022 %>% filter(end_date <= theDate)
 
 #Build generic ballot
 na_replace_val = quantile(unlist(pollster_bias %>% filter(cycle == 2022) %>% select(adv_score)),1)
-gb_temp = gb_polls_2022 %>% filter(days_to_today >= 0) %>% 
+gb_temp = gb_polls_2022 %>% filter(days_to_today >= 0 & days_to_today <= 21) %>% 
                             mutate(pollster = ifelse(pollster=="Big Village/Opinion Research Corporation","CNN/Opinion Research Corp.",
                                                      ifelse(pollster=="Global Strategy Group/GBAO (Navigator Research)","Global Strategy Group",pollster))) %>% #update for FiveThirtyEight display name changes
-                            arrange(desc(mid_date),pollster,population) %>%
+                            arrange(pollster,population,desc(mid_date)) %>%
                             group_by(pollster) %>%
                             filter(row_number()==1) %>%
                             left_join(.,pollster_bias %>% select(-count),by=c("cycle","pollster")) %>%
@@ -346,7 +346,15 @@ test = test_base %>% left_join(.,fec2022 %>% select(FEC_ID,year,TOTAL_RECEIPTS,T
                       
 
 #Prepare data for modeling                    
-train = train %>% mutate(TOTAL_RECEIPTS_DEM_LN = ifelse(TOTAL_RECEIPTS_DEM <= 0,0,log(TOTAL_RECEIPTS_DEM)),
+train = train %>% mutate(TOTAL_RECEIPTS_GOP=ifelse(TOTAL_RECEIPTS_GOP>2500000,2500000,TOTAL_RECEIPTS_GOP),
+                         TOTAL_RECEIPTS_DEM=ifelse(TOTAL_RECEIPTS_DEM>2500000,2500000,TOTAL_RECEIPTS_DEM),
+                         TOTAL_DISBURSEMENTS_GOP=ifelse(TOTAL_DISBURSEMENTS_GOP>2000000,2000000,TOTAL_DISBURSEMENTS_GOP),
+                         TOTAL_DISBURSEMENTS_DEM=ifelse(TOTAL_DISBURSEMENTS_DEM>2000000,2000000,TOTAL_DISBURSEMENTS_DEM),
+                         COH_GOP=ifelse(COH_GOP>1000000,1000000,COH_GOP),
+                         COH_DEM=ifelse(COH_DEM>1000000,1000000,COH_DEM),
+                         INDIVIDUAL_CONTRIBUTIONS_GOP=ifelse(INDIVIDUAL_CONTRIBUTIONS_GOP>1500000,1500000,INDIVIDUAL_CONTRIBUTIONS_GOP),
+                         INDIVIDUAL_CONTRIBUTIONS_DEM=ifelse(INDIVIDUAL_CONTRIBUTIONS_DEM>1500000,1500000,INDIVIDUAL_CONTRIBUTIONS_DEM)) %>%
+                  mutate(TOTAL_RECEIPTS_DEM_LN = ifelse(TOTAL_RECEIPTS_DEM <= 0,0,log(TOTAL_RECEIPTS_DEM)),
                          TOTAL_RECEIPTS_GOP_LN = ifelse(TOTAL_RECEIPTS_GOP <= 0,0,log(TOTAL_RECEIPTS_GOP)),
                          TOTAL_DISBURSEMENTS_DEM_LN = ifelse(TOTAL_DISBURSEMENTS_DEM <= 0,0,log(TOTAL_DISBURSEMENTS_DEM)),
                          TOTAL_DISBURSEMENTS_GOP_LN = ifelse(TOTAL_DISBURSEMENTS_GOP <= 0,0,log(TOTAL_DISBURSEMENTS_GOP)),
@@ -359,7 +367,15 @@ train = train %>% mutate(TOTAL_RECEIPTS_DEM_LN = ifelse(TOTAL_RECEIPTS_DEM <= 0,
                          REL_COH_LN = COH_GOP_LN - COH_DEM_LN,
                          REL_IND_CONTR_LN = INDIVIDUAL_CONTRIBUTIONS_GOP_LN - INDIVIDUAL_CONTRIBUTIONS_DEM_LN)
 
-test = test %>% mutate(TOTAL_RECEIPTS_DEM_LN = ifelse(TOTAL_RECEIPTS_DEM <= 0,0,log(TOTAL_RECEIPTS_DEM)),
+test = test %>% mutate(TOTAL_RECEIPTS_GOP=ifelse(TOTAL_RECEIPTS_GOP>2500000,2500000,TOTAL_RECEIPTS_GOP),
+                       TOTAL_RECEIPTS_DEM=ifelse(TOTAL_RECEIPTS_DEM>2500000,2500000,TOTAL_RECEIPTS_DEM),
+                       TOTAL_DISBURSEMENTS_GOP=ifelse(TOTAL_DISBURSEMENTS_GOP>2000000,2000000,TOTAL_DISBURSEMENTS_GOP),
+                       TOTAL_DISBURSEMENTS_DEM=ifelse(TOTAL_DISBURSEMENTS_DEM>2000000,2000000,TOTAL_DISBURSEMENTS_DEM),
+                       COH_GOP=ifelse(COH_GOP>1000000,1000000,COH_GOP),
+                       COH_DEM=ifelse(COH_DEM>1000000,1000000,COH_DEM),
+                       INDIVIDUAL_CONTRIBUTIONS_GOP=ifelse(INDIVIDUAL_CONTRIBUTIONS_GOP>1500000,1500000,INDIVIDUAL_CONTRIBUTIONS_GOP),
+                       INDIVIDUAL_CONTRIBUTIONS_DEM=ifelse(INDIVIDUAL_CONTRIBUTIONS_DEM>1500000,1500000,INDIVIDUAL_CONTRIBUTIONS_DEM)) %>%
+                mutate(TOTAL_RECEIPTS_DEM_LN = ifelse(TOTAL_RECEIPTS_DEM <= 0,0,log(TOTAL_RECEIPTS_DEM)),
                        TOTAL_RECEIPTS_GOP_LN = ifelse(TOTAL_RECEIPTS_GOP <= 0,0,log(TOTAL_RECEIPTS_GOP)),
                        TOTAL_DISBURSEMENTS_DEM_LN = ifelse(TOTAL_DISBURSEMENTS_DEM <= 0,0,log(TOTAL_DISBURSEMENTS_DEM)),
                        TOTAL_DISBURSEMENTS_GOP_LN = ifelse(TOTAL_DISBURSEMENTS_GOP <= 0,0,log(TOTAL_DISBURSEMENTS_GOP)),
@@ -407,6 +423,7 @@ theModel = h2o.gbm(x=x_vars,
                    ntrees = 50,
                    sample_rate = 0.8,
                    seed=123)
+varimp = h2o.varimp(theModel)
 
 # H2ORegressionMetrics: gbm
 # ** Reported on training data. **
